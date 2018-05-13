@@ -1,0 +1,15 @@
+.main__download {
+    width: 200px;
+}
+.btn.main__button {
+    text-align: left;
+    color: #ce38da;
+    width: 300;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    border-color: transparent;
+}
+.main__button__container {
+    margin-bottom: 0.3rem;
+    width: 250px;
+}

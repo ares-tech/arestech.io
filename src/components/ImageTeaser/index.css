@@ -1,0 +1,19 @@
+.image-teaser.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-teaser .image-container {
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 180px;
+}
+
+.image-teaser .card-title {
+    color: #ce38da;
+    font-size: 32px;
+}
+
+.image-teaser .card-subtitle {
+    color: #9b9b9b;
+}

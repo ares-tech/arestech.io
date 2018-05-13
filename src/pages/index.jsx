@@ -6,18 +6,20 @@ import config from '../../data/SiteConfig'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
+import GalleryTeaser from '../components/GalleryTeaser'
 import '../style/custom.css'
 
 const Index = ({ data }) => {
   return (
-    <div className="index-container fluid-container">
+    <div className="ares index-container fluid-container">
       <Helmet title={config.siteTitle} />
-      <div className="main">
+      <div className="main pb-5">
         <Navbar />
         <div className="container">
           <Main />
         </div>
       </div>
+      <GalleryTeaser />
       <Contact config={config} />
       <Footer config={config} />
     </div>
