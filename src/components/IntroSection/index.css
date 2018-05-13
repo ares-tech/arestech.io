@@ -1,0 +1,6 @@
+.intro-section {
+    background-image: linear-gradient(250deg, #00d0ff, #001ada);
+    height: 800px;
+    -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0% 100%);
+    clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0% 100%);
+}

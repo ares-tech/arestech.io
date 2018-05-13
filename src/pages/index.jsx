@@ -1,12 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Container } from 'reactstrap'
 import Main from '../components/Main'
 import config from '../../data/SiteConfig'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
+import IntroSection from '../components/IntroSection'
 import '../style/custom.css'
 
 const Index = ({ data }) => {
@@ -15,11 +17,14 @@ const Index = ({ data }) => {
       <Helmet title={config.siteTitle} />
       <div className="main pb-5">
         <Navbar />
-        <div className="container">
+        <Container>
           <Main />
-        </div>
+        </Container>
       </div>
       <GalleryTeaser />
+      <Container>
+        <IntroSection />
+      </Container>
       <Contact config={config} />
       <Footer config={config} />
     </div>

@@ -7,7 +7,10 @@ const ImageTeaser = ({ src, alt, title, desc }) => (
     <Card className="image-teaser" md={4}>
       <div
         className="image-container"
-        style={{ backgroundImage: `radial-gradient(circle at 2% 86%, #00d0ff, #001ada 54%, #ce38da), url(${src})` }}
+        style={{
+          backgroundBlendMode: 'multiply',
+          backgroundImage: `radial-gradient(circle at 2% 86%, #00d0ff, #001ada 10%, #ce38da), url(${src})`,
+        }}
       />
       <CardBody>
         <CardTitle>{title}</CardTitle>
