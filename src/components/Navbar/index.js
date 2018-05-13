@@ -1,44 +1,59 @@
 import React from 'react'
-import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import './index.css'
+import { NavLink, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap'
 
-const NavbarTop = () => (
-  <Navbar className="ares-navbar">
-    <Navbar.Header>
-      <Navbar.Brand>
-        <a href="#brand">Ares</a>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>
-      <Nav>
-        <NavItem eventKey={1} href="#introduction">
-          Introduction
-        </NavItem>
-        <NavItem eventKey={2} href="#ecosystem">
-          Ecosystem
-        </NavItem>
-        <NavItem eventKey={2} href="#team">
-          Team
-        </NavItem>
-        <NavItem eventKey={2} href="#roadmap">
-          Roadmap
-        </NavItem>
-        <NavItem eventKey={2} href="#media">
-          Media
-        </NavItem>
-        <NavItem eventKey={2} href="#tokenSale">
-          Token Sale
-        </NavItem>
-        <NavItem eventKey={2} href="#useOfFunds">
-          Use of Funds
-        </NavItem>
-        <NavItem eventKey={2} href="#contactUs">
-          Contact Us
-        </NavItem>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-)
+class NavbarTop extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      isOpen: false,
+    }
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    })
+  }
+  render() {
+    return (
+      <div className="container">
+        <Navbar className="ares-navbar" color="light" light expand="md">
+          <NavbarBrand href="/">ARES</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav navbar>
+              <NavItem>
+                <NavLink href="#introduction">Introduction</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#ecosystem">Ecosystem</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#team">Team</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#roadmap">Roadmap</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#media">Media</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#token-sale">Token Sale</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#use-of-funds">Use of Funds</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact-us">Contact Us</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    )
+  }
+}
 
 export default NavbarTop

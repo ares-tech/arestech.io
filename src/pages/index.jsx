@@ -1,21 +1,23 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import PostListing from '../components/PostListing/PostListing'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Main from '../components/Main'
 import config from '../../data/SiteConfig'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
-import '../style/bootstrap.css'
 import '../style/custom.css'
 
 const Index = ({ data }) => {
-  const postEdges = data.allMarkdownRemark.edges
   return (
-    <div className="index-container">
+    <div className="index-container fluid-container">
       <Helmet title={config.siteTitle} />
-      <Navbar />
-      <Main />
+      <div className="main">
+        <Navbar />
+        <div className="container">
+          <Main />
+        </div>
+      </div>
       <Contact config={config} />
       <Footer config={config} />
     </div>

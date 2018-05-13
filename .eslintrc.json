@@ -4,7 +4,9 @@
   "rules": {
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "off"
   },
   "settings": {
     "import/core-modules": []

@@ -1,4 +1,8 @@
 .navbar.ares-navbar {
-    background-color: transparent;
+    background-color: transparent!important;
     border-color: transparent;
+}
+
+.ares-navbar.navbar-light .navbar-nav > li > a {
+    color: #fff;
 }

@@ -2,3 +2,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.index-container {
+  background-color: #cf38da;
+}
+
+.main {
+  background-image: linear-gradient(80deg, #cf38da, #7400a4);
+}
