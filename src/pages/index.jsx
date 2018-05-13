@@ -4,20 +4,22 @@ import PostListing from '../components/PostListing/PostListing'
 import Main from '../components/Main'
 import config from '../../data/SiteConfig'
 import Contact from '../components/Contact'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
+import '../style/bootstrap.css'
+import '../style/custom.css'
 
-class Index extends React.Component {
-  render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges
-    return (
-      <div className="index-container">
-        <Helmet title={config.siteTitle} />
-        <Main />
-        <Contact config={config} />
-        <Footer config={config} />
-      </div>
-    )
-  }
+const Index = ({ data }) => {
+  const postEdges = data.allMarkdownRemark.edges
+  return (
+    <div className="index-container">
+      <Helmet title={config.siteTitle} />
+      <Navbar />
+      <Main />
+      <Contact config={config} />
+      <Footer config={config} />
+    </div>
+  )
 }
 
 export default Index
