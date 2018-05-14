@@ -19,10 +19,10 @@ const Highlight = ({ color, bold = false, children }) => {
 }
 
 const IntroSection = () => (
-  <div className="intro-section" style={{ paddingTop: '5rem', color: '#9B9B9B' }}>
+  <div className="intro-section container" style={{ paddingTop: '7rem', color: '#9B9B9B' }}>
     <Row>
       <Col md={{ offset: 5 }}>
-        <h1 className="display-2" style={{ color: '#fff', fontWeight: 'bold' }}>
+        <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
           Introduction
         </h1>
         <p className="lead" style={{ color: '#fff' }}>

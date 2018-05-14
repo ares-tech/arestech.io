@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: SofiaProRegular;
 }
 
 .index-container {
@@ -10,8 +11,33 @@ body {
 .ares .bg-light {
   background-color: transparent!important;
 }
+
 .main {
   background-image: linear-gradient(80deg, #cf38da, #7400a4);
   clip-path: polygon(0 1%, 100% 0, 100% 85%, 0% 100%);
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 85%, 0% 100%);
+}
+
+@font-face {
+  font-family: SofiaProRegular;
+  src: url('/fonts/SofiaProRegular.otf');
+}
+
+@font-face {
+  font-family: SofiaProBold;
+  src: url('/fonts/SofiaProBold.otf');
+}
+
+@font-face {
+  font-family: SofiaProLight;
+  src: url('/fonts/SofiaProLight.otf');
+}
+
+.headline {
+  font-family: SofiaProBold;
+}
+
+.sub-headline {
+  font-family: SofiaProRegular;
+  color: #fff;
 }

@@ -20,7 +20,9 @@ class NavbarTop extends React.Component {
     return (
       <div className="container">
         <Navbar className="ares-navbar" color="light" light expand="md">
-          <NavbarBrand href="/">ARES</NavbarBrand>
+          <NavbarBrand href="/">
+            <img className="navbar-logo" src="logos/logo-1024-light.svg" alt="ARES" width="60" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>

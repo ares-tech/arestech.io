@@ -6,3 +6,7 @@
 .ares-navbar.navbar-light .navbar-nav > li > a {
     color: #fff;
 }
+
+img.navbar-logo  {
+    fill: #fff;
+}

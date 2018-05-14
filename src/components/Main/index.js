@@ -7,13 +7,13 @@ import './index.css'
 
 const Main = () => (
   <div className="container p-3 p-md-5 main-content">
-    <h1 className="display-2" style={{ color: '#fff', fontWeight: 'bold' }}>
+    <h1 className="display-2 headline" style={{ color: '#fff' }}>
       Scalable Blockchain
     </h1>
-    <h1 className="display-2" style={{ color: '#fff', fontWeight: 'bold' }}>
+    <h1 className="display-2 headline" style={{ color: '#fff' }}>
       Social Gaming Network
     </h1>
-    <p className="lead">All-in-One Solution for Social Game Creators</p>
+    <p className="lead sub-headline">All-in-One Solution for Social Game Creators</p>
     <p className="lead">
       <div className="main__button__container">
         <Button className="main__button" bsSize="large" block>

@@ -6,7 +6,7 @@ const ImageTeaser = ({ src, alt, title, desc }) => (
   <Col className="pb-5" md={4}>
     <Card className="image-teaser" md={4}>
       <div
-        className="image-container"
+        className="image-container container"
         style={{
           backgroundBlendMode: 'multiply',
           backgroundImage: `radial-gradient(circle at 2% 86%, #00d0ff, #001ada 10%, #ce38da), url(${src})`,
