@@ -21,10 +21,12 @@ const Index = ({ data }) => {
           <Main />
         </Container>
       </div>
-      <GalleryTeaser />
-      <Container>
+      <div className="pb-5">
+        <GalleryTeaser />
+      </div>
+      <div className="pb-5">
         <IntroSection />
-      </Container>
+      </div>
       <Contact config={config} />
       <Footer config={config} />
     </div>
