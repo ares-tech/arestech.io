@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Jack Li",
+        "title": "CEO",
+        "intro": "Over 10 years of extensive internet experience spanning sports, gaming and e-commerce. Including but not limited to product development, marketing strategy, growth hacking, community operations. Complete Projects like localization of a Baas platform and App, Design 2 mobile APPs and delivery 1 APP as developer, Operate Q & A game platform and football manager games and others.",
+        "linkedIn": "https://www.linkedin.com/in/zhichao-jack-li-a5129a31/",
+        "imageSrc": "/images/group-16.jpg"
+    },
+    {
+        "name": "Christian Gehl",
+        "title": "CTO",
+        "intro": "Christian has held senior and leading positions in various functions for more than 10 years. Starting as a Research Assistant at Fraunhofer FIRST in 2008, he changed over to one of the Co-Founders of Trifense GmbH in 2010, and as CTO played a pivotal role in the company's development into the leading network security solution and consulting firm in the German-speaking region.",
+        "linkedIn": "https://www.linkedin.com/in/christiangehl/",
+        "imageSrc": "/images/group-17.jpg"
+    },
+    {
+        "name": "Toni Qiu",
+        "title": "Managing Director",
+        "intro": "Founding member of KPMG's Lighthouse Germany for Data & Analytics after he held consultant and manager positions in Digital Finance at KPMG. Previously worked 4 years as Big Data Architect at an Europe's leading e-commerce platform, Zalando. With more than 15 years experience in forex trading, Teng founded Forex Live Group in Berlin, an AI-based trading signal platform for quant trading strategies",
+        "linkedIn": "https://www.linkedin.com/in/tengqiu/",
+        "imageSrc": "/images/group-18.jpg"
+    },
+    {
+        "name": "Jasmine Zhang",
+        "title": "CMO",
+        "intro": "Jasmine has rich experience in business development, marketing strategy development with a demonstrated history of working in German Start-up scene, consulting and investment banking. Her customers includes DAX 30 companies, Deutsche bank, Volkswagen etc. Strong program and project management professional with a Master's Degree focused in Statistics from University College London",
+        "linkedIn": "https://www.linkedin.com/in/jingqi-zhang-582bb783",
+        "imageSrc": "/images/group-20.jpg"
+    }
+]

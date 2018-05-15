@@ -10,27 +10,32 @@ import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
 import Ecosystem from '../components/Ecosystem'
+import Team from '../components/Team'
 import '../style/custom.css'
 
+const Section = ({ children, className }) => <div className={className}>{children}</div>
 const Index = ({ data }) => {
   return (
     <div className="ares index-container fluid-container">
       <Helmet title={config.siteTitle} />
-      <div className="main pb-5">
+      <Section className="main pb-5">
         <Navbar />
         <Container>
           <Main />
         </Container>
-      </div>
-      <div className="pb-5">
+      </Section>
+      <Section>
         <GalleryTeaser />
-      </div>
-      <div className="pb-5">
+      </Section>
+      <Section>
         <IntroSection />
-      </div>
-      <div className="pb-5">
+      </Section>
+      <Section>
         <Ecosystem />
-      </div>
+      </Section>
+      <Section>
+        <Team />
+      </Section>
       <Contact config={config} />
       <Footer config={config} />
     </div>

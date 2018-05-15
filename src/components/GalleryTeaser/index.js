@@ -15,7 +15,6 @@ const GallaryTeaser = () => (
           </p>
         </Col>
       </Row>
-
       <Row>
         <ImageTeaser src="https://picsum.photos/300/180" alt="Picture 1" title="Picture 1" desc="Description 1" />
         <ImageTeaser src="https://picsum.photos/300/180" alt="Picture 2" title="Picture 2" desc="Description 2" />
