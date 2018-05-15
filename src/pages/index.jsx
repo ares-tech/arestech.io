@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
+import Ecosystem from '../components/Ecosystem'
 import '../style/custom.css'
 
 const Index = ({ data }) => {
@@ -26,6 +27,9 @@ const Index = ({ data }) => {
       </div>
       <div className="pb-5">
         <IntroSection />
+      </div>
+      <div className="pb-5">
+        <Ecosystem />
       </div>
       <Contact config={config} />
       <Footer config={config} />

@@ -1,3 +1,6 @@
+html {
+  font-size: 1rem;
+}
 body {
   padding: 0;
   margin: 0;
@@ -40,4 +43,21 @@ body {
 .sub-headline {
   font-family: SofiaProRegular;
   color: #fff;
+}
+
+.display-2 {
+  margin-bottom: 0;
+  line-height: 1;
+}
+.lead {
+  padding-left: 5px;
+}
+
+@media (max-width: 576px) {
+  .display-2.headline {
+    font-size: 2.6rem;
+  }
+  .sub-headline {
+    font-size: .8rem;
+  }
 }

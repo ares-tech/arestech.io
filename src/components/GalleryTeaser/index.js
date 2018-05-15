@@ -6,6 +6,17 @@ const GallaryTeaser = () => (
   <div className="bg-light">
     <Container className="py-5 p-md-5">
       <Row>
+        <Col>
+          <h1 className="display-2 headline" style={{ color: '#ff6427', fontWeight: 'bold' }}>
+            Latest Updates
+          </h1>
+          <p className="lead" style={{ color: '#ff6427' }}>
+            Ares is Scalable Blockchain Social Gaming Network.
+          </p>
+        </Col>
+      </Row>
+
+      <Row>
         <ImageTeaser src="https://picsum.photos/300/180" alt="Picture 1" title="Picture 1" desc="Description 1" />
         <ImageTeaser src="https://picsum.photos/300/180" alt="Picture 2" title="Picture 2" desc="Description 2" />
         <ImageTeaser
