@@ -13,3 +13,30 @@
     margin-bottom: 0.3rem;
     width: 250px;
 }
+
+.main-shape-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: table;
+    z-index: -1;
+}
+
+.main-shape-2 {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    display: table;
+    z-index: -1;
+}
+
+@media (max-width: 576px) {
+    .main-shape-1 {
+        width: 70%;
+    }
+    .main-shape-2  {
+        width: 80%;
+        bottom: 0;
+    }
+}
+

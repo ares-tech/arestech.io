@@ -10,3 +10,8 @@
 img.navbar-logo  {
     fill: #fff;
 }
+
+.ares-navbar .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}

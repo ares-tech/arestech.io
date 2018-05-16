@@ -23,6 +23,12 @@ const Index = ({ data }) => {
         <Container>
           <Main />
         </Container>
+        <div className="main-shape-1">
+          <img src="/images/main-shape-1.png" width="100%" height="100%" />
+        </div>
+        <div className="main-shape-2">
+          <img src="/images/main-shape-2.png" width="100%" height="100%" />
+        </div>
       </Section>
       <Section>
         <GalleryTeaser />

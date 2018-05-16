@@ -7,6 +7,7 @@ import './index.css'
 
 const Main = () => (
   <div className="container p-3 p-md-5 main-content">
+    <div className="main-shape-2" />
     <h1 className="display-2 headline" style={{ color: '#fff' }}>
       Scalable Blockchain
     </h1>

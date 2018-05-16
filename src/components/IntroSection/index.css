@@ -1,6 +1,64 @@
 .intro-section {
     background-image: linear-gradient(250deg, #00d0ff, #001ada);
-    height: 1000px;
     -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0% 100%);
     clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0% 100%);
+    padding-bottom: 10rem;
 }
+
+.intro-shape-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: table;
+    z-index: -1;
+}
+
+.intro-shape-2 {
+    position: absolute;
+    left: 0;
+    top: 8%;
+    display: table;
+    z-index: -1;
+}
+
+.intro-shape-3 {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    display: table;
+    z-index: -1;
+}
+
+.intro-shape-4 {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    display: table;
+    z-index: -1;
+}
+
+@media (max-width: 576px) {
+    .intro-section {
+        -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
+        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
+    }
+    .intro-shape-2 {
+        width: 64%;
+        top: 0;
+    }
+    .intro-shape-1 {
+        width: 35%;
+        top: -20px;
+        right: -20px;
+    }
+    .intro-shape-3 {
+        width: 35%;
+        bottom: 0
+    }
+    .intro-shape-4 {
+        width: 75%;
+        right: -50px;
+        bottom: 0;
+    }
+}
+

@@ -19,7 +19,7 @@ const Highlight = ({ color, bold = false, children }) => {
 }
 
 const IntroSection = () => (
-  <div className="intro-section" style={{ paddingTop: '7rem', color: '#9B9B9B' }}>
+  <div className="intro-section" style={{ paddingTop: '7rem', color: '#9B9B9B', position: 'relative' }}>
     <Container>
       <Row>
         <Col md={{ offset: 5 }}>
@@ -59,6 +59,18 @@ const IntroSection = () => (
         </Col>
       </Row>
     </Container>
+    <div className="intro-shape-1">
+      <img src="/images/intro-shape-1.png" width="100%" height="100%" />
+    </div>
+    <div className="intro-shape-2">
+      <img src="/images/intro-shape-2.png" width="100%" height="100%" />
+    </div>
+    <div className="intro-shape-3">
+      <img src="/images/intro-shape-3.png" width="100%" height="100%" />
+    </div>
+    <div className="intro-shape-4">
+      <img src="/images/intro-shape-4.png" width="100%" height="100%" />
+    </div>
   </div>
 )
 
