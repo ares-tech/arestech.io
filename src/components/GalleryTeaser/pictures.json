@@ -1,0 +1,32 @@
+[
+    {
+        "src": "/images/teaser-01.jpeg",
+        "title": "Picture 1",
+        "description": "Description 1"
+    },
+    {
+        "src": "/images/teaser-02.jpeg",
+        "title": "Picture 2",
+        "description": "Description 2"
+    },
+    {
+        "src": "/images/teaser-03.jpeg",
+        "title": "Picture 3",
+        "description": "Description 3"
+    },
+    {
+        "src": "/images/teaser-04.jpeg",
+        "title": "Picture 4",
+        "description": "Description 4"
+    },
+    {
+        "src": "/images/teaser-05.jpeg",
+        "title": "Picture 5",
+        "description": "Description 5"
+    },
+    {
+        "src": "/images/teaser-06.jpeg",
+        "title": "Picture 6",
+        "description": "Description 6"
+    }
+]

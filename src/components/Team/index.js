@@ -4,107 +4,122 @@ import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } fro
 import './index.css'
 import teams from './team.json'
 
-const Highlight = ({ color, bold = false, children }) => {
-  const baseStyle = {
-    color,
-  }
-  return (
-    <span
-      style={{
-        ...baseStyle,
-        ...(bold ? { fontWeight: 'bold' } : {}),
-      }}
-    >
-      {children}
-    </span>
-  )
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  name: { alignSelf: 'start', fontWeight: 'bold', fontSize: '2rem', color: '#ff6427' },
+  title: { color: '#ff6427' },
+  intro: { color: '#9b9b9b' },
+  actionBar: { alignSelf: 'stretch', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' },
+  link: { color: '#ff6427', textDecoration: 'underline', fontSize: 'larger' },
 }
 
-const Bubble = ({ name, src }) => (
-  <div style={{ display: 'flex', flexDirection: 'column' }}>
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: '200px',
-        height: '200px',
-        borderRadius: '50%',
-        backgroundColor: '#fff',
-      }}
-    >
-      <div>
-        <img alt={name} src={src} width="100%" />
-      </div>
-    </div>
-  </div>
-)
-const Title = ({ text1, color1, text2, color2 }) => (
-  <h2 style={{ textAlign: 'center' }}>
-    <span style={{ color: color1 }}>{text1}</span>
-    <span style={{ color: color2 }}>{text2}</span>
-  </h2>
-)
+class Profile extends React.PureComponent {
+  constructor(props) {
+    super(props)
+    this.state = {
+      highlight: false,
+    }
+  }
+  onReadMoreClicked() {
+    this.props.toggleBackdrop(true)
+    this.setState({ highlight: true })
+  }
+  onReadLessClicked() {
+    this.props.toggleBackdrop(false)
+    this.setState({ highlight: false })
+  }
+  render() {
+    const { name, title, src, intro, linkedIn } = this.props
+    const { highlight } = this.state
 
-const Description = ({ children }) => (
-  <p style={{ color: '#fff', textAlign: 'center', fontSize: 'larger' }}>{children}</p>
-)
+    return (
+      <Card className="team-profile-card" style={{ ...(highlight ? { zIndex: 1000 } : {}) }}>
+        <CardBody>
+          <div style={styles.container}>
+            <div
+              className="profile-image"
+              style={{ backgroundImage: `url(${src})`, width: '160px', height: '160px', borderRadius: '50%' }}
+            />
+            <div>
+              <p className="mb-0 pt-2" style={styles.name}>
+                {name}
+              </p>
+              <p style={styles.title}>{title}</p>
+            </div>
+            <p style={styles.intro} className={highlight ? '' : 'block-with-text'}>
+              {intro}
+            </p>
+            <div style={styles.actionBar}>
+              {!highlight ? (
+                <a href="/" style={styles.link} onClick={this.onReadMoreClicked.bind(this)}>
+                  Read more
+                </a>
+              ) : (
+                <a href="/" style={styles.link} onClick={this.onReadLessClicked.bind(this)}>
+                  Read less
+                </a>
+              )}
+              <a href={linkedIn}>
+                <img src="/images/linkedIn.svg" alt={name + ' LinkedIn'} width="30" height="100%" />
+              </a>
+            </div>
+          </div>
+        </CardBody>
+      </Card>
+    )
+  }
+}
 
-const Profile = ({ name, title, src, intro, onReadMoreClick, linkedIn }) => (
-  <Card>
-    <CardBody>
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', alignItems: 'center' }}>
-        <div
-          className="profile-image"
-          style={{ backgroundImage: `url(${src})`, width: '160px', height: '160px', borderRadius: '50%' }}
-        />
-        <div>
-          <p
-            className="mb-0 pt-2"
-            style={{ alignSelf: 'start', fontWeight: 'bold', fontSize: '2rem', color: '#ff6427' }}
-          >
-            {name}
-          </p>
-          <p style={{ color: '#ff6427' }}>{title}</p>
-        </div>
-        <p style={{ color: '#9b9b9b' }}>{intro}</p>
-        <div
-          style={{ alignSelf: 'stretch', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
-        >
-          <a href="/" style={{ color: '#ff6427' }}>
-            Read more
-          </a>
-          <a href={linkedIn}>LinkedIn</a>
-        </div>
-      </div>
-    </CardBody>
-  </Card>
-)
-
-const IntroSection = () => (
-  <div className="team-section">
-    <Container className="pt-5 team-container">
-      <Row>
-        <Col>
-          <h1 className="display-2 headline" style={{ color: '#fff' }}>
-            Team
-          </h1>
-          <p className="lead sub-headline" style={{ color: '#fff' }}>
-            Meet the players in Berlin.
-          </p>
-        </Col>
-      </Row>
-      {chunk(teams, 3).map(row => (
-        <Row>
-          {row.map(({ name, title, imageSrc, intro, linkedIn }) => (
-            <Col md={4}>
-              <Profile name={name} title={title} src={imageSrc} intro={intro} linkedIn={linkedIn} />
+class Team extends React.PureComponent {
+  constructor(props) {
+    super(props)
+    this.state = {
+      backdrop: false,
+    }
+  }
+  toggleBackdrop(backdrop) {
+    this.setState({ backdrop })
+  }
+  render() {
+    return (
+      <div className="team-section">
+        <Container className="pt-5 team-container">
+          <Row>
+            <Col>
+              <h1 className="display-2 headline" style={{ color: '#fff' }}>
+                Team
+              </h1>
+              <p className="lead sub-headline" style={{ color: '#fff' }}>
+                Meet the players in Berlin.
+              </p>
             </Col>
+          </Row>
+          {chunk(teams, 3).map(row => (
+            <Row className="pb-5 team-profile-row">
+              {row.map(({ name, title, imageSrc, intro, linkedIn }) => (
+                <Col md={4}>
+                  <Profile
+                    name={name}
+                    title={title}
+                    src={imageSrc}
+                    intro={intro}
+                    linkedIn={linkedIn}
+                    toggleBackdrop={this.toggleBackdrop.bind(this)}
+                  />
+                </Col>
+              ))}
+            </Row>
           ))}
-        </Row>
-      ))}
-    </Container>
-  </div>
-)
+        </Container>
+        <div className={'backdrop' + (this.state.backdrop ? ' show' : '')} />
+      </div>
+    )
+  }
+}
 
-export default IntroSection
+export default Team
