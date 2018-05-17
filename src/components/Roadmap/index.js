@@ -33,7 +33,10 @@ const Milestone = ({ event, isOdd }) => {
 }
 
 export default class Roadmap extends React.Component {
-  state = { value: 0, previous: 0 }
+  constructor(props) {
+    super(props)
+    this.state = { value: 0, previous: 0 }
+  }
 
   render() {
     return (
