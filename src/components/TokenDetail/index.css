@@ -2,6 +2,7 @@
     min-height: 500px;
     position: relative;
     padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 .token-detail-section .background-container {
     position: absolute;
@@ -17,7 +18,7 @@
     height: 50%;
 }
 
-.background-container .custom-shape-1 {
+.token-detail-section .background-container .custom-shape-1 {
     background-image: linear-gradient(180deg, #00d0ff, rgba(255, 255, 255, 0));
     -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%);

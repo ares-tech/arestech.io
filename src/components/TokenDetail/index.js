@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import { chunk } from 'lodash'
 import './index.css'
+
 const tokenDetails = [
   {
     text: 'Symbol: ARES',

@@ -14,6 +14,7 @@ import Partners from '../components/Partners'
 import Ecosystem from '../components/Ecosystem'
 import Roadmap from '../components/Roadmap'
 import TokenDetail from '../components/TokenDetail'
+import TokenSale from '../components/TokenSale'
 import Team from '../components/Team'
 import '../style/custom.css'
 
@@ -58,6 +59,9 @@ class Index extends React.PureComponent {
         </Section>
         <Section>
           <TokenDetail />
+        </Section>
+        <Section>
+          <TokenSale />
         </Section>
         <Contact config={config} />
         <Footer config={config} />
