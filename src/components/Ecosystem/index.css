@@ -1,5 +1,5 @@
 .eco-card {
-    height: 480px;
+    min-height: 500px;
     border-radius: 20px;
 }
 .eco-card.suite {

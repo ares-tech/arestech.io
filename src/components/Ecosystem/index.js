@@ -19,7 +19,7 @@ const Highlight = ({ color, bold = false, children }) => {
 }
 
 const Bubble = ({ name, src }) => (
-  <div style={{ display: 'flex', flexDirection: 'column' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
     <div
       style={{
         display: 'flex',
