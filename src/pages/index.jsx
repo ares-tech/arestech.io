@@ -10,6 +10,7 @@ import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
 import Ecosystem from '../components/Ecosystem'
+import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
 import '../style/custom.css'
 
@@ -42,6 +43,9 @@ class Index extends React.PureComponent {
         </Section>
         <Section>
           <Team />
+        </Section>
+        <Section>
+          <Roadmap />
         </Section>
         <Contact config={config} />
         <Footer config={config} />
