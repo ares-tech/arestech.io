@@ -13,6 +13,7 @@ import Media from '../components/Media'
 import Partners from '../components/Partners'
 import Ecosystem from '../components/Ecosystem'
 import Roadmap from '../components/Roadmap'
+import TokenDetail from '../components/TokenDetail'
 import Team from '../components/Team'
 import '../style/custom.css'
 
@@ -54,6 +55,9 @@ class Index extends React.PureComponent {
         </Section>
         <Section>
           <Partners />
+        </Section>
+        <Section>
+          <TokenDetail />
         </Section>
         <Contact config={config} />
         <Footer config={config} />

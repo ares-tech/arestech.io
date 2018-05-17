@@ -9,7 +9,7 @@
 * [x] Roadmap
 * [x] Media
 * [x] Partners
-* [ ] Token Detail
+* [x] Token Detail
 * [ ] Token Sale
 * [ ] Use of Funds
 * [ ] Contact us
