@@ -1,0 +1,13 @@
+.card-body.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-body.carousel-item h3 {
+    text-align: center;
+    padding: 0 70px;
+    font-size: 1.5rem;
+    color: #001ada;
+    font-family: SofiaProBold;
+}

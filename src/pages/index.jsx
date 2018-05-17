@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
+import Media from '../components/Media'
 import Ecosystem from '../components/Ecosystem'
 import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
@@ -46,6 +47,9 @@ class Index extends React.PureComponent {
         </Section>
         <Section>
           <Roadmap />
+        </Section>
+        <Section>
+          <Media />
         </Section>
         <Contact config={config} />
         <Footer config={config} />
