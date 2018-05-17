@@ -31,7 +31,7 @@ const MediaCarousel = () => (
 )
 
 const Media = () => (
-  <div className="intro-section" style={{ paddingTop: '7rem', color: '#9B9B9B', position: 'relative' }}>
+  <div className="media-section" style={{ paddingTop: '10rem', color: '#9B9B9B', position: 'relative' }}>
     <Container>
       <Row>
         <Col>
