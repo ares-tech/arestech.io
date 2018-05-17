@@ -40,7 +40,7 @@
 @media (max-width: 576px) {
     .partners-section {
         -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
-        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 97%);
     }
 
     .custom-shape-5 {

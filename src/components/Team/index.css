@@ -13,12 +13,6 @@
     max-height: 420px;
 }
 
-@media (max-width: 576px) {
-    .team-profile-row {
-        max-height: none;
-    }
-}
-
 .block-with-text {
     overflow: hidden;
     position: relative;
@@ -44,4 +38,14 @@
     height: 1em;
     margin-top: 0.2em;
     background: white;
+}
+
+@media (max-width: 576px) {
+    .team-profile-row {
+        max-height: none;
+    }
+    .team-section {
+        -webkit-clip-path: polygon(0 0, 100% 11%, 100% 100%, 0 94%);
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 94%);
+    }
 }

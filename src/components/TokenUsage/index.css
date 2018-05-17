@@ -1,11 +1,11 @@
-.token-sale-section {
+.token-usage-section {
     min-height: 500px;
     position: relative;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-.token-sale-section .background-container {
+.token-usage-section .background-container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -20,70 +20,63 @@
     height: 50%;
 }
 
-.token-sale-section .background-container .custom-shape-1 {
+.token-usage-section .background-container .custom-shape-1 {
     background-image: linear-gradient(360deg, #eaafef, rgba(255, 255, 255, 0));
     -webkit-clip-path: polygon(0 1%, 100% 0, 100% 78%, 0% 100%);
     clip-path: polygon(0 1%, 100% 0, 100% 78%, 0% 100%);
 }
 
-.token-sale-distribute-chart {
-    position: relative;
-    background-image: url('/images/token-sale-distribution-chart.png');
+.token-usage-distribute-chart {
+    position: absolute;
+    background-image: url('/images/token-usage-distribution-chart.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
 }
 
-.token-sale-item {
+.token-usage-item {
     position: absolute;
     border-radius: 10px;
 }
 
-.token-sale-item.token-sale-item-0 {
-    top: 2%;
-    left: 41%;
+.token-usage-item.token-usage-item-0 {
+    top: 0%;
+    right: 24%;
 }
 
-.token-sale-item.token-sale-item-1 {
-    top: 10%;
-    left: 60%;
+.token-usage-item.token-usage-item-1 {
+    top: 43%;
+    right: 22%;
 }
 
-.token-sale-item.token-sale-item-2 {
-    top: 22%;
-    right: 20%;
+.token-usage-item.token-usage-item-2 {
+    bottom: 15%;
+    left: 28%;
 }
 
-.token-sale-item.token-sale-item-3 {
+.token-usage-item.token-usage-item-3 {
     top: 34%;
-    right: 16%;
+    left: 16%;
 }
 
-.token-sale-item.token-sale-item-4 {
-    top: 65%;
-    right: 25%;
+.token-usage-item.token-usage-item-4 {
+    top: 3%;
+    left: 25%;
 }
 
-.token-sale-item.token-sale-item-5 {
+.token-usage-item.token-usage-item-5 {
     bottom: 15%;
     left: 30%;
 }
 
-.token-sale-item.token-sale-item-6 {
-    top: 40%;
-    left: 20%;
-}
-
-.token-sale-item.token-sale-item-7 {
-    top: 15%;
-    left: 25%;
-}
-
 @media (max-width: 576px) {
-    .token-sale-item {
+    .token-usage-item {
         display: none;
     }
 
-    .token-sale-section {
+    .token-usage-section {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }

@@ -2,26 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import './index.css'
 
-const tokenSales = [
+const tokenUsage = [
   {
     text: '10% Community Support',
     color: '#ff6427',
     textColor: '#7400a4',
-  },
-  {
-    text: '5% Advisors & Partners',
-    color: '#001ada',
-    textColor: '#00d0ff',
-  },
-  {
-    text: '5% Reward & Airdrop',
-    color: '#ce38da',
-    textColor: '#7400a4',
-  },
-  {
-    text: '5% Strategic Cooperation',
-    color: '#00d0ff',
-    textColor: '#001ada',
   },
   {
     text: '30% Token Sale',
@@ -45,27 +30,27 @@ const tokenSales = [
   },
 ]
 
-const TokenSales = () => (
-  <div className="token-sale-section">
+const TokenUsage = () => (
+  <div className="token-usage-section">
     <div className="background-container">
       <div className="custom-shape custom-shape-1" />
     </div>
-    <Container className="pt-5">
+    <Container className="pt-5 chart-container">
       <Row>
         <Col>
-          <h1 className="display-2 headline" style={{ color: '#ce38da' }}>
-            Token Sales
+          <h1 className="display-2 headline" style={{ color: '#00d0ff' }}>
+            Usage of Funds
           </h1>
-          <p className="lead sub-headline" style={{ color: '#ce38da' }}>
+          <p className="lead sub-headline" style={{ color: '#00d0ff' }}>
             This is how we get there.
           </p>
         </Col>
       </Row>
-
-      <div className="token-sale-distribute-chart">
-        {tokenSales.map(({ color, text, textColor }, j) => (
+      <div style={{ position: 'relative' }}>
+        <div className="token-usage-distribute-chart" />
+        {tokenUsage.map(({ color, text, textColor }, j) => (
           <div style={{ paddingTop: '4rem' }}>
-            <div className={'p-2 token-sale-item token-sale-item-' + j} style={{ backgroundColor: color }}>
+            <div className={'p-2 token-usage-item token-usage-item-' + j} style={{ backgroundColor: color }}>
               <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
             </div>
           </div>
@@ -75,4 +60,4 @@ const TokenSales = () => (
   </div>
 )
 
-export default TokenSales
+export default TokenUsage
