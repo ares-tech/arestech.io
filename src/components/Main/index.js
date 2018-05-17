@@ -15,20 +15,20 @@ const Main = () => (
       Social Gaming Network
     </h1>
     <p className="lead sub-headline">All-in-One Solution for Social Game Creators</p>
-    <p className="lead">
+    <div className="lead">
       <div className="main__button__container">
-        <Button className="main__button" bsSize="large" block>
+        <Button className="main__button" block>
           <i className="far fa-file" />
           <span style={{ paddingLeft: 10 }}>Read our White Paper</span>
         </Button>
       </div>
       <div className="main__button__container">
-        <Button className="main__button" bsSize="large" block>
+        <Button className="main__button" block>
           <i className="fab fa-telegram-plane" />
           <span style={{ paddingLeft: 10 }}>Chat with us</span>
         </Button>
       </div>
-    </p>
+    </div>
   </div>
 )
 
