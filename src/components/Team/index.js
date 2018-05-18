@@ -87,7 +87,7 @@ class Team extends React.PureComponent {
   }
   render() {
     return (
-      <div className="team-section">
+      <div id="team" className="team-section">
         <Container className="pt-5 team-container">
           <Row>
             <Col>

@@ -12,10 +12,11 @@
 * [x] Token Detail
 * [x] Token Sale
 * [x] Use of Funds
-* [ ] Contact us
-* [ ] Footer
+* [x] Contact us
+* [x] Footer
 * [-] custom shapes
 * [ ] other static pages
 * [ ] top navigation transition
 * [ ] top navigation style
-* [ ] link section
+* [x] link section
+* [x] press kit

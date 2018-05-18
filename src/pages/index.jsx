@@ -25,7 +25,7 @@ class Index extends React.PureComponent {
     return (
       <div className="ares index-container fluid-container">
         <Helmet title={config.siteTitle} />
-        <Section className="main pb-5">
+        <Section className="main">
           <Navbar />
           <Container>
             <Main />

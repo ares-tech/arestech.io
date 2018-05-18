@@ -31,7 +31,7 @@ const tokenUsage = [
 ]
 
 const TokenUsage = () => (
-  <div className="token-usage-section">
+  <div id="use-of-funds" className="token-usage-section">
     <div className="background-container">
       <div className="custom-shape custom-shape-1" />
     </div>

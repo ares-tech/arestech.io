@@ -40,7 +40,7 @@ export default class Roadmap extends React.Component {
 
   render() {
     return (
-      <div className="roadmap-section">
+      <div id="roadmap" className="roadmap-section">
         <div className="container">
           <Row>
             <Col>

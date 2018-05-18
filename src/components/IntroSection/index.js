@@ -19,7 +19,11 @@ const Highlight = ({ color, bold = false, children }) => {
 }
 
 const IntroSection = () => (
-  <div className="intro-section" style={{ paddingTop: '7rem', color: '#9B9B9B', position: 'relative' }}>
+  <div
+    id="introduction"
+    className="intro-section"
+    style={{ paddingTop: '7rem', color: '#9B9B9B', position: 'relative' }}
+  >
     <Container>
       <Row>
         <Col md={{ offset: 5 }}>

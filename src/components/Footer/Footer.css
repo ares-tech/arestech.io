@@ -2,6 +2,14 @@
     justify-content: center;
     align-content: center;
     padding: 10px 5px 5px;
+    background-color: #7400a4;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.footer a {
+    color: #fff;
 }
 
 .notice-container {
@@ -22,4 +30,14 @@
 .notice-container h4 {
     text-align: center;
     margin: 0;
+}
+
+.newsletter-subscribe {
+    background-color: #fff;
+    color: #7400a4;
+    font-weight: bold;
+}
+
+.newsletter-subscribe:hover {
+    text-decoration: none;
 }

@@ -5,7 +5,11 @@ import socialMedias from './socialMedias'
 import { Timeline } from 'react-twitter-widgets'
 
 const Contact = () => (
-  <div className="contact-section" style={{ paddingTop: '10rem', color: '#9B9B9B', position: 'relative' }}>
+  <div
+    id="contact-us"
+    className="contact-section"
+    style={{ paddingTop: '10rem', color: '#9B9B9B', position: 'relative' }}
+  >
     <Container className="content-container">
       <div className="left-pane">
         <div style={{ marginBottom: '5rem' }}>

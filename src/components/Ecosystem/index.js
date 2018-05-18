@@ -49,7 +49,7 @@ const Description = ({ children }) => (
 )
 
 const IntroSection = () => (
-  <div className="ecosystem-section">
+  <div id="ecosystem" className="ecosystem-section">
     <Container className="pt-5">
       <Row>
         <Col>

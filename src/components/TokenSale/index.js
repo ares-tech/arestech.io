@@ -46,7 +46,7 @@ const tokenSales = [
 ]
 
 const TokenSales = () => (
-  <div className="token-sale-section">
+  <div id="token-sale" className="token-sale-section">
     <div className="background-container">
       <div className="custom-shape custom-shape-1" />
     </div>
