@@ -21,9 +21,9 @@
 }
 
 .token-usage-section .background-container .custom-shape-1 {
-    background-image: linear-gradient(360deg, #eaafef, rgba(255, 255, 255, 0));
-    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 78%, 0% 100%);
-    clip-path: polygon(0 1%, 100% 0, 100% 78%, 0% 100%);
+    background-image: linear-gradient(0deg, #fedbc6, rgba(255, 255, 255, 0));
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
 }
 
 .token-usage-distribute-chart {
