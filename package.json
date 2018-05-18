@@ -68,7 +68,8 @@
     "clean": "rm -rf public",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/posts/",
-    "write-good": "write-good $(glob 'content/posts/**/*.md')"
+    "write-good": "write-good $(glob 'content/posts/**/*.md')",
+    "zip": "zip -r ares-website.zip public"
   },
   "remarkConfig": {
     "plugins": [

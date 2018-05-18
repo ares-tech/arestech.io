@@ -30,15 +30,15 @@ class Downloads extends React.Component {
         </DropdownToggle>
         <DropdownMenu>
           <DropdownItem>
-            <a href="http://arestech.io/doc/ares_tech_intro_en_1.5.pdf">Business Intro v1.5</a>
+            <a href="/documents/ares_tech_intro_en_1.5.pdf">Business Intro v1.5</a>
           </DropdownItem>
           <DropdownItem divider />
           <DropdownItem>
-            <a href="http://arestech.io/doc/ares_tech_whitepaper_en_1.5.pdf">English Whitepaper v1.5</a>
+            <a href="/documents/ares_tech_whitepaper_en_1.5.pdf">English Whitepaper v1.5</a>
           </DropdownItem>
           <DropdownItem divider />
           <DropdownItem>
-            <a href="http://arestech.io/doc/ares_tech_whitepaper_ch_1.5.pdf">Chinese Whitepaper v1.5</a>
+            <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf">Chinese Whitepaper v1.5</a>
           </DropdownItem>
         </DropdownMenu>
       </ButtonDropdown>
