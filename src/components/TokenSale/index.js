@@ -53,12 +53,9 @@ const TokenSales = () => (
     <Container className="pt-5">
       <Row>
         <Col>
-          <h1 className="display-2 headline" style={{ color: '#ce38da' }}>
+          <h1 className="display-2 headline pb-4" style={{ color: '#ce38da' }}>
             Token Sales
           </h1>
-          <p className="lead sub-headline" style={{ color: '#ce38da' }}>
-            This is how we get there.
-          </p>
         </Col>
       </Row>
 

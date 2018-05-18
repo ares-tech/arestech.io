@@ -38,12 +38,9 @@ const TokenUsage = () => (
     <Container className="pt-5 chart-container">
       <Row>
         <Col>
-          <h1 className="display-2 headline" style={{ color: '#00d0ff' }}>
+          <h1 className="display-2 headline pb-5" style={{ color: '#00d0ff' }}>
             Usage of Funds
           </h1>
-          <p className="lead sub-headline" style={{ color: '#00d0ff' }}>
-            This is how we get there.
-          </p>
         </Col>
       </Row>
       <div style={{ position: 'relative' }}>

@@ -10,8 +10,8 @@
 * [x] Media
 * [x] Partners
 * [x] Token Detail
-* [ ] Token Sale
-* [ ] Use of Funds
+* [x] Token Sale
+* [x] Use of Funds
 * [ ] Contact us
 * [ ] Footer
 * [-] custom shapes

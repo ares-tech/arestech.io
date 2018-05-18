@@ -15,9 +15,9 @@
     z-index: -1;
 }
 
-.background-container .custom-shape {
+.token-usage-section .background-container .custom-shape {
     width: 100%;
-    height: 50%;
+    height: 45%;
 }
 
 .token-usage-section .background-container .custom-shape-1 {
@@ -42,28 +42,28 @@
 }
 
 .token-usage-item.token-usage-item-0 {
-    top: 0%;
+    top: -5%;
     right: 24%;
 }
 
 .token-usage-item.token-usage-item-1 {
-    top: 43%;
+    top: 46%;
     right: 22%;
 }
 
 .token-usage-item.token-usage-item-2 {
-    bottom: 15%;
+    bottom: 9%;
     left: 28%;
 }
 
 .token-usage-item.token-usage-item-3 {
     top: 34%;
-    left: 16%;
+    left: 19%;
 }
 
 .token-usage-item.token-usage-item-4 {
-    top: 3%;
-    left: 25%;
+    top: -5%;
+    left: 26%;
 }
 
 .token-usage-item.token-usage-item-5 {

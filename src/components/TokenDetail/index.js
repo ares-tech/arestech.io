@@ -54,12 +54,9 @@ const TokenDetail = () => (
     <Container className="pt-5">
       <Row>
         <Col>
-          <h1 className="display-2 headline" style={{ color: '#ffb158' }}>
+          <h1 className="display-2 headline pb-4" style={{ color: '#ffb158' }}>
             Token Detail
           </h1>
-          <p className="lead sub-headline" style={{ color: '#ffb158' }}>
-            This is how we get there.
-          </p>
         </Col>
       </Row>
       {chunk(tokenDetails, 3).map((row, i) => (
