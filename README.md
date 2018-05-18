@@ -18,3 +18,4 @@
 * [ ] other static pages
 * [ ] top navigation transition
 * [ ] top navigation style
+* [ ] link section

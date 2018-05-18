@@ -4619,12 +4619,6 @@ gatsby-plugin-sitemap@^1.2.11:
     babel-runtime "^6.26.0"
     sitemap "^1.12.0"
 
-gatsby-plugin-twitter@^1.0.16:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-1.0.16.tgz#060ff0aa92050c587b55eedc0560d4d61d7c13e9"
-  dependencies:
-    babel-runtime "^6.26.0"
-
 gatsby-react-router-scroll@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.9.tgz#0a321e7ae8c69ac6ba9528abf5b7be4e549a943f"

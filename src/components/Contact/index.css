@@ -1,8 +1,53 @@
-.contact-container {
+.contact-section {
+    background-image: linear-gradient(80deg, #cf38da, #7400a4);
+    -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.content-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    align-items: center;
-    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.social-media-icon {
+    font-size: 35px;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.social-media-icon:hover {
+    color: #fff;
+}
+
+.contact-shape {
+    position: absolute;
+    display: table;
+    z-index: -1;
+}
+
+.contact-shape-1 {
+    right: 0;
+    top: 0;
+}
+
+.contact-shape-2 {
+    left: 0;
+    top: 8%;
+}
+
+.contact-shape-3 {
+    left: 0;
+    bottom: 0%;
+}
+
+.contact-shape-4 {
+    right: 0;
+    bottom: 20%;
 }

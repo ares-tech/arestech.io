@@ -29,12 +29,6 @@ body {
   display: block;
 }
 
-.main {
-  background-image: linear-gradient(80deg, #cf38da, #7400a4);
-  clip-path: polygon(0 1%, 100% 0, 100% 85%, 0% 100%);
-  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 85%, 0% 100%);
-}
-
 @font-face {
   font-family: SofiaProRegular;
   src: url('/fonts/SofiaProRegular.otf');
