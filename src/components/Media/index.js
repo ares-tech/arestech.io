@@ -39,7 +39,7 @@ const Media = () => (
             Media
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            Our media and technical partners.
+            See what others are saying about us.
           </p>
         </Col>
       </Row>
