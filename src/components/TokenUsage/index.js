@@ -43,10 +43,10 @@ const TokenUsage = () => (
           </h1>
         </Col>
       </Row>
-      <div style={{ position: 'relative' }}>
-        <div className="token-usage-distribute-chart" />
+      <div className="token-usage-distribute-chart">
+        <div className="token-usage-distribute-chart mobile-only" style={{ display: 'none' }} />
         {tokenUsage.map(({ color, text, textColor }, j) => (
-          <div style={{ paddingTop: '4rem' }}>
+          <div key={j} className="token-usage-item-container" style={{ paddingTop: '4rem' }}>
             <div className={'p-2 token-usage-item token-usage-item-' + j} style={{ backgroundColor: color }}>
               <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
             </div>

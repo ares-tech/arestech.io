@@ -60,8 +60,9 @@ const TokenSales = () => (
       </Row>
 
       <div className="token-sale-distribute-chart">
+        <div className="token-sale-distribute-chart mobile-only" style={{ display: 'none' }} />
         {tokenSales.map(({ color, text, textColor }, j) => (
-          <div style={{ paddingTop: '4rem' }}>
+          <div key={j} className="token-sale-item-container" style={{ paddingTop: '4rem' }}>
             <div className={'p-2 token-sale-item token-sale-item-' + j} style={{ backgroundColor: color }}>
               <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
             </div>

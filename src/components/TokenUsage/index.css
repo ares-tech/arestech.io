@@ -26,13 +26,11 @@
 }
 
 .token-usage-distribute-chart {
-    position: absolute;
+    position: relative;
     background-image: url('/images/token-usage-distribution-chart.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
-    height: 100%;
 }
 
 .token-usage-item {
@@ -71,8 +69,24 @@
 }
 
 @media (max-width: 576px) {
+    .token-usage-item-container {
+        padding-top: 10px !important;
+    }
+
     .token-usage-item {
-        display: none;
+        position: relative;
+        left: 0 !important;
+        top: 0 !important;
+    }
+
+    .token-usage-distribute-chart {
+        background-image: none;
+    }
+
+    .token-usage-distribute-chart.mobile-only {
+        display: block !important;
+        height: 400px;
+        background-image: url('/images/token-usage-distribution-chart.png');
     }
 
     .token-usage-section {

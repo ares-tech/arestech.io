@@ -79,8 +79,24 @@
 }
 
 @media (max-width: 576px) {
+    .token-sale-item-container {
+        padding-top: 10px !important;
+    }
+
+    .token-sale-distribute-chart {
+        background-image: none;
+    }
+
+    .token-sale-distribute-chart.mobile-only {
+        display: block !important;
+        height: 400px;
+        background-image: url('/images/token-sale-distribution-chart.png');
+    }
+
     .token-sale-item {
-        display: none;
+        position: relative;
+        left: 0 !important;
+        top: 0 !important;
     }
 
     .token-sale-section {

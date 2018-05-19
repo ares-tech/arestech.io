@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 576px) {
+    .team-section {
+        background-image: linear-gradient(37deg, #ffb158, #ff6427);
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
+    }
     .team-profile-row {
         max-height: none;
     }
