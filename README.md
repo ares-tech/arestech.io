@@ -15,8 +15,8 @@
 * [x] Contact us
 * [x] Footer
 * [x] custom shapes
-* [ ] custom layout for token sections
-* [ ] other static pages
+* [x] custom layout for token sections
+* [x] other static pages
 * [ ] top navigation transition
 * [ ] top navigation style
 * [x] full team

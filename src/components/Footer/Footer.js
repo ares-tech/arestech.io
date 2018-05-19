@@ -15,11 +15,11 @@ class Footer extends Component {
               <p style={{ margin: 0 }}>{copyright}</p>
               <p>{address}</p>
               <span>
-                <a href="">Nutzungsbedingungen</a>
+                <a href="/term-of-use">Nutzungsbedingungen</a>
                 <span> | </span>
-                <a href="">Datenschutz</a>
+                <a href="/privacy">Datenschutz</a>
                 <span> | </span>
-                <a href="">Impressum</a>
+                <a href="/imprint">Impressum</a>
               </span>
             </div>
             <div>

@@ -27,31 +27,31 @@ class NavbarTop extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="#introduction">Introduction</NavLink>
+                <NavLink href="/#introduction">Introduction</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#ecosystem">Ecosystem</NavLink>
+                <NavLink href="/#ecosystem">Ecosystem</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#team">Team</NavLink>
+                <NavLink href="/#team">Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#roadmap">Roadmap</NavLink>
+                <NavLink href="/#roadmap">Roadmap</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#media">Media</NavLink>
+                <NavLink href="/#media">Media</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#partners">Partners</NavLink>
+                <NavLink href="/#partners">Partners</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#token-sale">Token Sale</NavLink>
+                <NavLink href="/#token-sale">Token Sale</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#use-of-funds">Use of Funds</NavLink>
+                <NavLink href="/#use-of-funds">Use of Funds</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact-us">Contact Us</NavLink>
+                <NavLink href="/#contact-us">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

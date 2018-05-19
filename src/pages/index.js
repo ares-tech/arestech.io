@@ -17,26 +17,15 @@ import TokenDetail from '../components/TokenDetail'
 import TokenSale from '../components/TokenSale'
 import TokenUsage from '../components/TokenUsage'
 import Team from '../components/Team'
+import MainLayout from '../util/mainLayout'
 import '../style/custom.css'
 
 const Section = ({ children, className }) => <div className={className}>{children}</div>
+
 class Index extends React.PureComponent {
   render() {
     return (
-      <div className="ares index-container fluid-container">
-        <Helmet title={config.siteTitle} />
-        <Section className="main">
-          <Navbar />
-          <Container>
-            <Main />
-          </Container>
-          <div className="main-shape-1">
-            <img src="/images/main-shape-1.png" width="100%" height="100%" />
-          </div>
-          <div className="main-shape-2">
-            <img src="/images/main-shape-2.png" width="100%" height="100%" />
-          </div>
-        </Section>
+      <MainLayout>
         <Section>
           <GalleryTeaser />
         </Section>
@@ -67,34 +56,9 @@ class Index extends React.PureComponent {
         <Section>
           <TokenUsage />
         </Section>
-        <Contact config={config} />
-        <Footer config={config} />
-      </div>
+      </MainLayout>
     )
   }
 }
 
 export default Index
-
-/* eslint no-undef: "off"*/
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(limit: 2000, sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-  }
-`
