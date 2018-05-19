@@ -7,6 +7,11 @@ body {
   font-family: SofiaProRegular;
 }
 
+.li.nav-item {
+  padding-right: 13px;
+  font-size: 1.1rem;
+}
+
 .index-container {
   background-color: transparent!important;
 }

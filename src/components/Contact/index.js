@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, Container, Row, Col, Card, CardBody } from 'reactstrap'
+import { Button, Container } from 'reactstrap'
+import { Timeline } from 'react-twitter-widgets'
 import './index.css'
 import socialMedias from './socialMedias'
-import { Timeline } from 'react-twitter-widgets'
 
 const Contact = () => (
   <div

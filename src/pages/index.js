@@ -56,6 +56,9 @@ class Index extends React.PureComponent {
         <Section>
           <TokenUsage />
         </Section>
+        <Section>
+          <Contact />
+        </Section>
       </MainLayout>
     )
   }
