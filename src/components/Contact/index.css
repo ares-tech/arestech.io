@@ -43,11 +43,11 @@
 }
 
 .contact-shape-3 {
-    left: 0;
-    bottom: 0%;
+    left: 10%;
+    bottom: -10%;
 }
 
 .contact-shape-4 {
     right: 0;
-    bottom: 20%;
+    bottom: -40%;
 }

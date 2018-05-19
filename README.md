@@ -14,9 +14,18 @@
 * [x] Use of Funds
 * [x] Contact us
 * [x] Footer
-* [-] custom shapes
+* [x] custom shapes
+* [ ] custom layout for token sections
 * [ ] other static pages
 * [ ] top navigation transition
 * [ ] top navigation style
+* [x] full team
 * [x] link section
 * [x] press kit
+
+
+## missing
+* [ ] pictures and its title and description
+* [ ] google analytic tracking
+* [ ] presskit download link
+* [ ] team may be incomplete

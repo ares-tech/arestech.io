@@ -55,7 +55,7 @@ const Contact = () => (
       <img src="/images/main-shape-2.png" width="100%" height="100%" />
     </div>
     <div className="contact-shape contact-shape-3">
-      <img src="/images/main-shape-1.png" width="100%" height="100%" />
+      <img src="/images/main-shape-3.png" width="100%" height="100%" />
     </div>
     <div className="contact-shape contact-shape-4">
       <img src="/images/main-shape-2.png" width="100%" height="100%" />

@@ -1,6 +1,6 @@
 import React from 'react'
 import { chunk } from 'lodash'
-import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } from 'reactstrap'
+import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 import './index.css'
 import teams from './team.json'
 
@@ -11,7 +11,7 @@ const styles = {
     justifyContent: 'space-around',
     alignItems: 'center',
   },
-  name: { alignSelf: 'start', fontWeight: 'bold', fontSize: '2rem', color: '#ff6427' },
+  name: { alignSelf: 'start', fontWeight: 'bold', fontSize: '1.8rem', color: '#ff6427' },
   title: { color: '#ff6427' },
   intro: { color: '#9b9b9b' },
   actionBar: { alignSelf: 'stretch', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' },
@@ -43,7 +43,13 @@ class Profile extends React.PureComponent {
           <div style={styles.container}>
             <div
               className="profile-image"
-              style={{ backgroundImage: `url(${src})`, width: '160px', height: '160px', borderRadius: '50%' }}
+              style={{
+                backgroundImage: `url(${src})`,
+                width: '160px',
+                height: '160px',
+                borderRadius: '50%',
+                backgroundSize: 'cover',
+              }}
             />
             <div>
               <p className="mb-0 pt-2" style={styles.name}>

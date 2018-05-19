@@ -1,6 +1,6 @@
 import React from 'react'
-import './index.css'
 import { NavLink, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap'
+import './index.css'
 
 class NavbarTop extends React.Component {
   constructor(props) {
@@ -40,6 +40,9 @@ class NavbarTop extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#media">Media</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#partners">Partners</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#token-sale">Token Sale</NavLink>

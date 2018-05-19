@@ -6,6 +6,7 @@ import { chunk } from 'lodash'
 
 const Partners = () => (
   <div
+    id="partners"
     className="partners-section"
     style={{ paddingTop: '5rem', paddingBottom: '2rem', color: '#9B9B9B', position: 'relative' }}
   >
