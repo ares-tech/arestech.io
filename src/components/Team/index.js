@@ -2,7 +2,7 @@ import React from 'react'
 import { chunk } from 'lodash'
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 import './index.css'
-import teams from './team.json'
+import teams from './team'
 
 const styles = {
   container: {

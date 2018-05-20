@@ -10,16 +10,23 @@
 
 ## add person in to team section
 
-* edit `src/components/Team/team.json` file
-* add person data into the json structure, for user's image store the png/jpg under `static/images/...` to reference it in json file
+* edit `src/components/Team/team.js` file
+* add person data into the js structure, for user's image store the png/jpg under `static/images/...` to reference it in js file
 * the user will show up under the team section
 
 ## change photo for "Latest update"
 
-* edit `src/components/GalleryTeaser/pictures.json`
+* edit `src/components/GalleryTeaser/pictures.js`
 * first store the photo resource e.g. png/jpg file under `static/images/...` folder
-* add new photo in json file
+* add new photo in js file
 * It support optionally a `title` and `desc`, if supplied they will show up under the picture.
+
+## add media link
+* edit `src/components/Media/index.js`, copy paste a new block and edit it.
+
+## add social media links
+* edit `src/components/Contact/socialMedias.js`
+* add new block with information
 
 ## how to add a new page
 

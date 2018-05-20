@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
-import './index.css'
 import Carousel from 'nuka-carousel'
+import './index.css'
 
 const CarouselItem = ({ text, children }) => (
   <Card style={{ height: 280 }}>
@@ -32,7 +32,6 @@ const MediaCarousel = () => (
         <img src="/images/gruenderszene.svg" alt="gruenderszene" width="250" />
       </CarouselItem>
     </a>
-
     <a style={{ textDecoration: 'none' }} href="http://blockchain.hs-mittweida.de/springschool_en.html">
       <CarouselItem text="ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.">
         <div className="p-3" style={{ backgroundColor: '#000' }}>

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Card, CardBody, CardImg } from 'reactstrap'
-import './index.css'
-import partners from './partners.json'
+import { Container, Row, Col, Card } from 'reactstrap'
 import { chunk } from 'lodash'
+import './index.css'
+import partners from './partners'
 
 const Partners = () => (
   <div

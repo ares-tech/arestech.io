@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } fro
 import './index.css'
 import HorizontalTimeline from 'react-horizontal-timeline'
 import moment from 'moment'
-import milestones from './milestones.json'
+import milestones from './milestones'
 
 const Milestone = ({ event, isOdd }) => {
   const style = {

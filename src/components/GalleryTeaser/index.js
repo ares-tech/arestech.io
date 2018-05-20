@@ -1,8 +1,8 @@
 import React from 'react'
-import ImageTeaser from '../ImageTeaser'
 import { Container, Row, Col, Card, CardBody, CardText, CardTitle, CardSubtitle, CardLink } from 'reactstrap'
-import pictures from './pictures.json'
 import { chunk } from 'lodash'
+import pictures from './pictures'
+import ImageTeaser from '../ImageTeaser'
 
 const GallaryTeaser = () => (
   <div className="bg-light">
