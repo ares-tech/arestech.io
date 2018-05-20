@@ -46,11 +46,8 @@
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
     }
+
     .team-profile-row {
         max-height: none;
-    }
-    .team-section {
-        -webkit-clip-path: polygon(0 0, 100% 11%, 100% 100%, 0 94%);
-        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 94%);
     }
 }

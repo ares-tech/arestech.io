@@ -26,8 +26,8 @@ class ImageTeaser extends React.PureComponent {
             }}
           />
           <CardBody>
-            <CardTitle>{title}</CardTitle>
-            <CardSubtitle>{desc}</CardSubtitle>
+            {title.length > 0 && <CardTitle>{title}</CardTitle>}
+            {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}

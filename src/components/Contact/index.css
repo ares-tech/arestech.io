@@ -51,3 +51,19 @@
     right: 0;
     bottom: -40%;
 }
+
+@media (max-width: 576px) {
+    .contact-shape {
+        width: 50% !important;
+    }
+
+    .contact-shape-3 {
+        left: 10% !important;
+        bottom: 0 !important;
+    }
+
+    .contact-shape-4 {
+        right: 0 !important;
+        bottom: 10% !important;
+    }
+}

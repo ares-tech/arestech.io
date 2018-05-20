@@ -26,6 +26,6 @@
 
 ## missing
 * [ ] pictures and its title and description
-* [ ] google analytic tracking
+* [x] google analytic tracking
 * [ ] presskit download link
 * [ ] team may be incomplete
