@@ -29,17 +29,17 @@ class Downloads extends React.Component {
           <span style={{ paddingLeft: 10 }}>Read our White Paper </span>
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>
-            <a href="/documents/ares_tech_intro_en_1.5.pdf">Business Intro v1.5</a>
-          </DropdownItem>
+          <a href="/documents/ares_tech_intro_en_1.5.pdf">
+            <DropdownItem>Business Intro v1.5</DropdownItem>
+          </a>
           <DropdownItem divider />
-          <DropdownItem>
-            <a href="/documents/ares_tech_whitepaper_en_1.5.pdf">English Whitepaper v1.5</a>
-          </DropdownItem>
+          <a href="/documents/ares_tech_whitepaper_en_1.5.pdf">
+            <DropdownItem>English Whitepaper v1.5</DropdownItem>
+          </a>
           <DropdownItem divider />
-          <DropdownItem>
-            <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf">Chinese Whitepaper v1.5</a>
-          </DropdownItem>
+          <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf">
+            <DropdownItem>Chinese Whitepaper v1.5</DropdownItem>
+          </a>
         </DropdownMenu>
       </ButtonDropdown>
     )
@@ -60,12 +60,12 @@ const Main = () => (
         <Downloads />
       </div>
       <div className="main__button__container">
-        <Button className="main__button" block>
-          <i className="fab fa-telegram-plane" />
-          <a href="https://t.me/ares_tech" style={{ color: '#ce38da' }}>
+        <a href="https://t.me/ares_tech" style={{ color: '#ce38da' }}>
+          <Button className="main__button" block>
+            <i className="fab fa-telegram-plane" />
             <span style={{ paddingLeft: 10 }}>Chat with us</span>
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
     </div>
   </div>
