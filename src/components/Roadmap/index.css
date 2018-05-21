@@ -1,14 +1,15 @@
 .roadmap-section {
     margin-top: 5rem;
+    overflow: hidden;
 }
 
 .events-wrapper {
-    overflow: visible!important;
-    padding: 0 60px!important;
+    overflow: visible !important;
+    padding: 0 60px !important;
 }
 
 .events-wrapper .events {
-    padding: 0 60px!important;
+    padding: 0 60px !important;
 }
 
 .milestone {
