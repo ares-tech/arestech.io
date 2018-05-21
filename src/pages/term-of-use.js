@@ -9,7 +9,7 @@ class TermOfUsePage extends Component {
   render() {
     return (
       <MainLayout>
-        <Helmet title={`Term of Use| ${config.siteTitle}`} />
+        <Helmet title={`Term of Use | ${config.siteTitle}`} />
         <TermOfUse />
       </MainLayout>
     )
