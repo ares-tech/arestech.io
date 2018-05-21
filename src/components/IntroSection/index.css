@@ -41,6 +41,7 @@
 @media (max-width: 576px) {
     .intro-section,
     .media-section {
+        overflow: hidden;
         -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
         clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 95%);
     }
@@ -53,7 +54,7 @@
     .intro-shape-1 {
         width: 35%;
         top: -20px;
-        right: -20px;
+        right: 0;
     }
 
     .intro-shape-3 {
@@ -63,7 +64,7 @@
 
     .intro-shape-4 {
         width: 75%;
-        right: -50px;
+        right: 0;
         bottom: 0;
     }
 }
