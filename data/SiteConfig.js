@@ -3,8 +3,9 @@ module.exports = {
   siteTitle: 'ARES Tech - Scalable Blockchain Social Gaming Network',
   siteTitleAlt: 'ARES Tech - Scalable Blockchain Social Gaming Network',
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
-  siteUrl: 'http://arestech.io/',
+  siteUrl: 'http://arestech.io',
   // pathPrefix: '/gatsby-advanced-starter', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: '/',
   siteDescription: 'All-In-One Solution for Social Game Creators and players',
   siteRss: '/rss.xml', // Path to the RSS file.
   googleAnalyticsID: 'UA-116218938-1', // GA tracking ID.

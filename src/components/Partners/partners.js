@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'Jingtum',
+    name: 'Jingtum Tech',
     imageSrc: '/images/partner-jingtum.png',
     link: 'http://www.jingtum.com/',
   },
@@ -25,17 +25,17 @@ export default [
     link: 'http://berlinvalley.com/a-new-blockchain-startup-in-berlin-to-decentralize-the-ecosystem-of-game-business/',
   },
   {
-    name: 'gruenderszene',
-    imageSrc: '/images/gruenderszene.svg',
+    name: 'Gruenderszene',
+    imageSrc: '/images/partner-gruenderszene.png',
     link: 'http://www.gruenderszene.de/allgemein/blockchain-social-gaming-ares-tech-2018-10642',
   },
   {
-    name: 'fxlive',
+    name: 'FxLive',
     imageSrc: '/images/partner-fxlive.png',
     link: 'http://www.fxlive.de/',
   },
   {
-    name: 'mtg',
+    name: 'MTG',
     imageSrc: '/images/partner-mtg.jpg',
     link: 'http://blockchain.hs-mittweida.de/springschool.html',
   },

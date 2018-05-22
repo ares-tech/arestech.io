@@ -25,7 +25,7 @@ const IntroSection = () => (
     style={{ paddingTop: '7rem', color: '#9B9B9B', position: 'relative' }}
   >
     <Container>
-      <Row>
+      <div>
         <Col md={{ offset: 5 }}>
           <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
             Introduction
@@ -61,7 +61,7 @@ const IntroSection = () => (
             </Col>
           </Row>
         </Col>
-      </Row>
+      </div>
     </Container>
     <div className="intro-shape-1">
       <img src="/images/intro-shape-1.png" width="100%" height="100%" />
