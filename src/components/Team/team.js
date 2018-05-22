@@ -63,12 +63,12 @@ export default [
     imageSrc: '/images/Jiani.jpg',
   },
   {
-        linkedIn: 'https://www.linkedin.com/in/kierandold/',
-        name: 'Ciaran Dold',
-        title: 'UX/UI Designer',
-        intro:
-            'Ciarán is a UX/UI designer. His focus is on making the best user experience for Ares. He’s worked as a user experience designer and user interface designer for startups in Ireland and the UK, helping various products meet user expectations while meeting their business goals.',
-        imageSrc: '/images/Jiani.jpg',
+    linkedIn: 'https://www.linkedin.com/in/kierandold/',
+    name: 'Ciaran Dold',
+    title: 'UX/UI Designer',
+    intro:
+         'Ciarán is a UX/UI designer. His focus is on making the best user experience for Ares. He’s worked as a user experience designer and user interface designer for startups in Ireland and the UK, helping various products meet user expectations while meeting their business goals.',
+    imageSrc: '/images/ciaranD.jpg',
   },
   {
     linkedIn: 'https://www.linkedin.com/in/konrad-rieck-58528015/',
