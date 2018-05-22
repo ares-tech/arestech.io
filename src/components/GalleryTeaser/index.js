@@ -13,7 +13,7 @@ const GallaryTeaser = () => (
             Latest Updates
           </h1>
           <p className="lead" style={{ color: '#ff6427' }}>
-            Ares is Scalable Blockchain Social Gaming Network.
+              Follow our <a href="https://medium.com/ares-tech" target="_blank" style={{ color: '#ce38da' }}>blog</a> and <a href="https://t.me/ares_tech" target="_blank" style={{ color: '#ce38da' }}>community</a> to get latest news!
           </p>
         </Col>
       </Row>
