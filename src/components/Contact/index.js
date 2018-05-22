@@ -28,10 +28,12 @@ const Contact = () => (
             </a>
           ))}
           <div className="pt-2">
+            <a href="https://drive.google.com/drive/folders/14-JhpPGauii_8lcPyOUNzekS-EQSMEsP?usp=sharing" target="_blank" style={{ color: '#ce38da' }}>
             <Button className="main__button">
               <i className="far fa-newspaper" />
               <span style={{ paddingLeft: 10 }}>Get our Press Kit</span>
             </Button>
+            </a>
           </div>
         </div>
       </div>
