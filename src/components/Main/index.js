@@ -29,15 +29,15 @@ class Downloads extends React.Component {
           <span style={{ paddingLeft: 10 }}>Read our White Paper </span>
         </DropdownToggle>
         <DropdownMenu>
-          <a href="/documents/ares_tech_intro_en_1.5.pdf" target="_blank">
+          <a href="/documents/ares_tech_intro_en_1.5.pdf" rel="noopener noreferrer" target="_blank">
             <DropdownItem>Business Intro v1.5</DropdownItem>
           </a>
           <DropdownItem divider />
-          <a href="/documents/ares_tech_whitepaper_en_1.5.pdf" target="_blank">
+          <a href="/documents/ares_tech_whitepaper_en_1.5.pdf" rel="noopener noreferrer" target="_blank">
             <DropdownItem>English Whitepaper v1.5</DropdownItem>
           </a>
           <DropdownItem divider />
-          <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf" target="_blank">
+          <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf" rel="noopener noreferrer" target="_blank">
             <DropdownItem>Chinese Whitepaper v1.5</DropdownItem>
           </a>
         </DropdownMenu>
@@ -49,12 +49,10 @@ const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
     <h1 className="display-2 headline" style={{ color: '#fff' }}>
-      Scalable Blockchain
+      Blockchain. <br/> Gaming. <br/>Network.
     </h1>
-    <h1 className="display-2 headline" style={{ color: '#fff' }}>
-      Social Gaming Network
-    </h1>
-    <p className="lead sub-headline">All-in-One Solution for Social Game Creators</p>
+    <p className="lead sub-headline">Scalable Blockchain All-in-One Solution for Social Game Creators</p>
+
     <div className="lead">
       <div className="row" style={{ marginLeft: '0px', marginRight: '0px' }}>
         <Downloads />
@@ -70,7 +68,7 @@ const Main = () => (
         <a href="https://t.me/ares_tech" target="_blank" style={{ color: '#ce38da' }}>
           <Button className="main__button" block>
             <i className="fab fa-telegram-plane" />
-            <span style={{ paddingLeft: 10 }}>Chat with us</span>
+            <span style={{ paddingLeft: 10 }}>Join our Telegram group</span>
           </Button>
         </a>
       </div>

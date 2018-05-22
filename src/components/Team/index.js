@@ -98,7 +98,7 @@ class Team extends React.PureComponent {
           <Row>
             <Col>
               <h1 className="display-2 headline" style={{ color: '#fff' }}>
-                Team
+                Team and Advisors
               </h1>
               <p className="lead sub-headline" style={{ color: '#fff' }}>
                 Meet the players in Berlin.

@@ -31,7 +31,14 @@ export default [
     linkedIn: 'https://www.linkedin.com/in/jingqi-zhang-582bb783',
     imageSrc: '/images/group-20.jpg',
   },
-
+  {
+    linkedIn: 'https://www.linkedin.com/in/liwen-qin-96260815/',
+    name: 'Qin Liwen',
+    title: 'CCO',
+    intro:
+        'More than 15 years of professional experience with public media, internet companies and international think tanks. Senior journalist and News Director for major media. More than 10 years’ experience with TMT companies. Former News Director of Sohu (NASDAQ: SOHU), featuring the 2008 Beijing Olympic Games online, and simultaneously managing the marketing, advertisement sales, events organization, social media, NGO and government relations of Sohu News. Fellow of the Regional Center of Strategic Study in Sri Lanka.',
+    imageSrc: '/images/Liwen-150x150.jpg',
+  },
   {
     linkedIn: 'https://www.linkedin.com/in/sandromoscogiuri',
     name: 'Sandro Moscogiuri',
@@ -41,20 +48,27 @@ export default [
     imageSrc: '/images/group-22.jpg',
   },
   {
-    linkedIn: 'https://www.linkedin.com/in/junwang2',
-    name: 'Jun Wang',
-    title: 'COO',
-    intro:
-      "Over 10 years of experience as Operations and Global Product Manager at the world's largest classification society (DNV GL) and the biggest Technical Inspection Association (TÜV) in Germany with extensive interactions with governmental officials and international organizations. Worked as senior consultant at the World Bank and Hill+Knowlton Strategies (WPP Group) in Washington D.C. and New York City. Top MBA graduate from the US and was the Co-Founder and COO of the Bina School (an international online primary school).",
-    imageSrc: '/images/JunWang-300x300.jpg',
-  },
-  {
     linkedIn: 'https://www.linkedin.com/in/steven-karch-2857241/',
     name: 'Steven Karch',
     title: 'Chief Architect',
     intro:
       'Crypto-currency miner since 2013, Blockchain Enthusiast. Over 20 years of experience in distributed systems, computer network, IT infrastructure.',
     imageSrc: '/images/StevenKrach-300x300.jpg',
+  },
+  {
+    linkedIn: 'https://www.linkedin.com/in/cdbaibai/',
+    name: 'Jiani Yu',
+    title: 'Project Manager',
+    intro: 'Jiani graduated from Berliner Technische Kunsthochschule. Since 2015, she has worked as assistant producer and was involved in post production. At her positions at Jägermeister, Sony and Mercedes-Benz she was heavily involved in ad production.',
+    imageSrc: '/images/Jiani.jpg',
+  },
+  {
+        linkedIn: 'https://www.linkedin.com/in/kierandold/',
+        name: 'Ciaran Dold',
+        title: 'UX/UI Designer',
+        intro:
+            'Ciarán is a UX/UI designer. His focus is on making the best user experience for Ares. He’s worked as a user experience designer and user interface designer for startups in Ireland and the UK, helping various products meet user expectations while meeting their business goals.',
+        imageSrc: '/images/Jiani.jpg',
   },
   {
     linkedIn: 'https://www.linkedin.com/in/konrad-rieck-58528015/',
@@ -87,15 +101,6 @@ export default [
     intro:
       'Simon advises XAIN as a Business Development Manager, after he wrote his Master Thesis about Blockchains and Privacy, specifically concerning the GDPR. He now focuses his work on leading medixain as a CEO to build a solution in the Healthcare and Blockchain sector. Previously he worked for the Blockchain Start-up BigchainDB on the business strategy and project management side. He led the working groups on identity and standardization within the public German blockchain lobby group „Bundesblock“ (Bundesverband Blockchain).',
     imageSrc: '/images/simon-150x150.png',
-  },
-
-  {
-    linkedIn: 'https://www.linkedin.com/in/liwen-qin-96260815/',
-    name: 'Qin Liwen',
-    title: 'Public Relations Advisor',
-    intro:
-      'More than 15 years of professional experience with public media, internet companies and international think tanks. Senior journalist and News Director for major media. More than 10 years’ experience with TMT companies. Former News Director of Sohu (NASDAQ: SOHU), featuring the 2008 Beijing Olympic Games online, and simultaneously managing the marketing, advertisement sales, events organization, social media, NGO and government relations of Sohu News. Fellow of the Regional Center of Strategic Study in Sri Lanka.',
-    imageSrc: '/images/Liwen-150x150.jpg',
   },
 
   {
@@ -155,5 +160,5 @@ export default [
     intro:
       'Experienced Global Lead in Business Communication and Community Development with a demonstrated history of working in the computer games industry. Strong business development professional skilled in Business Strategy, Start-ups, Licensing, Mobile Applications and Game Design.',
     imageSrc: '/images/Ran.Wang_-150x150.png',
-  },
+  }
 ]

@@ -53,9 +53,7 @@ class Index extends React.PureComponent {
         <Section>
           <TokenSale />
         </Section>
-        <Section>
-          <TokenUsage />
-        </Section>
+
         <Section>
           <Contact />
         </Section>

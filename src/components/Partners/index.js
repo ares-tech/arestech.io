@@ -17,7 +17,7 @@ const Partners = () => (
             Partners
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            Our media and technical partners.
+            Our investor,media and technical partners.
           </p>
         </Col>
       </Row>

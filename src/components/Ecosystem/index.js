@@ -54,10 +54,10 @@ const IntroSection = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline" style={{ color: '#7400a4' }}>
-            Ecosystem
+              Product Structure
           </h1>
           <p className="lead sub-headline" style={{ color: '#7400a4' }}>
-            Ares is Scalable Blockchain Social Gaming Network
+              All-In-One Solution for Creators and Gamers
           </p>
         </Col>
       </Row>
