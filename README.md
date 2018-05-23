@@ -56,7 +56,7 @@
 
 
 ## missing
-* [ ] pictures and its title and description (optionally)
+* [x] pictures and its title and description (optionally)
 * [x] google analytic tracking
-* [ ] presskit download link
-* [ ] team may be incomplete
+* [x] presskit download link
+* [x] team may be incomplete

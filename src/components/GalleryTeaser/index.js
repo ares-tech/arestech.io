@@ -20,7 +20,7 @@ const GallaryTeaser = () => (
       {chunk(pictures, 3).map((row, i) => (
         <Row key={i}>
           {row.map((pic, j) => (
-            <ImageTeaser key={j} src={pic.src} alt={pic.title} title={pic.title} desc={pic.description} />
+            <ImageTeaser key={j} src={pic.src} alt={pic.title} title={pic.title} desc={pic.description} link={pic.reflink}/>
           ))}
         </Row>
       ))}

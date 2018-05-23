@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Card, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
+import { Col, Card, CardBody, CardTitle, CardSubtitle, CardLink } from 'reactstrap'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 import './index.css'
@@ -28,6 +28,7 @@ class ImageTeaser extends React.PureComponent {
           <CardBody>
             {title.length > 0 && <CardTitle>{title}</CardTitle>}
             {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
+            {reflink.length >0 && <CardLink href="reflink">More</CardLink>}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}
