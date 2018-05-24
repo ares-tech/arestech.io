@@ -9,8 +9,9 @@
     padding-bottom: 10rem!important;
 }
 
-.team-profile-row {
-    max-height: 420px;
+.team-profile-row .team-profile-card {
+    border-radius: 20px;
+    height: 100%;
 }
 
 .block-with-text {
@@ -40,6 +41,12 @@
     background: white;
 }
 
+@media (max-width: 768px) {
+    .team-container {
+        padding-top: 22rem !important;
+    }
+}
+
 @media (max-width: 576px) {
     .team-section {
         background-image: linear-gradient(37deg, #ffb158, #ff6427);
@@ -49,5 +56,15 @@
 
     .team-profile-row {
         max-height: none;
+    }
+
+    .team-container {
+        padding-top: 8rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .team-container {
+        padding-top: 12rem !important;
     }
 }

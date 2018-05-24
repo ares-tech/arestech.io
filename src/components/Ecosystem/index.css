@@ -1,6 +1,7 @@
 .eco-card {
-    min-height: 500px;
+    min-height: 566px;
     border-radius: 20px;
+    height: 100%;
 }
 .eco-card.suite {
     background-image: linear-gradient(63deg, #00d0ff, #001ada);

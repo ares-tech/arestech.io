@@ -105,10 +105,10 @@ class Team extends React.PureComponent {
               </p>
             </Col>
           </Row>
-          {chunk(teams, 3).map((row, i) => (
+          {chunk(teams, 2).map((row, i) => (
             <Row key={i} className="team-profile-row">
               {row.map(({ name, title, imageSrc, intro, linkedIn }, j) => (
-                <Col key={j} md={4} className="pb-5">
+                <Col key={j} md={6} className="pb-5">
                   <Profile
                     name={name}
                     title={title}

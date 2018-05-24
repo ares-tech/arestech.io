@@ -10,7 +10,7 @@ class ImageTeaser extends React.PureComponent {
     this.state = { isOpen: false }
   }
   render() {
-    const { src, alt, title, desc } = this.props
+    const { src, alt, title, desc, link } = this.props
     return (
       <Col className="pb-5" md={4}>
         <Card className="image-teaser" md={4}>
@@ -28,7 +28,7 @@ class ImageTeaser extends React.PureComponent {
           <CardBody>
             {title.length > 0 && <CardTitle>{title}</CardTitle>}
             {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
-            {reflink.length >0 && <CardLink href="reflink">More</CardLink>}
+            {link.length > 0 && <CardLink href="reflink">More</CardLink>}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}
