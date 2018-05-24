@@ -17,6 +17,7 @@ const MediaCarousel = () => (
     <a
       style={{ textDecoration: 'none' }}
       href="https://berlinvalley.com/a-new-blockchain-startup-in-berlin-to-decentralize-the-ecosystem-of-game-business/"
+      target="_blank"
     >
       <CarouselItem text="Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.">
         <div className="p-1" style={{ backgroundColor: '#000' }}>
@@ -27,16 +28,19 @@ const MediaCarousel = () => (
     <a
       style={{ textDecoration: 'none' }}
       href="https://www.gruenderszene.de/allgemein/blockchain-social-gaming-ares-tech-2018-10642"
+      target="_blank"
     >
       <CarouselItem text="Blockchain – ein Gamechanger im wahrsten Sinne des Wortes. Denn die Technologie hält nun Einzug in die Gaming-Welt und bietet Entwicklern neue Perspektiven.">
         <img src="/images/partner-gruenderszene.png" alt="Gruenderszene" width="250" />
       </CarouselItem>
     </a>
-    <a style={{ textDecoration: 'none' }} href="http://blockchain.hs-mittweida.de/springschool_en.html">
+    <a
+      style={{ textDecoration: 'none' }}
+      href="http://blockchain.hs-mittweida.de/springschool_en.html"
+      target="_blank"
+    >
       <CarouselItem text="ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.">
-        <div className="p-3" style={{ backgroundColor: '#000' }}>
-          <img src="/images/partner-bccm.jpg" alt="Blockchain Spring School" width="200" />
-        </div>
+        <img src="/images/partner-bccm.jpg" alt="Blockchain Spring School" width="200" />
       </CarouselItem>
     </a>
   </Carousel>

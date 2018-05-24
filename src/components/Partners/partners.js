@@ -12,7 +12,7 @@ export default [
   {
     name: 'medixain',
     imageSrc: '/images/partner-medixain.png',
-    link: 'http://bigchaindb.com/',
+    link: 'http://medixain.com/',
   },
   {
     name: 'BCCM',
