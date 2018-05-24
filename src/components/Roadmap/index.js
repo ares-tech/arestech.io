@@ -48,7 +48,7 @@ export default class Roadmap extends React.Component {
                 Roadmap
               </h1>
               <p className="lead sub-headline" style={{ color: '#7400a4' }}>
-                Ares is Scalable Blockchain Social Gaming Network
+                Path to Scalable Blockchain Social Gaming Network
               </p>
             </Col>
           </Row>
