@@ -13,14 +13,14 @@ const GallaryTeaser = () => (
             Latest Updates
           </h1>
           <p className="lead" style={{ color: '#ff6427' }}>
-              Follow our <a href="https://medium.com/ares-tech" target="_blank" style={{ color: '#ce38da' }}>blog</a> and <a href="https://t.me/ares_tech" target="_blank" style={{ color: '#ce38da' }}>community</a> to get latest news!
+            Follow our <a href="https://medium.com/ares-tech" target="_blank" style={{ color: '#ce38da' }}>blog</a>, <a href="https://t.me/ares_tech" target="_blank" style={{ color: '#ce38da' }}>community</a> or <a href="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw" target="_blank" style={{ color: '#ce38da' }}> Youtube </a> to get latest news!
           </p>
         </Col>
       </Row>
       {chunk(pictures, 3).map((row, i) => (
         <Row key={i}>
           {row.map((pic, j) => (
-            <ImageTeaser key={j} src={pic.src} alt={pic.title} title={pic.title} desc={pic.description} link={pic.reflink}/>
+            <ImageTeaser key={j} src={pic.src} alt={pic.title} title={pic.title} desc={pic.description} link={pic.link}/>
           ))}
         </Row>
       ))}

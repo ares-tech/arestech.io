@@ -28,7 +28,7 @@ class ImageTeaser extends React.PureComponent {
           <CardBody>
             {title.length > 0 && <CardTitle>{title}</CardTitle>}
             {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
-            {link.length > 0 && <CardLink href="reflink">More</CardLink>}
+            {link.length > 0 && <CardLink href={link}>More</CardLink>}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}
