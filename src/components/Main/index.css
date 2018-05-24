@@ -14,10 +14,12 @@
     border-radius: 0.4rem;
     background-color: #fff;
     border-color: transparent;
+    margin-bottom: 0.3rem;
 }
 .main__button__container {
-    margin-bottom: 0.3rem;
+    /* margin-bottom: 0.3rem; */
     width: 250px;
+    margin-right: 0.3rem;
 }
 
 .main__button__container .dropdown-menu {
@@ -56,3 +58,8 @@
     }
 }
 
+@media (max-width: 768px) {
+    .btn.main__button {
+        width: 250px;
+    }
+}

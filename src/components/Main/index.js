@@ -56,7 +56,6 @@ const Main = () => (
     <div className="lead">
       <div className="row" style={{ marginLeft: '0px', marginRight: '0px' }}>
         <Downloads />
-        &nbsp;&nbsp;
         <a href="/reg.php" style={{ color: '#ce38da' }}>
           <Button className="main__button" block>
             <i className="fab fa-bitcoin" />
