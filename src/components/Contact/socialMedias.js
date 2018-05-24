@@ -12,12 +12,12 @@ export default [
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/company/ares-tech/',
-    className: 'fab fa-linkedin-in',
+    className: 'fab fa-linkedin',
   },
   {
     name: 'Twitter',
     link: 'https://twitter.com/arestech_io',
-    className: 'fab fa-twitter',
+    className: 'fab fa-twitter-square',
   },
   {
     name: 'Facebook',

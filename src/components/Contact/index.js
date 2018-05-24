@@ -23,7 +23,7 @@ const Contact = () => (
         <div className="social-media pl-1">
           <p style={{ margin: 0, fontWeight: 'bold', fontSize: 'larger' }}>Follow us</p>
           {socialMedias.map(({ name, link, className }) => (
-            <a className="social-media-icon" key={name} href={link} alt={name}>
+            <a className="social-media-icon" key={name} href={link} alt={name} target="_blank">
               <i className={className} />
             </a>
           ))}
