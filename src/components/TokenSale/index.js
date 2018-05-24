@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { PieChart, Pie, Cell } from 'recharts'
 import './index.css'
 
 const tokenSales = [
@@ -45,6 +46,43 @@ const tokenSales = [
   },
 ]
 
+const cellColors = ['#ff6427', '#001ada', '#ce38da', '#00d0ff', '#001ada', '#ce38da', '#7400a4', '#ffb158']
+
+const chartData = [
+  {
+    name: 'Community Support',
+    value: 10,
+  },
+  {
+    name: 'Advisors',
+    value: 5,
+  },
+  {
+    name: 'Reward',
+    value: 5,
+  },
+  {
+    name: 'Strategic Cooperation',
+    value: 5,
+  },
+  {
+    name: 'Token Sale',
+    value: 30,
+  },
+  {
+    name: 'Team',
+    value: 20,
+  },
+  {
+    name: 'Initial Prize Pool',
+    value: 15,
+  },
+  {
+    name: 'Future Employees',
+    value: 10,
+  },
+]
+
 const TokenSales = () => (
   <div id="token-sale" className="token-sale-section">
     <div className="background-container">
@@ -61,6 +99,26 @@ const TokenSales = () => (
 
       <div className="token-sale-distribute-chart">
         <div className="token-sale-distribute-chart mobile-only" style={{ display: 'none' }} />
+        <div className="pie-chart">
+          <PieChart width={320} height={320}>
+            <Pie 
+              data={chartData} 
+              cx={150} 
+              cy={150}
+              labelLine={false}
+              innerRadius={95} 
+              outerRadius={150}
+              startAngle={108}
+              endAngle={-252}
+              fill="#ededed"
+              textAnchor='end'
+            >
+              {
+                chartData.map((entry, index) => <Cell fill={cellColors[index % cellColors.length]} />)
+              }
+            </Pie>
+          </PieChart>
+        </div>
         {tokenSales.map(({ color, text, textColor }, j) => (
           <div key={j} className="token-sale-item-container" style={{ paddingTop: '4rem' }}>
             <div className={'p-2 token-sale-item token-sale-item-' + j} style={{ backgroundColor: color }}>
@@ -69,7 +127,7 @@ const TokenSales = () => (
           </div>
         ))}
       </div>
-    </Container>
+    </Container>    
   </div>
 )
 
