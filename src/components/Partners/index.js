@@ -21,10 +21,10 @@ const Partners = () => (
           </p>
         </Col>
       </Row>
-      {chunk(partners, 3).map((row, i) => (
-        <Row key={i}>
-          {row.map((partner, j) => (
-            <Col md={4} key={j} className="pb-4">
+      {chunk(partners, 3).map((row, index) => (
+        <Row key={index}>
+          {row.map(partner => (
+            <Col md={4} key={partner.name} className="pb-4">
               <Card style={{ borderRadius: 20 }}>
                 <a className="p-2" href={partner.link} alt={partner.name} style={{ height: 160 }} target="_blank">
                   <div
@@ -44,16 +44,16 @@ const Partners = () => (
       ))}
     </Container>
     <div className="custom-shape-5">
-      <img src="/images/custom-shape-5.png" width="100%" height="100%" />
+      <img src="/images/custom-shape-5.png" width="100%" height="100%" alt="" />
     </div>
     <div className="custom-shape-6">
-      <img src="/images/custom-shape-6.png" width="100%" height="100%" />
+      <img src="/images/custom-shape-6.png" width="100%" height="100%" alt="" />
     </div>
     <div className="custom-shape-7">
-      <img src="/images/custom-shape-7.png" width="100%" height="100%" />
+      <img src="/images/custom-shape-7.png" width="100%" height="100%" alt="" />
     </div>
     <div className="custom-shape-8">
-      <img src="/images/custom-shape-8.png" width="100%" height="100%" />
+      <img src="/images/custom-shape-8.png" width="100%" height="100%" alt="" />
     </div>
   </div>
 )

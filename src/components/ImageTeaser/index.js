@@ -9,8 +9,9 @@ class ImageTeaser extends React.PureComponent {
     super(props)
     this.state = { isOpen: false }
   }
+  
   render() {
-    const { src, alt, title, desc, link } = this.props
+    const { src, title, desc, link } = this.props
     return (
       <Col className="pb-5" md={4}>
         <Card className="image-teaser" md={4}>
@@ -21,9 +22,9 @@ class ImageTeaser extends React.PureComponent {
               backgroundSize: 'contain',
               backgroundImage: `radial-gradient(circle at 2% 86%, rgb(183, 191, 193), rgb(236, 231, 229) 54%, rgb(167, 162, 157)), url(${src})`,
             }}
-            onClick={() => {
-              this.setState({ isOpen: true })
-            }}
+            role="presentation"
+            onClick={() => this.setState({ isOpen: true })}
+            onKeyDown={() => {}}
           />
           <CardBody>
             {title.length > 0 && <CardTitle>{title}</CardTitle>}

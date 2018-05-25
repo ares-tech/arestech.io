@@ -17,6 +17,7 @@ const MediaCarousel = () => (
     <a
       style={{ textDecoration: 'none' }}
       href="https://berlinvalley.com/a-new-blockchain-startup-in-berlin-to-decentralize-the-ecosystem-of-game-business/"
+      rel="noopener noreferrer"
       target="_blank"
     >
       <CarouselItem text="Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.">
@@ -28,6 +29,7 @@ const MediaCarousel = () => (
     <a
       style={{ textDecoration: 'none' }}
       href="https://www.gruenderszene.de/allgemein/blockchain-social-gaming-ares-tech-2018-10642"
+      rel="noopener noreferrer"
       target="_blank"
     >
       <CarouselItem text="Blockchain – ein Gamechanger im wahrsten Sinne des Wortes. Denn die Technologie hält nun Einzug in die Gaming-Welt und bietet Entwicklern neue Perspektiven.">
@@ -37,6 +39,7 @@ const MediaCarousel = () => (
     <a
       style={{ textDecoration: 'none' }}
       href="http://blockchain.hs-mittweida.de/springschool_en.html"
+      rel="noopener noreferrer"
       target="_blank"
     >
       <CarouselItem text="ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.">
@@ -63,16 +66,16 @@ const Media = () => (
       <Row />
     </Container>
     <div className="intro-shape-1">
-      <img src="/images/intro-shape-1.png" width="100%" height="100%" />
+      <img src="/images/intro-shape-1.png" width="100%" height="100%" alt="" />
     </div>
     <div className="intro-shape-2">
-      <img src="/images/intro-shape-2.png" width="100%" height="100%" />
+      <img src="/images/intro-shape-2.png" width="100%" height="100%" alt="" />
     </div>
     <div className="intro-shape-3">
-      <img src="/images/intro-shape-3.png" width="100%" height="100%" />
+      <img src="/images/intro-shape-3.png" width="100%" height="100%" alt="" />
     </div>
     <div className="intro-shape-4">
-      <img src="/images/intro-shape-4.png" width="100%" height="100%" />
+      <img src="/images/intro-shape-4.png" width="100%" height="100%" alt="" />
     </div>
   </div>
 )

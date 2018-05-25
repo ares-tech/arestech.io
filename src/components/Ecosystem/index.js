@@ -1,22 +1,12 @@
 import React from 'react'
-import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } from 'reactstrap'
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardBody,
+} from 'reactstrap'
 import './index.css'
-
-const Highlight = ({ color, bold = false, children }) => {
-  const baseStyle = {
-    color,
-  }
-  return (
-    <span
-      style={{
-        ...baseStyle,
-        ...(bold ? { fontWeight: 'bold' } : {}),
-      }}
-    >
-      {children}
-    </span>
-  )
-}
 
 const Bubble = ({ name, src }) => (
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -37,6 +27,7 @@ const Bubble = ({ name, src }) => (
     </div>
   </div>
 )
+
 const Title = ({ text1, color1, text2, color2 }) => (
   <h2 style={{ textAlign: 'center' }}>
     <span style={{ color: color1 }}>{text1}</span>

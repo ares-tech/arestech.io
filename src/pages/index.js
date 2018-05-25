@@ -1,12 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container } from 'reactstrap'
-import Main from '../components/Main'
-import config from '../../data/SiteConfig'
 import Contact from '../components/Contact'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer/Footer'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
 import Media from '../components/Media'
@@ -14,9 +8,8 @@ import Partners from '../components/Partners'
 import Ecosystem from '../components/Ecosystem'
 import Roadmap from '../components/Roadmap'
 import TokenDetail from '../components/TokenDetail'
-import TokenSale from '../components/TokenSale'
-import TokenUsage from '../components/TokenUsage'
 import Team from '../components/Team'
+import TokenSale from '../components/TokenSale'
 import MainLayout from '../util/mainLayout'
 import '../style/custom.css'
 
@@ -53,7 +46,6 @@ class Index extends React.PureComponent {
         <Section>
           <TokenSale />
         </Section>
-
         <Section>
           <Contact />
         </Section>

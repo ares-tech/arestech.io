@@ -5,6 +5,7 @@
 
 .ares-navbar.navbar-light .navbar-nav > li > a {
     color: #fff;
+    white-space: nowrap;
 }
 
 img.navbar-logo  {

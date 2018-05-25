@@ -1,7 +1,7 @@
 import React from 'react'
 import { colors, fontSizes } from '../../style'
 
-const Headline = ({ color = colors.light, children, bold }) => (
+const Headline = ({ color = colors.light, children }) => (
   <p
     style={{
       color,

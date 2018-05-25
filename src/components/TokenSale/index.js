@@ -119,9 +119,9 @@ const TokenSales = () => (
             </Pie>
           </PieChart>
         </div>
-        {tokenSales.map(({ color, text, textColor }, j) => (
-          <div key={j} className="token-sale-item-container" style={{ paddingTop: '4rem' }}>
-            <div className={'p-2 token-sale-item token-sale-item-' + j} style={{ backgroundColor: color }}>
+        {tokenSales.map(({ color, text, textColor }, index) => (
+          <div key={text} className="token-sale-item-container" style={{ paddingTop: '4rem' }}>
+            <div className={`p-2 token-sale-item token-sale-item-${index}`} style={{ backgroundColor: color }}>
               <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
             </div>
           </div>

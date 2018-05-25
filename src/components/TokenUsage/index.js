@@ -45,9 +45,9 @@ const TokenUsage = () => (
       </Row>
       <div className="token-usage-distribute-chart">
         <div className="token-usage-distribute-chart mobile-only" style={{ display: 'none' }} />
-        {tokenUsage.map(({ color, text, textColor }, j) => (
-          <div key={j} className="token-usage-item-container" style={{ paddingTop: '4rem' }}>
-            <div className={'p-2 token-usage-item token-usage-item-' + j} style={{ backgroundColor: color }}>
+        {tokenUsage.map(({ color, text, textColor }, index) => (
+          <div key={text} className="token-usage-item-container" style={{ paddingTop: '4rem' }}>
+            <div className={`p-2 token-usage-item token-usage-item-${index}`} style={{ backgroundColor: color }}>
               <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
             </div>
           </div>
