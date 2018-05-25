@@ -13,10 +13,10 @@ const GallaryTeaser = () => (
             Latest Updates
           </h1>
           <p className="lead" style={{ color: '#ff6427' }}>
-            Follow our 
-            <a href="https://medium.com/ares-tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>blog</a>, 
-            <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>community</a> or 
-            <a href="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}> Youtube </a> 
+            Follow our&nbsp;
+            <a href="https://medium.com/ares-tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>blog</a>,&nbsp;
+            <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>community</a>&nbsp;or&nbsp;
+            <a href="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>Youtube</a>&nbsp;
             to get latest news!
           </p>
         </Col>
