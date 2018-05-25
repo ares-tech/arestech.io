@@ -41,7 +41,7 @@ export default [
   },
   {
     linkedIn: 'https://www.linkedin.com/in/kierandold/',
-    name: 'Ciaran Dold',
+    name: 'Ciarán Dold',
     title: 'UX/UI Designer',
     intro:
          'Ciarán is a UX/UI designer. His focus is on making the best user experience for Ares. He’s worked as a user experience designer and user interface designer for startups in Ireland and the UK, helping various products meet user expectations while meeting their business goals.',
