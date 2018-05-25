@@ -1,8 +1,5 @@
 import React from 'react'
-import Headline from '../presentational/Headline'
-import SubHeadline from '../presentational/SubHeadline'
-import { colors } from '../../style'
-import { Jumbotron, Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
+import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 import './index.css'
 
 class Downloads extends React.Component {
@@ -45,11 +42,12 @@ class Downloads extends React.Component {
     )
   }
 }
+
 const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
     <h1 className="display-2 headline" style={{ color: '#fff' }}>
-      Blockchain. <br/> Gaming. <br/>Network.
+      Blockchain. <br /> Gaming. <br />Network.
     </h1>
     <p className="lead sub-headline">Scalable Blockchain All-in-One Solution for Social Game Creators</p>
 
@@ -64,7 +62,7 @@ const Main = () => (
         </a>
       </div>
       <div className="main__button__container">
-        <a href="https://t.me/ares_tech" target="_blank" style={{ color: '#ce38da' }}>
+        <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
           <Button className="main__button" block>
             <i className="fab fa-telegram-plane" />
             <span style={{ paddingLeft: 10 }}>Join our Telegram group</span>

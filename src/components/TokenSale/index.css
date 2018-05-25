@@ -1,8 +1,8 @@
 .token-sale-section {
     min-height: 500px;
     position: relative;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .token-sale-section .background-container {
@@ -86,8 +86,15 @@
 }
 
 @media (max-width: 576px) {
+    .pie-chart {
+        position: absolute;
+        top: 5px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
     .token-sale-item-container {
-        padding-top: 10px !important;
+        padding-top: 10px!important;
     }
 
     .token-sale-distribute-chart {
@@ -96,7 +103,7 @@
 
     .token-sale-distribute-chart.mobile-only {
         display: block !important;
-        height: 400px;
+        height: 320px;
         /* background-image: url('/images/token-sale-distribution-chart.png'); */
     }
 

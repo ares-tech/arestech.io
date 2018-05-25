@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Card, CardText, CardTitle, CardBody, CardImg } from 'reactstrap'
-import './index.css'
-import HorizontalTimeline from 'react-horizontal-timeline'
 import moment from 'moment'
+import { Row, Col } from 'reactstrap'
+import HorizontalTimeline from 'react-horizontal-timeline'
+import './index.css'
 import milestones from './milestones'
 
 const Milestone = ({ event, isOdd }) => {
@@ -19,11 +19,11 @@ const Milestone = ({ event, isOdd }) => {
       style={{ ...style, ...(isOdd ? { position: 'absolute', marginBottom: -500, top: 30 } : {}) }}
     >
       <h3 className="milestone-header" style={{ color: event.headerColor }}>
-        Q{moment(event.date).quarter() + ' ' + moment(event.date).year()}
+        Q{`${moment(event.date).quarter()} ${moment(event.date).year()}`}
       </h3>
       <ul className="milestones-container">
-        {event.descriptions.map((desc, i) => (
-          <li className="milestone" key={i}>
+        {event.descriptions.map(desc => (
+          <li className="milestone" key={desc}>
             {desc}
           </li>
         ))}
@@ -35,7 +35,10 @@ const Milestone = ({ event, isOdd }) => {
 export default class Roadmap extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { value: 0, previous: 0 }
+    this.state = {
+      value: 0,
+      previous: 0
+    }
   }
 
   render() {

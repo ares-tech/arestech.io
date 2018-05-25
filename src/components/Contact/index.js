@@ -28,11 +28,11 @@ const Contact = () => (
             </a>
           ))}
           <div className="pt-2">
-            <a href="https://drive.google.com/drive/folders/14-JhpPGauii_8lcPyOUNzekS-EQSMEsP?usp=sharing" target="_blank" style={{ color: '#ce38da' }}>
-            <Button className="main__button">
-              <i className="far fa-newspaper" />
-              <span style={{ paddingLeft: 10 }}>Get our Press Kit</span>
-            </Button>
+            <a href="https://drive.google.com/drive/folders/14-JhpPGauii_8lcPyOUNzekS-EQSMEsP?usp=sharing" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
+              <Button className="main__button">
+                <i className="far fa-newspaper" />
+                <span style={{ paddingLeft: 10 }}>Get our Press Kit</span>
+              </Button>
             </a>
           </div>
         </div>
@@ -51,16 +51,16 @@ const Contact = () => (
       </div>
     </Container>
     <div className="contact-shape contact-shape-1">
-      <img src="/images/main-shape-1.png" width="100%" height="100%" />
+      <img src="/images/main-shape-1.png" width="100%" height="100%" alt="" />
     </div>
     <div className="contact-shape contact-shape-2">
-      <img src="/images/main-shape-2.png" width="100%" height="100%" />
+      <img src="/images/main-shape-2.png" width="100%" height="100%" alt="" />
     </div>
     <div className="contact-shape contact-shape-3">
-      <img src="/images/main-shape-3.png" width="100%" height="100%" />
+      <img src="/images/main-shape-3.png" width="100%" height="100%" alt="" />
     </div>
     <div className="contact-shape contact-shape-4">
-      <img src="/images/main-shape-2.png" width="100%" height="100%" />
+      <img src="/images/main-shape-2.png" width="100%" height="100%" alt="" />
     </div>
   </div>
 )

@@ -59,10 +59,10 @@ const TokenDetail = () => (
           </h1>
         </Col>
       </Row>
-      {chunk(tokenDetails, 3).map((row, i) => (
-        <Row key={i}>
-          {row.map(({ color, text, textColor }, j) => (
-            <Col md={4} key={j} className="pb-3">
+      {chunk(tokenDetails, 3).map((row, index) => (
+        <Row key={index}>
+          {row.map(({ color, text, textColor }) => (
+            <Col md={4} key={text} className="pb-3">
               <div className="p-4" style={{ backgroundColor: color, borderRadius: 20 }}>
                 <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
               </div>

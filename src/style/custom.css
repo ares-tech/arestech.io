@@ -1,76 +1,80 @@
 html {
-  font-size: 1rem;
+    font-size: 1rem;
 }
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: SofiaProRegular;
+    padding: 0;
+    margin: 0;
+    font-family: SofiaProRegular;
 }
 
 .li.nav-item {
-  padding-right: 13px;
-  font-size: 1.1rem;
+    padding-right: 13px;
+    font-size: 1.1rem;
 }
 
 .index-container {
-  background-color: transparent!important;
+    background-color: transparent!important;
 }
 
 .ares .bg-light {
-  background-color: transparent!important;
+    background-color: transparent!important;
 }
 
 .ares .backdrop {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0.4;
-  display: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.4;
+    display: none;
 }
+
 .ares .backdrop.show {
-  display: block;
+    display: block;
 }
 
 @font-face {
-  font-family: SofiaProRegular;
-  src: url('/fonts/SofiaProRegular.otf');
+    font-family: SofiaProRegular;
+    src: url('/fonts/SofiaProRegular.otf');
 }
 
 @font-face {
-  font-family: SofiaProBold;
-  src: url('/fonts/SofiaProBold.otf');
+    font-family: SofiaProBold;
+    src: url('/fonts/SofiaProBold.otf');
 }
 
 @font-face {
-  font-family: SofiaProLight;
-  src: url('/fonts/SofiaProLight.otf');
+    font-family: SofiaProLight;
+    src: url('/fonts/SofiaProLight.otf');
 }
 
 .headline {
-  font-family: SofiaProBold;
+    font-family: SofiaProBold;
 }
 
 .sub-headline {
-  font-family: SofiaProRegular;
-  color: #fff;
+    font-family: SofiaProRegular;
+    color: #fff;
 }
 
 .display-2 {
-  margin-bottom: 0;
-  line-height: 1;
+    margin-bottom: 0;
+    line-height: 1;
 }
+
 .lead {
-  padding-left: 5px;
+    padding-left: 5px;
 }
 
 @media (max-width: 576px) {
-  .display-2.headline {
-    font-size: 2.6rem;
-  }
-  .sub-headline {
-    font-size: .8rem;
-  }
+    .display-2.headline {
+        font-size: 2.6rem;
+    }
+
+    .sub-headline {
+        font-size: .8rem;
+    }
 }
