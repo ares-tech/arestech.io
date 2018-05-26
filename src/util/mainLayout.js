@@ -14,7 +14,6 @@ const MainLayout = ({ children }) => (
   <div className="ares index-container fluid-container">
     <Helmet title={config.siteTitle} />
     <Section className="main">
-      <Navbar />
       <Container>
         <Main />
       </Container>

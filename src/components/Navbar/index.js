@@ -11,17 +11,29 @@ class NavbarTop extends React.Component {
       isOpen: false,
     }
   }
+
+  openNav = () => {
+    document.addEventListener("click", this.closeNav);
+    this.setState({ isOpen: true });
+  }
+
+  closeNav = () => {
+    document.removeEventListener("click", this.closeNav);
+    this.setState({ isOpen: false });
+  }
   
   toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen,
-    })
+    if (this.state.isOpen) {
+      this.closeNav();
+    } else {
+      this.openNav();
+    }
   }
 
   render() {
     return (
-      <div className="container">
-        <Navbar className="ares-navbar" color="light" light expand="md">
+      <div className="menu-container">
+        <Navbar className="ares-navbar container" color="light" light expand="md">
           <NavbarBrand href="/">
             <img className="navbar-logo" src="logos/logo-1024-light.svg" alt="ARES" width="60" />
           </NavbarBrand>
