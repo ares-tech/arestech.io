@@ -17,7 +17,7 @@ const Partners = () => (
             Partners
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            Our investor,media and technical partners.
+            Our investor, media and technical partners.
           </p>
         </Col>
       </Row>
@@ -32,7 +32,7 @@ const Partners = () => (
                       backgroundImage: `url(${partner.imageSrc})`,
                       backgroundPosition: 'center',
                       height: '100%',
-                      backgroundSize: 'contain',
+                      backgroundSize: '70%',
                       backgroundRepeat: 'no-repeat',
                     }}
                   />

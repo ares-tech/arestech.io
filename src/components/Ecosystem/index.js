@@ -53,7 +53,7 @@ const IntroSection = () => (
         </Col>
       </Row>
       <Row>
-        <Col className="py-5" md={4}>
+        <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card suite">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
               <Bubble name="suite" src="/images/suite-icon.png" />
@@ -65,7 +65,7 @@ const IntroSection = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col className="py-5" md={4}>
+        <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card arena">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
               <Bubble name="arena" src="/images/arena-icon.png" />
@@ -77,7 +77,7 @@ const IntroSection = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col className="py-5" md={4}>
+        <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card connect">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
               <Bubble name="connect" src="/images/connect-icon.png" />

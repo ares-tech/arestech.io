@@ -34,13 +34,13 @@ const IntroSection = () => (
           <p className="lead" style={{ color: '#fff' }}>
             Ares is Scalable Blockchain Social Gaming Network
           </p>
-          <Row>
+          <Row className="pb-5">
             <Col md={6}>
-              <Card>
-                <CardText className="p-2" style={{ marginBottom: 0 }}>
+              <Card style={{ borderRadius: 20 }}>
+                <CardText className="p-3" style={{ marginBottom: 0 }}>
                   Ares Tech is committed to growing into a scalable Blockchain social gaming network.
                 </CardText>
-                <CardText className="p-2">
+                <CardText className="p-3" style={{ marginBottom: 20 }}>
                   The{' '}
                   <Highlight color="#001ada" bold>
                     ares
