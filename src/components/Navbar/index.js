@@ -11,6 +11,13 @@ class NavbarTop extends React.Component {
       isOpen: false,
     }
   }
+
+  componentWillMount() {
+    const { isOpen } = this.state;
+    window.document.onclick = () => {
+      this.setState({ isOpen: false });
+    }
+  }
   
   toggle() {
     this.setState({
@@ -20,8 +27,8 @@ class NavbarTop extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <Navbar className="ares-navbar" color="light" light expand="md">
+      <div className="menu-container">
+        <Navbar className="ares-navbar container" color="light" light expand="md">
           <NavbarBrand href="/">
             <img className="navbar-logo" src="logos/logo-1024-light.svg" alt="ARES" width="60" />
           </NavbarBrand>
