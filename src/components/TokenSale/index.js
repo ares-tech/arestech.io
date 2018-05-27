@@ -112,7 +112,7 @@ const TokenSales = () => (
               endAngle={-252}
               fill="#ededed"
               textAnchor='end'
-              dataKey="pie"
+              dataKey="value"
             >
               {
                 chartData.map((entry, index) => <Cell key={index} fill={cellColors[index % cellColors.length]} />)

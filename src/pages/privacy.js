@@ -4,14 +4,18 @@ import Helmet from 'react-helmet'
 import { PrivacyPolicy } from '../components/Legal/PrivacyPolicy'
 import config from '../../data/SiteConfig'
 import MainLayout from '../util/mainLayout'
+import Navbar from '../components/Navbar';
 
 class PrivacyPolicyPage extends Component {
   render() {
     return (
-      <MainLayout>
-        <Helmet title={`Privacy Policy | ${config.siteTitle}`} />
-        <PrivacyPolicy />
-      </MainLayout>
+      <div>
+        <Navbar />
+        <MainLayout>
+          <Helmet title={`Privacy Policy | ${config.siteTitle}`} />
+          <PrivacyPolicy />
+        </MainLayout>
+      </div>
     )
   }
 }
