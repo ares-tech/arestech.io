@@ -92,7 +92,7 @@ const TokenSales = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline pb-4" style={{ color: '#ce38da' }}>
-            Token Sales
+            Token Supply Breakdown
           </h1>
         </Col>
       </Row>

@@ -44,7 +44,7 @@ class NavbarTop extends React.Component {
                 <NavLink href="/#introduction">Introduction</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#ecosystem">Products</NavLink>
+                <NavLink href="/#products">Products</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/#team">Team</NavLink>
@@ -59,7 +59,7 @@ class NavbarTop extends React.Component {
                 <NavLink href="/#partners">Partners</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#token-sale">Token Sale</NavLink>
+                <NavLink href="/#token">Token</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/#contact-us">Contact Us</NavLink>

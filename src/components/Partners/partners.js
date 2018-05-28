@@ -50,14 +50,13 @@ export default [
     link: 'http://www.medianet-bb.de/de/games-net-berlinbrandenburg/',
   },
   {
-    name: 'Berlin Games Capital',
-    imageSrc: '/images/partner/berlinGamesCapital.png',
-    link: 'http://www.gamescapital.berlin/',
-  },
-  {
     name: 'Media:net',
     imageSrc: '/images/partner/mediaNet.png',
     link: 'http://www.medianet-bb.de/',
   },
-
+  {
+    name: 'Berlin Games Capital',
+    imageSrc: '/images/partner/berlinGamesCapital.png',
+    link: 'http://www.gamescapital.berlin/',
+  },
 ]

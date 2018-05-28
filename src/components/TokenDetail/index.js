@@ -47,7 +47,7 @@ const tokenDetails = [
 ]
 
 const TokenDetail = () => (
-  <div className="token-detail-section">
+  <div id="token" className="token-detail-section">
     <div className="background-container">
       <div className="custom-shape custom-shape-1" />
     </div>
