@@ -50,11 +50,6 @@ export default [
     link: 'http://www.medianet-bb.de/de/games-net-berlinbrandenburg/',
   },
   {
-    name: 'Gamescom',
-    imageSrc: '/images/partner/gamesCom.png',
-    link: 'http://www.gamescom-cologne.com/',
-  },
-  {
     name: 'Berlin Games Capital',
     imageSrc: '/images/partner/berlinGamesCapital.png',
     link: 'http://www.gamescapital.berlin/',
@@ -64,9 +59,5 @@ export default [
     imageSrc: '/images/partner/mediaNet.png',
     link: 'http://www.medianet-bb.de/',
   },
-  {
-    name: 'Tech Open Air',
-    imageSrc: '/images/partner/toa.png',
-    link: 'http://toa.berlin/',
-  },
+
 ]

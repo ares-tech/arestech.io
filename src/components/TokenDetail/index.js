@@ -10,7 +10,7 @@ const tokenDetails = [
     textColor: '#001ada',
   },
   {
-    text: 'Total Supply: 1,000,000,000,000 ARES',
+    text: 'Total Supply: 1,000,000,000 ARES',
     color: '#ff6427',
     textColor: '#7400a4',
   },
