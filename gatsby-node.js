@@ -30,7 +30,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   }
 }
 
-exports.createPages = ({ graphql, boundActionCreators }) => {}
+exports.createPages = () => {}
 
 exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === 'build-javascript') {

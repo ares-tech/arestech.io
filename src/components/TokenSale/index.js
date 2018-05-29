@@ -1,50 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import { PieChart, Pie, Cell } from 'recharts'
+import tokenSales from './tokenSales'
 import './index.css'
-
-const tokenSales = [
-  {
-    text: '10% Community Support',
-    color: '#ff6427',
-    textColor: '#7400a4',
-  },
-  {
-    text: '5% Advisors & Partners',
-    color: '#001ada',
-    textColor: '#00d0ff',
-  },
-  {
-    text: '5% Reward & Airdrop',
-    color: '#ce38da',
-    textColor: '#7400a4',
-  },
-  {
-    text: '5% Strategic Cooperation',
-    color: '#00d0ff',
-    textColor: '#001ada',
-  },
-  {
-    text: '30% Token Sale',
-    color: '#001ada',
-    textColor: '#00d0ff',
-  },
-  {
-    text: '20% Team',
-    color: '#ce38da',
-    textColor: '#7400a4',
-  },
-  {
-    text: '15% Initial Prize Pool',
-    color: '#7400a4',
-    textColor: '#ce38da',
-  },
-  {
-    text: '10% Future Employees',
-    color: '#ffb158',
-    textColor: '#ff6427',
-  },
-]
 
 const cellColors = ['#ff6427', '#001ada', '#ce38da', '#00d0ff', '#001ada', '#ce38da', '#7400a4', '#ffb158']
 
@@ -101,22 +59,20 @@ const TokenSales = () => (
         <div className="token-sale-distribute-chart mobile-only" style={{ display: 'none' }} />
         <div className="pie-chart">
           <PieChart width={320} height={320}>
-            <Pie 
-              data={chartData} 
-              cx={150} 
+            <Pie
+              data={chartData}
+              cx={150}
               cy={150}
               labelLine={false}
-              innerRadius={95} 
+              innerRadius={95}
               outerRadius={150}
               startAngle={108}
               endAngle={-252}
               fill="#ededed"
-              textAnchor='end'
+              textAnchor="end"
               dataKey="value"
             >
-              {
-                chartData.map((entry, index) => <Cell key={index} fill={cellColors[index % cellColors.length]} />)
-              }
+              {chartData.map((entry, index) => <Cell key={entry.name} fill={cellColors[index % cellColors.length]} />)}
             </Pie>
           </PieChart>
         </div>
@@ -128,7 +84,7 @@ const TokenSales = () => (
           </div>
         ))}
       </div>
-    </Container>    
+    </Container>
   </div>
 )
 

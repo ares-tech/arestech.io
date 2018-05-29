@@ -22,6 +22,7 @@ const Partners = () => (
         </Col>
       </Row>
       {chunk(partners, 3).map((row, index) => (
+        // eslint-disable-next-line
         <Row key={index}>
           {row.map(partner => (
             <Col md={4} key={partner.name} className="pb-4">

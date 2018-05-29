@@ -52,7 +52,7 @@
     "remark-cli": "^5.0.0",
     "remark-preset-lint-recommended": "^3.0.1",
     "stylefmt": "^6.0.0",
-    "stylelint": "^9.2.0",
+    "stylelint": "^9.2.1",
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
@@ -69,6 +69,7 @@
     "build:pp": "gatsby build --prefix-paths",
     "clean": "rm -rf public",
     "lint:js": "eslint --ext .js,.jsx .",
+    "lint:css": "stylelint \"src/**/*.css\"",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "zip": "zip -r ares-website.zip public"

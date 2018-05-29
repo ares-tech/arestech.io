@@ -1,6 +1,7 @@
 .media-section {
     height: 900px;
 }
+
 .card-body.carousel-item {
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@
     padding: 0 70px;
     font-size: 1.5rem;
     color: #001ada;
-    font-family: SofiaProBold;
+    font-family: SofiaProBold, sans-serif;
 }
 
 @media (max-width: 576px) {
@@ -21,13 +22,13 @@
         padding: 0 10px;
         font-size: 1.2rem;
         color: #001ada;
-        font-family: SofiaProBold;
+        font-family: SofiaProBold, sans-serif;
     }
 }
 
 .media-section .card,
 .slider-frame,
 .slider-slide {
-    border-radius: 20px!important;
+    border-radius: 20px 1 !important;
 }
 

@@ -3,18 +3,22 @@
     border-radius: 20px;
     height: 100%;
 }
+
 .eco-card.suite {
     background-image: linear-gradient(63deg, #00d0ff, #001ada);
 }
+
 .eco-card.arena {
     background-image: linear-gradient(68deg, #cf38da, #7400a4);
 }
+
 .eco-card.connect {
     background-image: linear-gradient(70deg, #ffb158, #ff6427);
 }
+
 @media (max-width: 576px) {
     .eco-container {
-        padding-top: 1rem!important;
-        padding-bottom: 1rem!important;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem 1 !important;
     }
 }

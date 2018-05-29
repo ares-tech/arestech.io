@@ -37,7 +37,6 @@ export default class Roadmap extends React.Component {
     super(props)
     this.state = {
       value: 0,
-      previous: 0
     }
   }
 
@@ -61,7 +60,7 @@ export default class Roadmap extends React.Component {
           <HorizontalTimeline
             index={this.state.value}
             indexClick={index => {
-              this.setState({ value: index, previous: this.state.value })
+              this.setState({ value: index })
             }}
             getLabel={(date, index) => <Milestone event={milestones[index]} isOdd={index % 2 !== 0} />}
             values={milestones.map(({ date }) => date)}

@@ -5,8 +5,8 @@
 }
 
 .team-container {
-    padding-top: 8rem!important;
-    padding-bottom: 10rem!important;
+    padding-top: 8rem !important;
+    padding-bottom: 10rem !important;
 }
 
 .team-profile-row {
@@ -28,14 +28,14 @@
     padding-right: 1em;
 }
 
-.block-with-text:before {
+.block-with-text::before {
     content: '...';
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.block-with-text:after {
+.block-with-text::after {
     content: '';
     position: absolute;
     right: 0;
@@ -54,13 +54,13 @@
 @media (max-width: 576px) {
     .team-section {
         background-image: linear-gradient(37deg, #ffb158, #ff6427);
-        -webkit-clip-path: polygon(0 0, 100% .8%, 100% 100%, 0 99%);
-        clip-path: polygon(0 0, 100% .8%, 100% 100%, 0 99%);
+        -webkit-clip-path: polygon(0 0, 100% 0.8%, 100% 100%, 0 99%);
+        clip-path: polygon(0 0, 100% 0.8%, 100% 100%, 0 99%);
     }
 
     .team-profile-row {
         max-height: none;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .team-container {

@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'reactstrap'
 import Main from '../components/Main'
 import config from '../../data/SiteConfig'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer/Footer'
 import '../style/custom.css'
 
