@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 import './index.css'
 
@@ -47,7 +48,11 @@ const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
     <h1 className="display-2 headline" style={{ color: '#fff' }}>
-      Blockchain. <br /> Gaming. <br />Network.
+      <FormattedMessage id="main.titles">
+        {titles => (
+          <ul style={{ listStyle: 'none', padding: 0 }}>{titles.map(title => <li key={title}>{title}</li>)}</ul>
+        )}
+      </FormattedMessage>
     </h1>
     <p className="lead sub-headline">Scalable Blockchain All-in-One Solution for Social Game Creators</p>
 

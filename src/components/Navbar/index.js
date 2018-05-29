@@ -1,28 +1,33 @@
 import React from 'react'
-import { NavLink, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap'
+import {
+  NavLink,
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+} from 'reactstrap'
 import './index.css'
 
 class NavbarTop extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.toggle = this.toggle.bind(this)
-    this.state = {
-      isOpen: false,
-    }
+  state = {
+    isOpen: false,
   }
 
   openNav = () => {
-    document.addEventListener('click', this.closeNav)
     this.setState({ isOpen: true })
   }
 
   closeNav = () => {
-    document.removeEventListener('click', this.closeNav)
     this.setState({ isOpen: false })
   }
 
-  toggle() {
+  toggle = () => {
     if (this.state.isOpen) {
       this.closeNav()
     } else {
@@ -64,6 +69,25 @@ class NavbarTop extends React.Component {
               <NavItem>
                 <NavLink href="/#contact-us">Contact Us</NavLink>
               </NavItem>
+              <UncontrolledDropdown
+                nav
+                inNavbar
+                onClick={e => {
+                  e.stopPropagation()
+                }}
+              >
+                <DropdownToggle nav caret>
+                  Language
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <a href="/">English</a>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <a href="/zh">中文</a>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>
