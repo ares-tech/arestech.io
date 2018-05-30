@@ -14,7 +14,7 @@ module.exports = {
   userLocation: 'Berlin', // User location to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   copyright: '© 2018 | ARES Tech GmbH',
-  address: 'Papppelallee 78/79, 10437 Berlin, Germany',
+  address: 'Pappelallee 78/79, 10437 Berlin, Germany',
   themeColor: '#c62828', // Used for setting manifest and progress theme colors.
   backgroundColor: '#e0e0e0', // Used for setting manifest background color.
 }
