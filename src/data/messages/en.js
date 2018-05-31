@@ -1,3 +1,40 @@
 export default {
+  'general.or': 'or',
+  'general.read.more': 'more',
   'main.titles': ['Blockchain.', 'Gaming.', 'Network.'],
+  'main.subtitle': 'Scalable Blockchain All-in-One Solution for Social Game Creators',
+  'main.read.whitepaper': 'Read our White Paper',
+  'main.resource.business.intro': 'Business Intro v1.5',
+  'main.resource.english.whitepaper': 'English Whitepaper v1.5',
+  'main.resource.chinese.whitepaper': 'Chinese Whitepaper v1.5',
+  'main.register.candy': 'Reg for candy airdrop!',
+  'main.join.telegram': 'Join our Telegram group',
+  'update.title': 'Latest Updates',
+  'update.subtitle.link.blog': {
+    name: 'blog',
+    link: 'https://medium.com/ares-tech',
+  },
+  'update.subtitle.link.community': {
+    name: 'community',
+    link: 'https://t.me/ares_tech',
+  },
+  'update.subtitle.link.youtube': {
+    name: 'Youtube',
+    link: 'https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw',
+  },
+  'update.subtitle': 'Follow our {blog}, {community} {or} { youtube } to get latest news!',
+  'update.media.0.title': 'Meeting at Google Office',
+  'update.media.0.description': 'ARES Tech started the initial conversion on marketing strategy with Google',
+  'update.media.1.title': 'ERC721 and ERC20 exchange',
+  'update.media.1.description': 'ARES Tech put exchanging ERC721 Asset with ERC20 Token into practice',
+  'update.media.2.title': 'Explaining the vision',
+  'update.media.2.description': "CEO Jack introduces ares tech's commitment and product structure",
+  'update.media.3.title': 'Meetup at the Berlin Office',
+  'update.media.3.description':
+    'International investor delegation visited ARES Tech upon ARES Opening of Cornerstone Investment',
+  'update.media.4.title': 'Join Telegram - Get Candy',
+  'update.media.4.description': 'Join our community, we are send out candy now!',
+  'update.media.5.title': 'Boost your game on blockchain',
+  'update.media.5.description':
+    'Jack and Christian were invited to give a speech at Mittweida Blockchain Spring School',
 }

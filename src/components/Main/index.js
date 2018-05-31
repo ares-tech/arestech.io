@@ -24,19 +24,27 @@ class Downloads extends React.Component {
       <ButtonDropdown className="main__button__container " isOpen={this.state.dropdownOpen} toggle={this.toggle}>
         <DropdownToggle className="main__button" caret block>
           <i className="far fa-file" />
-          <span style={{ paddingLeft: 10 }}>Read our White Paper </span>
+          <span style={{ paddingLeft: 10 }}>
+            <FormattedMessage id="main.read.whitepaper" />
+          </span>
         </DropdownToggle>
         <DropdownMenu>
           <a href="/documents/ares_tech_intro_en_1.5.pdf" rel="noopener noreferrer" target="_blank">
-            <DropdownItem>Business Intro v1.5</DropdownItem>
+            <DropdownItem>
+              <FormattedMessage id="main.resource.business.intro" />
+            </DropdownItem>
           </a>
           <DropdownItem divider />
           <a href="/documents/ares_tech_whitepaper_en_1.5.pdf" rel="noopener noreferrer" target="_blank">
-            <DropdownItem>English Whitepaper v1.5</DropdownItem>
+            <DropdownItem>
+              <FormattedMessage id="main.resource.english.whitepaper" />
+            </DropdownItem>
           </a>
           <DropdownItem divider />
           <a href="/documents/ares_tech_whitepaper_ch_1.5.pdf" rel="noopener noreferrer" target="_blank">
-            <DropdownItem>Chinese Whitepaper v1.5</DropdownItem>
+            <DropdownItem>
+              <FormattedMessage id="main.resource.chinese.whitepaper" />
+            </DropdownItem>
           </a>
         </DropdownMenu>
       </ButtonDropdown>
@@ -54,7 +62,9 @@ const Main = () => (
         )}
       </FormattedMessage>
     </h1>
-    <p className="lead sub-headline">Scalable Blockchain All-in-One Solution for Social Game Creators</p>
+    <p className="lead sub-headline">
+      <FormattedMessage id="main.subtitle" />
+    </p>
 
     <div className="lead">
       <div className="row" style={{ marginLeft: '0px', marginRight: '0px' }}>
@@ -62,7 +72,9 @@ const Main = () => (
         <a href="/reg.php" style={{ color: '#ce38da' }}>
           <Button className="main__button" block>
             <i className="fab fa-bitcoin" />
-            <span style={{ paddingLeft: 10 }}>Reg for candy airdrop!</span>
+            <span style={{ paddingLeft: 10 }}>
+              <FormattedMessage id="main.register.candy" />
+            </span>
           </Button>
         </a>
       </div>
@@ -70,7 +82,9 @@ const Main = () => (
         <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
           <Button className="main__button" block>
             <i className="fab fa-telegram-plane" />
-            <span style={{ paddingLeft: 10 }}>Join our Telegram group</span>
+            <span style={{ paddingLeft: 10 }}>
+              <FormattedMessage id="main.join.telegram" />
+            </span>
           </Button>
         </a>
       </div>

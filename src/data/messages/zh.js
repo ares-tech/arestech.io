@@ -1,3 +1,40 @@
 export default {
+  'general.or': '或',
+  'general.read.more': '阅读更多',
   'main.titles': ['区块链', '游戏', '连接'],
+  'main.subtitle': '可扩展的区块链社交游戏⽹络',
+  'main.read.whitepaper': '阅读白皮书',
+  'main.resource.business.intro': '项目简介 v1.5',
+  'main.resource.english.whitepaper': '英文版白皮书 v1.5',
+  'main.resource.chinese.whitepaper': '中文版白皮书 v1.5',
+  'main.register.candy': '注册 for candy airdrop!',
+  'main.join.telegram': '加入 our Telegram group',
+  'update.title': '最新更新',
+  'update.subtitle.link.blog': {
+    name: '博客',
+    link: 'https://medium.com/ares-tech',
+  },
+  'update.subtitle.link.community': {
+    name: '社区',
+    link: 'https://t.me/ares_tech',
+  },
+  'update.subtitle.link.youtube': {
+    name: 'Youtube',
+    link: 'https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw',
+  },
+  'update.subtitle': '关注我们的{blog}, {community}{or}{ youtube }来获取最新信息！',
+  'update.media.0.title': '在Google的办公室会面',
+  'update.media.0.description': 'ARES Tech started the initial conversion on marketing strategy 和 Google',
+  'update.media.1.title': 'ERC721和ERC20的兑换',
+  'update.media.1.description': 'ARES Tech put exchanging ERC721 Asset with ERC20 Token into practice',
+  'update.media.2.title': 'Explaining the vision',
+  'update.media.2.description': "CEO Jack introduces ares tech's commitment and product structure",
+  'update.media.3.title': '在柏林办公室的Meetup',
+  'update.media.3.description':
+    'International investor delegation visited ARES Tech upon ARES Opening of Cornerstone Investment',
+  'update.media.4.title': '加入 Telegram - Get Candy',
+  'update.media.4.description': 'Join our community, we are send out candy now!',
+  'update.media.5.title': 'Boost your game on blockchain',
+  'update.media.5.description':
+    'Jack and Christian were invited to give a speech at Mittweida Blockchain Spring School',
 }
