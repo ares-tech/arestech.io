@@ -6,9 +6,9 @@ import { chunk } from 'lodash'
 import pictures from './pictures'
 import ImageTeaser from '../ImageTeaser'
 
-const FormatIntlLink = ({ id }) => (
+const FormatIntlLink = ({ id, link }) => (
   <FormattedMessage id={id}>
-    {({ name, link }) => (
+    {name => (
       <a href={link} rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
         {name}
       </a>
@@ -28,10 +28,15 @@ const GallaryTeaser = () => (
             <FormattedMessage
               id="update.subtitle"
               values={{
-                blog: <FormatIntlLink id="update.subtitle.link.blog" />,
-                community: <FormatIntlLink id="update.subtitle.link.community" />,
+                blog: <FormatIntlLink id="update.subtitle.link.blog" link="https://medium.com/ares-tech" />,
+                community: <FormatIntlLink id="update.subtitle.link.community" link="https://t.me/ares_tech" />,
                 or: <FormattedMessage id="general.or" />,
-                youtube: <FormatIntlLink id="update.subtitle.link.youtube" />,
+                youtube: (
+                  <FormatIntlLink
+                    id="update.subtitle.link.youtube"
+                    link="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw"
+                  />
+                ),
               }}
             />
           </p>
@@ -42,7 +47,7 @@ const GallaryTeaser = () => (
         <Row key={index}>
           {row.map(pic => (
             <ImageTeaser
-              key={pic.title}
+              key={pic.src}
               src={pic.src}
               alt={pic.title}
               title={pic.title}

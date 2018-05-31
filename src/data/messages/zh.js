@@ -1,7 +1,9 @@
 export default {
   'general.or': '或',
   'general.read.more': '阅读更多',
-  'main.titles': ['区块链', '游戏', '连接'],
+  'main.title.0': '区块链',
+  'main.title.1': '游戏',
+  'main.title.2': '连接',
   'main.subtitle': '可扩展的区块链社交游戏⽹络',
   'main.read.whitepaper': '阅读白皮书',
   'main.resource.business.intro': '项目简介 v1.5',
@@ -10,18 +12,9 @@ export default {
   'main.register.candy': '注册 for candy airdrop!',
   'main.join.telegram': '加入 our Telegram group',
   'update.title': '最新更新',
-  'update.subtitle.link.blog': {
-    name: '博客',
-    link: 'https://medium.com/ares-tech',
-  },
-  'update.subtitle.link.community': {
-    name: '社区',
-    link: 'https://t.me/ares_tech',
-  },
-  'update.subtitle.link.youtube': {
-    name: 'Youtube',
-    link: 'https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw',
-  },
+  'update.subtitle.link.blog': '博客',
+  'update.subtitle.link.community': '社区',
+  'update.subtitle.link.youtube': 'Youtube',
   'update.subtitle': '关注我们的{blog}, {community}{or}{ youtube }来获取最新信息！',
   'update.media.0.title': '在Google的办公室会面',
   'update.media.0.description': 'ARES Tech started the initial conversion on marketing strategy 和 Google',
