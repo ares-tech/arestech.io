@@ -35,7 +35,7 @@ class NavbarTop extends React.Component {
       <div className="menu-container">
         <Navbar className="ares-navbar container" color="light" light expand="md">
           <NavbarBrand href="/">
-            <img className="navbar-logo" src="logos/logo-1024-light.svg" alt="ARES" width="60" />
+            <img className="navbar-logo" src="/logos/logo-1024-light.svg" alt="ARES" width="60" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
