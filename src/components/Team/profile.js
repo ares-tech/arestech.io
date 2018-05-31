@@ -24,14 +24,16 @@ class Profile extends React.PureComponent {
     }
   }
 
-  onReadMoreClicked = () => {
+  onReadMoreClicked = e => {
     this.props.toggleBackdrop(true)
     this.setState({ highlight: true })
+    e.preventDefault()
   }
 
-  onReadLessClicked = () => {
+  onReadLessClicked = e => {
     this.props.toggleBackdrop(false)
     this.setState({ highlight: false })
+    e.preventDefault()
   }
 
   render() {
