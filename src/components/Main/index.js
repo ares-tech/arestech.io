@@ -56,11 +56,11 @@ const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
     <h1 className="display-2 headline" style={{ color: '#fff' }}>
-      <FormattedMessage id="main.titles">
-        {titles => (
-          <ul style={{ listStyle: 'none', padding: 0 }}>{titles.map(title => <li key={title}>{title}</li>)}</ul>
-        )}
-      </FormattedMessage>
+      <FormattedMessage id="main.title.0" />
+      <br />
+      <FormattedMessage id="main.title.1" />
+      <br />
+      <FormattedMessage id="main.title.2" />
     </h1>
     <p className="lead sub-headline">
       <FormattedMessage id="main.subtitle" />

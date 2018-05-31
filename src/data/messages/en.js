@@ -1,7 +1,9 @@
 export default {
   'general.or': 'or',
   'general.read.more': 'more',
-  'main.titles': ['Blockchain.', 'Gaming.', 'Network.'],
+  'main.title.0': 'Blockchain.',
+  'main.title.1': 'Gaming.',
+  'main.title.2': 'Network.',
   'main.subtitle': 'Scalable Blockchain All-in-One Solution for Social Game Creators',
   'main.read.whitepaper': 'Read our White Paper',
   'main.resource.business.intro': 'Business Intro v1.5',
@@ -10,18 +12,9 @@ export default {
   'main.register.candy': 'Reg for candy airdrop!',
   'main.join.telegram': 'Join our Telegram group',
   'update.title': 'Latest Updates',
-  'update.subtitle.link.blog': {
-    name: 'blog',
-    link: 'https://medium.com/ares-tech',
-  },
-  'update.subtitle.link.community': {
-    name: 'community',
-    link: 'https://t.me/ares_tech',
-  },
-  'update.subtitle.link.youtube': {
-    name: 'Youtube',
-    link: 'https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw',
-  },
+  'update.subtitle.link.blog': 'blog',
+  'update.subtitle.link.community': 'community',
+  'update.subtitle.link.youtube': 'Youtube',
   'update.subtitle': 'Follow our {blog}, {community} {or} { youtube } to get latest news!',
   'update.media.0.title': 'Meeting at Google Office',
   'update.media.0.description': 'ARES Tech started the initial conversion on marketing strategy with Google',
