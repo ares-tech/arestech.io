@@ -15,7 +15,7 @@ https://arestech.io
 * add person data into the js structure, for user's image store the png/jpg under `static/images/...` to reference it in js file
 * the user will show up under the team section
 
-## Change photo for "Latest update"
+## Change entries of "Latest update"
 
 * edit `src/components/GalleryTeaser/pictures.js`
 * first store the photo resource e.g. png/jpg file under `static/images/...` folder
