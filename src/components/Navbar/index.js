@@ -13,20 +13,20 @@ class NavbarTop extends React.Component {
   }
 
   openNav = () => {
-    document.addEventListener("click", this.closeNav);
-    this.setState({ isOpen: true });
+    document.addEventListener('click', this.closeNav)
+    this.setState({ isOpen: true })
   }
 
   closeNav = () => {
-    document.removeEventListener("click", this.closeNav);
-    this.setState({ isOpen: false });
+    document.removeEventListener('click', this.closeNav)
+    this.setState({ isOpen: false })
   }
-  
+
   toggle() {
     if (this.state.isOpen) {
-      this.closeNav();
+      this.closeNav()
     } else {
-      this.openNav();
+      this.openNav()
     }
   }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { chunk } from 'lodash'
 import { Container, Row, Col } from 'reactstrap'
-import Profile from './profile';
+import Profile from './profile'
 import './index.css'
 import teams from './TeamData'
 
@@ -13,7 +13,7 @@ class Team extends React.PureComponent {
     }
   }
 
-  toggleBackdrop = (backdrop) => {
+  toggleBackdrop = backdrop => {
     this.setState({ backdrop })
   }
 
@@ -32,6 +32,7 @@ class Team extends React.PureComponent {
             </Col>
           </Row>
           {chunk(teams, 3).map((row, index) => (
+            // eslint-disable-next-line
             <Row key={index} className="team-profile-row">
               {row.map(({ name, title, imageSrc, intro, linkedIn }) => (
                 <Col key={name} md={4} className="px-3 py-3">

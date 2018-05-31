@@ -1,13 +1,14 @@
 .main {
-  background-image: linear-gradient(80deg, #cf38da, #7400a4);
-  clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
-  padding-bottom: 7rem;
+    background-image: linear-gradient(80deg, #cf38da, #7400a4);
+    clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
+    padding-bottom: 7rem;
 }
 
 .main__download {
     width: 200px;
 }
+
 .btn.main__button {
     text-align: left;
     color: #ce38da;
@@ -16,6 +17,7 @@
     border-color: transparent;
     margin-bottom: 0.3rem;
 }
+
 .main__button__container {
     /* margin-bottom: 0.3rem; */
     width: 250px;
@@ -23,7 +25,7 @@
 }
 
 .main__button__container .dropdown-menu {
-  width: 250px;
+    width: 250px;
 }
 
 .main-shape-1 {

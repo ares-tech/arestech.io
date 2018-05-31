@@ -11,7 +11,7 @@ import TokenDetail from '../components/TokenDetail'
 import Team from '../components/Team'
 import TokenSale from '../components/TokenSale'
 import MainLayout from '../util/mainLayout'
-import NavBar from '../components/Navbar';
+import NavBar from '../components/Navbar'
 import '../style/custom.css'
 
 const Section = ({ children, className }) => <div className={className}>{children}</div>

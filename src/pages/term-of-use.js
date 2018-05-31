@@ -1,4 +1,3 @@
-/* @flow */
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import { TermOfUse } from '../components/Legal/TermOfUse'

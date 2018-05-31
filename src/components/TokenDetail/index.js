@@ -60,6 +60,7 @@ const TokenDetail = () => (
         </Col>
       </Row>
       {chunk(tokenDetails, 3).map((row, index) => (
+        // eslint-disable-next-line
         <Row key={index}>
           {row.map(({ color, text, textColor }) => (
             <Col md={4} key={text} className="pb-3">

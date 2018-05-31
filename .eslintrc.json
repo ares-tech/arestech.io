@@ -8,7 +8,7 @@
     "react/no-danger": "off",
     "react/jsx-filename-extension": "off",
     "import/prefer-default-export": "off",
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"],
     "react/no-unescaped-entities": ["error", {
       "forbid": [">", "}"]
     }],

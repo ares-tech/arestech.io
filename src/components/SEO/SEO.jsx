@@ -11,7 +11,7 @@ class SEO extends Component {
     let postURL
     if (postSEO) {
       const postMeta = postNode.frontmatter
-      title = postMeta.title
+      title = postMeta.title // eslint-disable-line
       description = postMeta.description ? postMeta.description : postNode.excerpt
       image = postMeta.cover
       postURL = config.siteUrl + config.pathPrefix + postPath
@@ -64,7 +64,7 @@ class SEO extends Component {
         },
       )
     }
-    
+
     return (
       <Helmet>
         {/* General tags */}

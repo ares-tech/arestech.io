@@ -5,7 +5,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: SofiaProRegular;
+    font-family: SofiaProRegular, sans-serif;
 }
 
 .li.nav-item {
@@ -14,12 +14,12 @@ body {
 }
 
 .index-container {
-    background-color: transparent!important;
+    background-color: transparent !important;
     margin-top: 55px;
 }
 
 .ares .bg-light {
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 
 .ares .backdrop {
@@ -53,11 +53,11 @@ body {
 }
 
 .headline {
-    font-family: SofiaProBold;
+    font-family: SofiaProBold, sans-serif;
 }
 
 .sub-headline {
-    font-family: SofiaProRegular;
+    font-family: SofiaProRegular, sans-serif;
     color: #fff;
 }
 
@@ -76,6 +76,6 @@ body {
     }
 
     .sub-headline {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 }

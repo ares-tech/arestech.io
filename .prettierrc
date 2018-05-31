@@ -1,6 +1,5 @@
 {
   "printWidth": 120,
-  "parser": "flow",
   "singleQuote": true,
   "trailingComma": "all",
   "semi": false,
