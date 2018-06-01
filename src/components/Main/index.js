@@ -52,8 +52,14 @@ const Main = () => (
     <p className="lead sub-headline">All-in-One Solution for Social Game Creators</p>
 
     <div className="lead">
-      <div className="row" style={{ paddingBottom: '10px', marginLeft: '0px', marginRight: '0px' }}>
+      <div className="row" style={{ marginLeft: '0px', marginRight: '0px' }}>
         <Downloads />
+        <a href="/reg.php" style={{ color: '#ce38da' }}>
+          <Button className="main__button" block>
+            <i className="fab fa-bitcoin" />
+            <span style={{ paddingLeft: 10 }}>Reg for candy airdrop!</span>
+          </Button>
+        </a>
       </div>
       <div className="main__button__container">
         <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
@@ -64,6 +70,7 @@ const Main = () => (
         </a>
       </div>
     </div>
+    {/*
     <div className="token-sale-box" style={{overflow: 'hidden', marginTop: '40px'}}>
       <div className="token-sale-header" style={{display: 'flex', paddingLeft: '25px', alignItems: 'center', verticalAlign: 'middle'}}>
         <div className="circle" style={{marginRight: '25px'}} />
@@ -89,6 +96,8 @@ const Main = () => (
         </div>
       </div>
     </div>
+    */}
+
   </div>
 )
 
