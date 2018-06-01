@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Card, CardBody, CardTitle, CardSubtitle, CardLink } from 'reactstrap'
 import Lightbox from 'react-image-lightbox'
-import 'react-image-lightbox/style.css'
 import './index.css'
 
 class ImageTeaser extends React.PureComponent {
@@ -9,12 +8,20 @@ class ImageTeaser extends React.PureComponent {
     super(props)
     this.state = { isOpen: false }
   }
-  
+
   render() {
     const { src, title, desc, link } = this.props
     return (
-      <Col className="pb-5" md={4}>
-        <Card className="image-teaser" md={4}>
+      <Col
+        className="pb-5"
+        md={4}
+      >
+        <Card
+          className="image-teaser"
+          md={4}
+          style={{cursor: 'pointer'}}
+          onClick={ () => window.open(link, '_blank') }
+        >
           <div
             className="image-container container"
             style={{
@@ -29,7 +36,6 @@ class ImageTeaser extends React.PureComponent {
           <CardBody>
             {title.length > 0 && <CardTitle>{title}</CardTitle>}
             {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
-            {link.length > 0 && <CardLink href={link} target="_blank">More</CardLink>}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}

@@ -16,7 +16,7 @@ export default [
     src: '/images/media3.png',
     title: 'Explaining the vision',
     description: "CEO Jack introduces ares tech's commitment and product structure",
-    link: 'https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw',
+    link: 'https://www.youtube.com/watch?v=525ixzUmkFw',
   },
   {
     src: '/images/media4.png',
