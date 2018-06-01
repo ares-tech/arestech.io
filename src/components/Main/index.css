@@ -1,8 +1,66 @@
+
+.token-sale-box {
+  width: 554px;
+  height: 302px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.graph {
+  width: 411.7px;
+  height: 17px;
+  border-radius: 20px;
+  border: solid 2px transparent;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffb158, #ff6427);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.circle {
+  width: 36px;
+  height: 36px;
+  border: solid 4px #ffffff;
+  border-radius: 18px;
+}
+.token-text {
+  width: 411.7px;
+  display: flex;
+  justify-content: space-between;
+}
+.graph-left {
+  width: 195px;
+  height: 13px;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, #ffb158, #ff6427);
+}
+.graph-right {
+  width: 411.7px;
+  height: 17px;
+  border-radius: 20px;
+  border: solid 2px transparent;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffb158, #ff6427);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.token-sale-header {
+  width: 554px;
+  height: 89px;
+  background-image: linear-gradient(to left, #ffb158, #ff6427);
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
 .main {
     background-image: linear-gradient(80deg, #cf38da, #7400a4);
     clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
     -webkit-clip-path: polygon(0 0%, 100% 0, 100% 74%, 0% 100%);
     padding-bottom: 7rem;
+    padding-top: 4rem;
 }
 
 .main__download {
@@ -64,4 +122,16 @@
     .btn.main__button {
         width: 250px;
     }
+  .token-sale-box {
+    width: 95%;
+  }
+  .token-sale-header {
+    width: 100%;
+  }
+  .graph {
+    width: 90%;
+  }
+  .token-text {
+    width: 90%
+  }
 }
