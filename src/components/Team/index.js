@@ -1,5 +1,6 @@
 import React from 'react'
 import { chunk } from 'lodash'
+import { FormattedMessage } from 'react-intl'
 import { Container, Row, Col } from 'reactstrap'
 import Profile from './profile'
 import './index.css'
@@ -24,10 +25,10 @@ class Team extends React.PureComponent {
           <Row>
             <Col>
               <h1 className="display-2 headline" style={{ color: '#fff' }}>
-                Team and Advisors
+                <FormattedMessage id="team.title" />
               </h1>
               <p className="lead sub-headline" style={{ color: '#fff' }}>
-                Meet the players in Berlin.
+                <FormattedMessage id="team.subtitle" />
               </p>
             </Col>
           </Row>
