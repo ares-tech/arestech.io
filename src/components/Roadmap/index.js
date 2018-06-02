@@ -1,5 +1,6 @@
 import React from 'react'
 import moment from 'moment'
+import { FormattedMessage } from 'react-intl'
 import { Row, Col } from 'reactstrap'
 import HorizontalTimeline from 'react-horizontal-timeline'
 import './index.css'
@@ -24,7 +25,7 @@ const Milestone = ({ event, isOdd }) => {
       <ul className="milestones-container">
         {event.descriptions.map(desc => (
           <li className="milestone" key={desc}>
-            {desc}
+            <FormattedMessage id={desc} />
           </li>
         ))}
       </ul>
@@ -47,10 +48,10 @@ export default class Roadmap extends React.Component {
           <Row>
             <Col>
               <h1 className="display-2 headline" style={{ color: '#7400a4' }}>
-                Roadmap
+                <FormattedMessage id="roadmap.title" />
               </h1>
               <p className="lead sub-headline" style={{ color: '#7400a4' }}>
-                Path to Scalable Blockchain Social Gaming Network
+                <FormattedMessage id="roadmap.subtitle" />
               </p>
             </Col>
           </Row>

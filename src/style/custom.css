@@ -54,6 +54,7 @@ body {
 
 .headline {
     font-family: SofiaProBold, sans-serif;
+    line-height: 1.2 !important;
 }
 
 .sub-headline {
