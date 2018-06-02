@@ -35,4 +35,11 @@ export default {
   'introduction.text.0': 'Ares Tech is committed to growing into a scalable Blockchain social gaming network.',
   'introduction.text.1':
     'The {suite} provides creators with an all-in-one development solution for efficient and friendly cross-chain collaboration. The featured {arena} is a casual gaming platform, which can easily engage gamers in social competition on blockchain. {connect} will bring various monetization opportunities with partners, which can turn indie games into profitable intellectual property.',
+  'product.title': 'Product Structure',
+  'product.subtitle': 'All-In-One Solution for Creators and Gamers',
+  'product.suite.description':
+    'Provide creators with <b>all-in-one</b> development solution for efficient and friendly cross-chain collaboration.',
+  'product.arena.description': 'The first <b>zero</b> commission gaming platform and decentralized application.',
+  'product.connect.description':
+    'Ecosystem that connects global business resources, help the developers to upgrade indie games to <b>profitable IP</b>',
 }
