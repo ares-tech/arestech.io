@@ -30,4 +30,9 @@ export default {
   'update.media.5.title': 'Boost your game on blockchain',
   'update.media.5.description':
     'Jack and Christian were invited to give a speech at Mittweida Blockchain Spring School',
+  'introduction.title': '简介',
+  'introduction.subtitle': 'Ares Tech是可扩展的区块链社交游戏⽹络',
+  'introduction.text.0': 'Ares Tech is committed to growing into a scalable Blockchain social gaming network.',
+  'introduction.text.1':
+    'The {suite} provides creators with an all-in-one development solution for efficient and friendly cross-chain 合作. The featured {arena} is a casual gaming platform, which can easily engage gamers in social competition on 区块链. {connect} will bring various monetization opportunities with partners, which can turn indie games into profitable 知识产权.',
 }
