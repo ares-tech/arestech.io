@@ -156,4 +156,6 @@ export default {
     'Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.',
   'media.item.gruenderszene.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
   'media.item.blockchain.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
+  'partner.title': '合作伙伴',
+  'partner.subtitle': 'Our investor, media and technical partners.',
 }

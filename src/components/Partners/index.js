@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import { chunk } from 'lodash'
 import './index.css'
 import partners from './partners'
@@ -14,10 +15,10 @@ const Partners = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
-            Partners
+            <FormattedMessage id="partner.title" />
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            Our investor, media and technical partners.
+            <FormattedMessage id="partner.subtitle" />
           </p>
         </Col>
       </Row>

@@ -157,4 +157,6 @@ export default {
   'media.item.gruenderszene.intro':
     'Blockchain – ein Gamechanger im wahrsten Sinne des Wortes. Denn die Technologie hält nun Einzug in die Gaming-Welt und bietet Entwicklern neue Perspektiven.',
   'media.item.blockchain.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
+  'partner.title': 'Partners',
+  'partner.subtitle': 'Our investor, media and technical partners.',
 }
