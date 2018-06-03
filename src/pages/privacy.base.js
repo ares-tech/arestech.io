@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
 import { PrivacyPolicy } from '../components/Legal/PrivacyPolicy'
 import config from '../../data/SiteConfig'

@@ -28,8 +28,8 @@ class ImageTeaser extends React.PureComponent {
             onKeyDown={() => {}}
           />
           <CardBody>
-            {<CardTitle>{title}</CardTitle>}
-            {<CardSubtitle>{desc}</CardSubtitle>}
+            <CardTitle>{title}</CardTitle>
+            <CardSubtitle>{desc}</CardSubtitle>
             {link.length > 0 && (
               <CardLink href={link} target="_blank">
                 <FormattedMessage id="general.read.more" />

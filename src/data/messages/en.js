@@ -103,7 +103,6 @@ export default {
   'team.member.fuesunwehrmann.intro':
     'Vice President Of Engineering at OLX Berlin Tech Hub, former Premier Field Engineering (PFE) Manager, EMEA Technology Manager for Development at Microsoft Germany. Startup Mentor, Speaker, Google LP Mentor.',
   'team.member.stevenkarch.name': 'Steven Karch',
-  'team.member.title.blockchainadvisor': 'Blockchain Advisor',
   'team.member.stevenkarch.intro':
     'Crypto-currency miner since 2013, Blockchain Enthusiast. Over 20 years of experience in distributed systems, computer network, IT infrastructure.',
   'team.member.ranwang.name': 'Ran Wang',
