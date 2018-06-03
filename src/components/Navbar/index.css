@@ -3,7 +3,8 @@
     border-color: transparent;
 }
 
-.ares-navbar.navbar-light .navbar-nav > li > a {
+.ares-navbar.navbar-light .navbar-nav li > a,
+.ares-navbar.navbar-light .navbar-nav li:hover > a {
     color: #fff;
     white-space: nowrap;
 }
@@ -15,7 +16,7 @@ img.navbar-logo {
 .ares-navbar .navbar-nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .menu-container {

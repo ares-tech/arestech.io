@@ -104,25 +104,28 @@ class NavbarTop extends React.Component {
                   <FormattedMessage id="navigation.item.contact.us" />
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown
-                nav
-                inNavbar
-                onClick={e => {
-                  e.stopPropagation()
-                }}
-              >
-                <DropdownToggle nav caret>
-                  {langKey.toUpperCase()}
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    <a href="/">English</a>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <a href="/zh">中文(zh-cn)</a>
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              <div style={{ width: '100%' }}>
+                <UncontrolledDropdown
+                  style={{ float: 'right' }}
+                  nav
+                  inNavbar
+                  onClick={e => {
+                    e.stopPropagation()
+                  }}
+                >
+                  <DropdownToggle nav caret>
+                    {langKey.toUpperCase()}
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      <a href="/">English</a>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <a href="/zh">中文(zh-cn)</a>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+              </div>
             </Nav>
           </Collapse>
         </Navbar>
