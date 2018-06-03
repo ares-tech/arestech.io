@@ -9,8 +9,8 @@ import Navbar from '../components/Navbar'
 export default ({ langKey, messages }) => (
   <IntlProvider langKey={langKey} messages={messages}>
     <div>
-      <Navbar />
-      <MainLayout>
+      <Navbar langKey={langKey} />
+      <MainLayout langKey={langKey}>
         <Helmet title={`Impressum | ${config.siteTitle}`} />
         <Imprint />
       </MainLayout>

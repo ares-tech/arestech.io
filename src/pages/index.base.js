@@ -20,8 +20,8 @@ const Section = ({ children, className }) => <div className={className}>{childre
 const Main = ({ langKey, messages }) => (
   <IntlProvider langKey={langKey} messages={messages}>
     <div>
-      <NavBar />
-      <MainLayout>
+      <NavBar langKey={langKey} />
+      <MainLayout langKey={langKey}>
         <Section>
           <GalleryTeaser />
         </Section>

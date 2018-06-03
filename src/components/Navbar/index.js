@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 import {
   NavLink,
   Collapse,
@@ -13,6 +14,13 @@ import {
   DropdownItem,
 } from 'reactstrap'
 import './index.css'
+
+const getLink = (langKey, uri) => {
+  if (langKey === 'en') {
+    return `/${uri}`
+  }
+  return `/${langKey}${uri}`
+}
 
 class NavbarTop extends React.Component {
   state = {
@@ -36,6 +44,7 @@ class NavbarTop extends React.Component {
   }
 
   render() {
+    const { langKey } = this.props
     return (
       <div className="menu-container">
         <Navbar className="ares-navbar container" color="light" light expand="md">
@@ -46,28 +55,44 @@ class NavbarTop extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/#introduction">Introduction</NavLink>
+                <NavLink href={getLink(langKey, '#introduction')}>
+                  <FormattedMessage id="navigation.item.introduction" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#products">Products</NavLink>
+                <NavLink href={getLink(langKey, '#products')}>
+                  <FormattedMessage id="navigation.item.products" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#team">Team</NavLink>
+                <NavLink href={getLink(langKey, '#team')}>
+                  <FormattedMessage id="navigation.item.team" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#roadmap">Roadmap</NavLink>
+                <NavLink href={getLink(langKey, '#roadmap')}>
+                  <FormattedMessage id="navigation.item.roadmap" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#media">Media</NavLink>
+                <NavLink href={getLink(langKey, '#media')}>
+                  <FormattedMessage id="navigation.item.media" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#partners">Partners</NavLink>
+                <NavLink href={getLink(langKey, '#partners')}>
+                  <FormattedMessage id="navigation.item.partner" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#token">Token</NavLink>
+                <NavLink href={getLink(langKey, '#token')}>
+                  <FormattedMessage id="navigation.item.token" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#contact-us">Contact Us</NavLink>
+                <NavLink href={getLink(langKey, '#contact-us')}>
+                  <FormattedMessage id="navigation.item.contact.us" />
+                </NavLink>
               </NavItem>
               <UncontrolledDropdown
                 nav
@@ -77,7 +102,7 @@ class NavbarTop extends React.Component {
                 }}
               >
                 <DropdownToggle nav caret>
-                  Language
+                  {langKey.toUpperCase()}
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
