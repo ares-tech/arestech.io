@@ -1,7 +1,7 @@
 import React from 'react'
-import Main from './main'
+import Content from './index.base'
 import messages from '../data/messages/en'
 
-const Index = () => <Main langKey="en" messages={messages} />
+const Index = () => <Content langKey="en" messages={messages} />
 
 export default Index

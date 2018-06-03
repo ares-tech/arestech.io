@@ -181,7 +181,7 @@ export default {
   'contact.follow.us': 'Follow us',
   'contact.get.press.kit': 'Get our Press Kit',
   'footer.newletter.promotion.text': 'Get our Newsletter direct to your inbox',
-  'footer.newletter.button.text': 'Subscribe',
+  'footer.newletter.button.text': '订阅',
   'footer.term.of.use': 'Nutzungsbedingungen',
   'footer.privacy': 'Datenschutz',
   'footer.imprint': 'Impressum',

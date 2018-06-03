@@ -1,8 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { addLocaleData, IntlProvider } from 'react-intl'
-import en from 'react-intl/locale-data/en'
-import zh from 'react-intl/locale-data/zh'
 import Contact from '../components/Contact'
 import GalleryTeaser from '../components/GalleryTeaser'
 import IntroSection from '../components/IntroSection'
@@ -14,15 +11,14 @@ import TokenDetail from '../components/TokenDetail'
 import Team from '../components/Team'
 import TokenSale from '../components/TokenSale'
 import MainLayout from '../util/mainLayout'
+import IntlProvider from '../util/intlProvider'
 import NavBar from '../components/Navbar'
 import '../style/custom.css'
 
 const Section = ({ children, className }) => <div className={className}>{children}</div>
 
-addLocaleData([...en, ...zh])
-
 const Main = ({ langKey, messages }) => (
-  <IntlProvider locale={langKey} messages={messages}>
+  <IntlProvider langKey={langKey} messages={messages}>
     <div>
       <NavBar />
       <MainLayout>

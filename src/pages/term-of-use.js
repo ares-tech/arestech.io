@@ -1,22 +1,7 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { TermOfUse } from '../components/Legal/TermOfUse'
-import config from '../../data/SiteConfig'
-import MainLayout from '../util/mainLayout'
-import Navbar from '../components/Navbar'
+import React from 'react'
+import Content from './privacy.base'
+import messages from '../data/messages/en'
 
-class TermOfUsePage extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <MainLayout>
-          <Helmet title={`Term of Use | ${config.siteTitle}`} />
-          <TermOfUse />
-        </MainLayout>
-      </div>
-    )
-  }
-}
+const Index = () => <Content langKey="en" messages={messages} />
 
-export default TermOfUsePage
+export default Index

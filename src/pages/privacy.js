@@ -1,22 +1,7 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { PrivacyPolicy } from '../components/Legal/PrivacyPolicy'
-import config from '../../data/SiteConfig'
-import MainLayout from '../util/mainLayout'
-import Navbar from '../components/Navbar'
+import React from 'react'
+import Content from './privacy.base'
+import messages from '../data/messages/en'
 
-class PrivacyPolicyPage extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <MainLayout>
-          <Helmet title={`Privacy Policy | ${config.siteTitle}`} />
-          <PrivacyPolicy />
-        </MainLayout>
-      </div>
-    )
-  }
-}
+const Index = () => <Content langKey="en" messages={messages} />
 
-export default PrivacyPolicyPage
+export default Index
