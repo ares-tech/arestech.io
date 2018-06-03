@@ -16,10 +16,10 @@ import {
 import './index.css'
 
 const getLink = (langKey, uri) => {
-  if (langKey === 'en') {
+  if (langKey.toLowerCase() === 'en') {
     return `/${uri}`
   }
-  return `/${langKey}${uri}`
+  return `/${langKey}/${uri}`
 }
 
 class NavbarTop extends React.Component {
@@ -46,9 +46,9 @@ class NavbarTop extends React.Component {
   render() {
     const { langKey } = this.props
     return (
-      <div className="menu-container">
+      <div id="page-top" className="menu-container">
         <Navbar className="ares-navbar container" color="light" light expand="md">
-          <NavbarBrand href="/">
+          <NavbarBrand href={getLink(langKey, '#page-top')}>
             <img className="navbar-logo" src="/logos/logo-1024-light.svg" alt="ARES" width="60" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
@@ -72,11 +72,6 @@ class NavbarTop extends React.Component {
               <NavItem>
                 <NavLink href={getLink(langKey, '#roadmap')}>
                   <FormattedMessage id="navigation.item.roadmap" />
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href={getLink(langKey, '#events')}>
-                  <FormattedMessage id="navigation.item.events" />
                 </NavLink>
               </NavItem>
               <NavItem>

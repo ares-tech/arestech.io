@@ -4,10 +4,10 @@ import { FormattedMessage } from 'react-intl'
 import './Footer.css'
 
 const getLink = (langKey, uri) => {
-  if (langKey === 'en') {
-    return `/${uri}`
+  if (langKey.toLowerCase() === 'en') {
+    return `/${uri}/`
   }
-  return `/${langKey}/${uri}`
+  return `/${langKey}/${uri}/`
 }
 
 class Footer extends Component {
