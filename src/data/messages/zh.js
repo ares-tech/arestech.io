@@ -150,4 +150,10 @@ export default {
   'roadmap.milestone.dapp.1.0.with.crowdfunding': 'DApp 1.0 with crowdfunding',
   'roadmap.milestone.mainnet.launch': '主链上线',
   'roadmap.milestone.token.transition': 'Token Transition',
+  'media.title': '媒体',
+  'media.subtitle': 'See what others are saying about us.',
+  'media.item.berlinvalley.intro':
+    'Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.',
+  'media.item.gruenderszene.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
+  'media.item.blockchain.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
 }

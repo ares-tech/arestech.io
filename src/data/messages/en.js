@@ -150,4 +150,11 @@ export default {
   'roadmap.milestone.dapp.1.0.with.crowdfunding': 'DApp 1.0 with crowdfunding',
   'roadmap.milestone.mainnet.launch': 'Mainnet Launch',
   'roadmap.milestone.token.transition': 'Token Transition',
+  'media.title': 'Media',
+  'media.subtitle': 'See what others are saying about us.',
+  'media.item.berlinvalley.intro':
+    'Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.',
+  'media.item.gruenderszene.intro':
+    'Blockchain – ein Gamechanger im wahrsten Sinne des Wortes. Denn die Technologie hält nun Einzug in die Gaming-Welt und bietet Entwicklern neue Perspektiven.',
+  'media.item.blockchain.intro': 'ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.',
 }
