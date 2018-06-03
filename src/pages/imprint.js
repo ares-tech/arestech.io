@@ -1,5 +1,5 @@
 import React from 'react'
-import Content from './imprint.base'
+import Content from '../views/imprint'
 import messages from '../data/messages/en'
 
 const Index = () => <Content langKey="en" messages={messages} />

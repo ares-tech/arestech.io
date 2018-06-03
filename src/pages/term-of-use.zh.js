@@ -1,5 +1,5 @@
 import React from 'react'
-import Content from './privacy.base'
+import Content from '../views/term-of-use'
 import messages from '../data/messages/zh'
 
 const Index = () => <Content langKey="zh" messages={messages} />
