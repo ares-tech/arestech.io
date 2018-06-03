@@ -97,7 +97,6 @@ export default {
   'team.member.renégerstenberger.intro':
     'René has been working with numerous global clients and organization, helping to manage appropriate Corporate IT Operations, Data Protection Compliance and Data Governance approaches and solutions. He has taken on various leading roles both on a global and national level.',
   'team.member.simonschwerin.name': 'Simon Schwerin',
-  'team.member.title.blockchainadvisor': 'Blockchain Advisor',
   'team.member.simonschwerin.intro':
     'Simon advises XAIN as a Business Development Manager, after he wrote his Master Thesis about Blockchains and Privacy, specifically concerning the GDPR. He now focuses his work on leading medixain as a CEO to build a solution in the Healthcare and Blockchain sector. Previously he worked for the Blockchain Start-up BigchainDB on the business strategy and project management side. He led the working groups on identity and standardization within the public German blockchain lobby group „Bundesblock“ (Bundesverband Blockchain).',
   'team.member.fuesunwehrmann.name': 'Füsun Wehrmann',
