@@ -176,4 +176,8 @@ export default {
   'token.supply.item.team': '20% 团队',
   'token.supply.item.initial.prize.pool': '15% Initial Prize Pool',
   'token.supply.item.future.employees': '10% 未来员工',
+  'contact.title': 'Contact Us',
+  'contact.subtitle': 'Talk to us and let us know what you think.',
+  'contact.follow.us': 'Follow us',
+  'contact.get.press.kit': 'Get our Press Kit',
 }
