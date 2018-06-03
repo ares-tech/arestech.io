@@ -75,6 +75,11 @@ class NavbarTop extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href={getLink(langKey, '#events')}>
+                  <FormattedMessage id="navigation.item.events" />
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href={getLink(langKey, '#media')}>
                   <FormattedMessage id="navigation.item.media" />
                 </NavLink>
@@ -87,6 +92,11 @@ class NavbarTop extends React.Component {
               <NavItem>
                 <NavLink href={getLink(langKey, '#token')}>
                   <FormattedMessage id="navigation.item.token" />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href={getLink(langKey, '#usage')}>
+                  <FormattedMessage id="navigation.item.usage" />
                 </NavLink>
               </NavItem>
               <NavItem>
