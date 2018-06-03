@@ -119,7 +119,7 @@ class NavbarTop extends React.Component {
                     <a href="/">English</a>
                   </DropdownItem>
                   <DropdownItem>
-                    <a href="/zh">中文</a>
+                    <a href="/zh">中文(zh-cn)</a>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
