@@ -10,6 +10,7 @@ import Roadmap from '../components/Roadmap'
 import TokenDetail from '../components/TokenDetail'
 import Team from '../components/Team'
 import TokenSale from '../components/TokenSale'
+import TokenUsage from '../components/TokenUsage'
 import MainLayout from '../util/mainLayout'
 import IntlProvider from '../util/intlProvider'
 import NavBar from '../components/Navbar'
@@ -48,6 +49,9 @@ const Main = ({ langKey, messages }) => (
         </Section>
         <Section>
           <TokenSale />
+        </Section>
+        <Section>
+          <TokenUsage />
         </Section>
         <Section>
           <Contact />

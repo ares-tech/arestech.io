@@ -2,7 +2,7 @@
     min-height: 500px;
     position: relative;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
 }
 
 .token-sale-section .background-container {
@@ -28,8 +28,6 @@
 
 .token-sale-distribute-chart {
     position: relative;
-
-    /* background-image: url('/images/token-sale-distribution-chart.png'); */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -67,12 +65,12 @@
 }
 
 .token-sale-item.token-sale-item-4 {
-    top: 65%;
-    right: 25%;
+    top: 58%;
+    right: 24%;
 }
 
 .token-sale-item.token-sale-item-5 {
-    bottom: 15%;
+    bottom: 25%;
     left: 30%;
 }
 
@@ -104,9 +102,7 @@
 
     .token-sale-distribute-chart.mobile-only {
         display: block !important;
-        height: 320px;
-
-        /* background-image: url('/images/token-sale-distribution-chart.png'); */
+        height: 335px;
     }
 
     .token-sale-item {

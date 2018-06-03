@@ -55,7 +55,7 @@ class Downloads extends React.Component {
 const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
-    <h1 className="display-2 headline" style={{ color: '#fff' }}>
+    <h1 className="display-1 headline" style={{ color: '#fff' }}>
       <FormattedMessage id="main.title.0" />
       <br />
       <FormattedMessage id="main.title.1" />
