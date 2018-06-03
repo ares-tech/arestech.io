@@ -1,22 +1,7 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { Imprint } from '../components/Legal/Imprint'
-import config from '../../data/SiteConfig'
-import MainLayout from '../util/mainLayout'
-import Navbar from '../components/Navbar'
+import React from 'react'
+import Content from './imprint.base'
+import messages from '../data/messages/en'
 
-class PrivacyPolicyPage extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <MainLayout>
-          <Helmet title={`Impressum | ${config.siteTitle}`} />
-          <Imprint />
-        </MainLayout>
-      </div>
-    )
-  }
-}
+const Index = () => <Content langKey="en" messages={messages} />
 
-export default PrivacyPolicyPage
+export default Index

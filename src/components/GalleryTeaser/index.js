@@ -1,8 +1,20 @@
+/* @flow */
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import { chunk } from 'lodash'
 import pictures from './pictures'
 import ImageTeaser from '../ImageTeaser'
+
+const FormatIntlLink = ({ id, link }) => (
+  <FormattedMessage id={id}>
+    {name => (
+      <a href={link} rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
+        {name}
+      </a>
+    )}
+  </FormattedMessage>
+)
 
 const GallaryTeaser = () => (
   <div className="bg-light">
@@ -10,29 +22,23 @@ const GallaryTeaser = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline" style={{ color: '#ff6427', fontWeight: 'bold' }}>
-            Latest Updates
+            <FormattedMessage id="update.title" />
           </h1>
           <p className="lead" style={{ color: '#ff6427' }}>
-            Follow our&nbsp;
-            <a
-              href="https://medium.com/ares-tech"
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{ color: '#ce38da' }}
-            >
-              blog
-            </a>,&nbsp;
-            <a href="https://t.me/ares_tech" rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
-              community
-            </a>&nbsp;or&nbsp;
-            <a
-              href="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw"
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{ color: '#ce38da' }}
-            >
-              Youtube
-            </a>&nbsp;to get latest news!
+            <FormattedMessage
+              id="update.subtitle"
+              values={{
+                blog: <FormatIntlLink id="update.subtitle.link.blog" link="https://medium.com/ares-tech" />,
+                community: <FormatIntlLink id="update.subtitle.link.community" link="https://t.me/ares_tech" />,
+                or: <FormattedMessage id="general.or" />,
+                youtube: (
+                  <FormatIntlLink
+                    id="update.subtitle.link.youtube"
+                    link="https://www.youtube.com/channel/UCV_O9CKVKr4-KJVC-v8FcVw"
+                  />
+                ),
+              }}
+            />
           </p>
         </Col>
       </Row>
@@ -41,7 +47,7 @@ const GallaryTeaser = () => (
         <Row key={index}>
           {row.map(pic => (
             <ImageTeaser
-              key={pic.title}
+              key={pic.src}
               src={pic.src}
               alt={pic.title}
               title={pic.title}

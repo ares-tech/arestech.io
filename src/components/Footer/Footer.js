@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 import { Container, Button } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import './Footer.css'
+
+const getLink = (langKey, uri) => {
+  if (langKey === 'en') {
+    return `/${uri}`
+  }
+  return `/${langKey}/${uri}`
+}
 
 class Footer extends Component {
   render() {
-    const { config } = this.props
+    const { config, langKey } = this.props
     const { copyright, address } = config
 
     return (
@@ -15,18 +23,26 @@ class Footer extends Component {
               <p style={{ margin: 0 }}>{copyright}</p>
               <p>{address}</p>
               <span>
-                <a href="/term-of-use">Nutzungsbedingungen</a>
+                <a href={getLink(langKey, 'term-of-use')}>
+                  <FormattedMessage id="footer.term.of.use" />
+                </a>
                 <span> | </span>
-                <a href="/privacy">Datenschutz</a>
+                <a href={getLink(langKey, 'privacy')}>
+                  <FormattedMessage id="footer.privacy" />
+                </a>
                 <span> | </span>
-                <a href="/imprint">Impressum</a>
+                <a href={getLink(langKey, 'imprint')}>
+                  <FormattedMessage id="footer.imprint" />
+                </a>
               </span>
             </div>
             <div>
-              <p>Get our Newsletter direct to your inbox</p>
+              <p>
+                <FormattedMessage id="footer.newletter.promotion.text" />
+              </p>
               <a href="http://gem.godaddy.com/signups/388099/join">
                 <Button className="newsletter-subscribe" block>
-                  Subscribe
+                  <FormattedMessage id="footer.newletter.button.text" />
                 </Button>
               </a>
             </div>

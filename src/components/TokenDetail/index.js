@@ -1,50 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import { chunk } from 'lodash'
 import './index.css'
-
-const tokenDetails = [
-  {
-    text: 'Symbol: ARES',
-    color: '#00d0ff',
-    textColor: '#001ada',
-  },
-  {
-    text: 'Total Supply: 1,000,000,000 ARES',
-    color: '#ff6427',
-    textColor: '#7400a4',
-  },
-  {
-    text: 'Sale Supply: 300,000,000 ARES',
-    color: '#ce38da',
-    textColor: '#7400a4',
-  },
-  {
-    text: 'Token Format: ERC20',
-    color: '#ffb158',
-    textColor: '#ff6427',
-  },
-  {
-    text: 'Soft Cap: 100,000,000 ARES',
-    color: '#001ada',
-    textColor: '#00d0ff',
-  },
-  {
-    text: 'Hard Cap: 300,000,000 ARES',
-    color: '#7400a4',
-    textColor: '#ce38da',
-  },
-  {
-    text: '1 ARES = 0.1 EUR',
-    color: '#ce38da',
-    textColor: '#7400a4',
-  },
-  {
-    text: 'Public Sale Date: TBD',
-    color: '#00d0ff',
-    textColor: '#001ada',
-  },
-]
+import tokenDetails from './tokenDetails'
 
 const TokenDetail = () => (
   <div id="token" className="token-detail-section">
@@ -55,7 +14,7 @@ const TokenDetail = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline pb-4" style={{ color: '#ffb158' }}>
-            Token Detail
+            <FormattedMessage id="token.detail.title" />
           </h1>
         </Col>
       </Row>
@@ -65,7 +24,9 @@ const TokenDetail = () => (
           {row.map(({ color, text, textColor }) => (
             <Col md={4} key={text} className="pb-3">
               <div className="p-4" style={{ backgroundColor: color, borderRadius: 20 }}>
-                <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
+                <span style={{ color: textColor, fontWeight: 'bold' }}>
+                  <FormattedMessage id={text} />
+                </span>
               </div>
             </Col>
           ))}

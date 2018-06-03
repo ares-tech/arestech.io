@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 import { Card, CardBody } from 'reactstrap'
 import './index.css'
 
@@ -56,21 +57,23 @@ class Profile extends React.PureComponent {
             />
             <div>
               <p className="mb-0 pt-2" style={styles.name}>
-                {name}
+                <FormattedMessage id={name} />
               </p>
-              <p style={styles.title}>{title}</p>
+              <p style={styles.title}>
+                <FormattedMessage id={title} />
+              </p>
             </div>
             <p style={styles.intro} className={highlight ? '' : 'block-with-text'}>
-              {intro}
+              <FormattedMessage id={intro} />
             </p>
             <div style={styles.actionBar}>
               {!highlight ? (
                 <a href="/" style={styles.link} onClick={this.onReadMoreClicked}>
-                  Read more
+                  <FormattedMessage id="general.read.expand" />
                 </a>
               ) : (
                 <a href="/" style={styles.link} onClick={this.onReadLessClicked}>
-                  Read less
+                  <FormattedMessage id="general.read.collapse" />
                 </a>
               )}
               <a href={linkedIn} target="_blank">

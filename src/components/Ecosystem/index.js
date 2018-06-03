@@ -1,11 +1,6 @@
 import React from 'react'
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardBody,
-} from 'reactstrap'
+import { Container, Row, Col, Card, CardBody } from 'reactstrap'
+import { FormattedHTMLMessage, FormattedMessage } from 'react-intl'
 import './index.css'
 
 const Bubble = ({ name, src }) => (
@@ -45,10 +40,10 @@ const IntroSection = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline" style={{ color: '#7400a4' }}>
-              Product Structure
+            <FormattedMessage id="product.title" />
           </h1>
           <p className="lead sub-headline" style={{ color: '#7400a4' }}>
-              All-In-One Solution for Creators and Gamers
+            <FormattedMessage id="product.subtitle" />
           </p>
         </Col>
       </Row>
@@ -59,8 +54,7 @@ const IntroSection = () => (
               <Bubble name="suite" src="/images/suite-icon.png" />
               <Title text1="ares" color1="#001ada" text2="suite" color2="#00d0ff" />
               <Description>
-                Provide creators with <span style={{ fontWeight: 'bold' }}>all-in-one</span> development solution for
-                efficient and friendly cross-chain collaboration.
+                <FormattedHTMLMessage id="product.suite.description" />
               </Description>
             </CardBody>
           </Card>
@@ -71,8 +65,7 @@ const IntroSection = () => (
               <Bubble name="arena" src="/images/arena-icon.png" />
               <Title text1="ares" color1="#7400a4" text2="arena" color2="#ce38da" />
               <Description>
-                The first <span style={{ fontWeight: 'bold' }}>zero commission</span> gaming platform and decentralized
-                application.
+                <FormattedHTMLMessage id="product.arena.description" />
               </Description>
             </CardBody>
           </Card>
@@ -83,8 +76,7 @@ const IntroSection = () => (
               <Bubble name="connect" src="/images/connect-icon.png" />
               <Title text1="ares" color1="#ff6427" text2="connect" color2="#ffb158" />
               <Description>
-                Ecosystem that connects global business resources, help the developers to upgrade indie games to{' '}
-                <span style={{ fontWeight: 'bold' }}>profitable IP</span>
+                <FormattedHTMLMessage id="product.connect.description" />
               </Description>
             </CardBody>
           </Card>

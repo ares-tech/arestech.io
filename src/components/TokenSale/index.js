@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import { PieChart, Pie, Cell } from 'recharts'
 import tokenSales from './tokenSales'
 import './index.css'
@@ -50,7 +51,7 @@ const TokenSales = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline pb-4" style={{ color: '#ce38da' }}>
-            Token Supply Breakdown
+            <FormattedMessage id="token.supply.title" />
           </h1>
         </Col>
       </Row>
@@ -79,7 +80,9 @@ const TokenSales = () => (
         {tokenSales.map(({ color, text, textColor }, index) => (
           <div key={text} className="token-sale-item-container" style={{ paddingTop: '4rem' }}>
             <div className={`p-2 token-sale-item token-sale-item-${index}`} style={{ backgroundColor: color }}>
-              <span style={{ color: textColor, fontWeight: 'bold' }}>{text}</span>
+              <span style={{ color: textColor, fontWeight: 'bold' }}>
+                <FormattedMessage id={text} />
+              </span>
             </div>
           </div>
         ))}

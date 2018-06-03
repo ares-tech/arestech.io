@@ -9,7 +9,7 @@ import '../style/custom.css'
 
 const Section = ({ children, className }) => <div className={className}>{children}</div>
 
-const MainLayout = ({ children }) => (
+const MainLayout = ({ langKey, children }) => (
   <div className="ares index-container fluid-container">
     <Helmet title={config.siteTitle} />
     <Section className="main">
@@ -24,7 +24,7 @@ const MainLayout = ({ children }) => (
       </div>
     </Section>
     {children}
-    <Footer config={config} />
+    <Footer config={config} langKey={langKey} />
   </div>
 )
 

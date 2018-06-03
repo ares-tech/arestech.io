@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import Carousel from 'nuka-carousel'
 import './index.css'
 
@@ -20,7 +21,7 @@ const MediaCarousel = () => (
       rel="noopener noreferrer"
       target="_blank"
     >
-      <CarouselItem text="Dive into the ARES technology stack which provides an all-in-one solution for blockchain developers and users.">
+      <CarouselItem text={<FormattedMessage id="media.item.berlinvalley.intro" />}>
         <div className="p-1" style={{ backgroundColor: '#000' }}>
           <img src="/images/berlinvalley.png" alt="BerlinValley" width="180" />
         </div>
@@ -32,7 +33,7 @@ const MediaCarousel = () => (
       rel="noopener noreferrer"
       target="_blank"
     >
-      <CarouselItem text="Blockchain – ein Gamechanger im wahrsten Sinne des Wortes. Denn die Technologie hält nun Einzug in die Gaming-Welt und bietet Entwicklern neue Perspektiven.">
+      <CarouselItem text={<FormattedMessage id="media.item.gruenderszene.intro" />}>
         <img src="/images/partner-gruenderszene.png" alt="Gruenderszene" width="250" />
       </CarouselItem>
     </a>
@@ -42,7 +43,7 @@ const MediaCarousel = () => (
       rel="noopener noreferrer"
       target="_blank"
     >
-      <CarouselItem text="ARES Tech giving a talk at the Blockchain Spring School 2018 in Mittweida.">
+      <CarouselItem text={<FormattedMessage id="media.item.blockchain.intro" />}>
         <img src="/images/partner-bccm.jpg" alt="Blockchain Spring School" width="200" />
       </CarouselItem>
     </a>
@@ -55,10 +56,10 @@ const Media = () => (
       <Row>
         <Col>
           <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
-            Media
+            <FormattedMessage id="media.title" />
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            See what others are saying about us.
+            <FormattedMessage id="media.subtitle" />
           </p>
         </Col>
       </Row>

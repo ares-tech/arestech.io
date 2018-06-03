@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container, Row, Col, Card, CardText } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import './index.css'
 
 const Highlight = ({ color, bold = false, children }) => {
   const baseStyle = {
     color,
   }
-  
+
   return (
     <span
       style={{
@@ -29,34 +30,47 @@ const IntroSection = () => (
       <div>
         <Col md={{ offset: 5 }}>
           <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
-            Introduction
+            <FormattedMessage id="introduction.title" />
           </h1>
           <p className="lead" style={{ color: '#fff' }}>
-            Ares is Scalable Blockchain Social Gaming Network
+            <FormattedMessage id="introduction.subtitle" />
           </p>
           <Row className="pb-5">
             <Col md={6}>
               <Card style={{ borderRadius: 20 }}>
                 <CardText className="p-3" style={{ marginBottom: 0 }}>
-                  Ares Tech is committed to growing into a scalable Blockchain social gaming network.
+                  <FormattedMessage id="introduction.text.0" />
                 </CardText>
                 <CardText className="p-3" style={{ marginBottom: 20 }}>
-                  The{' '}
-                  <Highlight color="#001ada" bold>
-                    ares
-                  </Highlight>{' '}
-                  <Highlight color="#00d0ff">suite</Highlight> provides creators with an all-in-one development solution
-                  for efficient and friendly cross-chain collaboration. The featured{' '}
-                  <Highlight color="#7400a4" bold>
-                    ares
-                  </Highlight>{' '}
-                  <Highlight color="#ce38da">arena</Highlight> is a casual gaming platform, which can easily engage
-                  gamers in social competition on blockchain.{' '}
-                  <Highlight color="#ff6427" bold>
-                    ares
-                  </Highlight>{' '}
-                  <Highlight color="#ffb158">connect</Highlight> will bring various monetization opportunities with
-                  partners, which can turn indie games into profitable intellectual property.
+                  <FormattedMessage
+                    id="introduction.text.1"
+                    values={{
+                      suite: (
+                        <span>
+                          <Highlight color="#001ada" bold>
+                            ares
+                          </Highlight>{' '}
+                          <Highlight color="#00d0ff">suite</Highlight>
+                        </span>
+                      ),
+                      arena: (
+                        <span>
+                          <Highlight color="#7400a4" bold>
+                            ares
+                          </Highlight>{' '}
+                          <Highlight color="#ce38da">arena</Highlight>
+                        </span>
+                      ),
+                      connect: (
+                        <span>
+                          <Highlight color="#ff6427" bold>
+                            ares
+                          </Highlight>{' '}
+                          <Highlight color="#ffb158">connect</Highlight>
+                        </span>
+                      ),
+                    }}
+                  />
                 </CardText>
               </Card>
             </Col>

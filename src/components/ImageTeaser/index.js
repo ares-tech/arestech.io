@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Card, CardBody, CardTitle, CardSubtitle, CardLink } from 'reactstrap'
+import { FormattedMessage } from 'react-intl'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 import './index.css'
@@ -9,7 +10,7 @@ class ImageTeaser extends React.PureComponent {
     super(props)
     this.state = { isOpen: false }
   }
-  
+
   render() {
     const { src, title, desc, link } = this.props
     return (
@@ -27,9 +28,13 @@ class ImageTeaser extends React.PureComponent {
             onKeyDown={() => {}}
           />
           <CardBody>
-            {title.length > 0 && <CardTitle>{title}</CardTitle>}
-            {desc.length > 0 && <CardSubtitle>{desc}</CardSubtitle>}
-            {link.length > 0 && <CardLink href={link} target="_blank">More</CardLink>}
+            <CardTitle>{title}</CardTitle>
+            <CardSubtitle>{desc}</CardSubtitle>
+            {link.length > 0 && (
+              <CardLink href={link} target="_blank">
+                <FormattedMessage id="general.read.more" />
+              </CardLink>
+            )}
           </CardBody>
         </Card>
         {this.state.isOpen && <Lightbox mainSrc={src} onCloseRequest={() => this.setState({ isOpen: false })} />}
