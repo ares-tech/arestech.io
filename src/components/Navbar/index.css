@@ -19,6 +19,24 @@ img.navbar-logo {
     justify-content: flex-start;
 }
 
+.language-switcher-container {
+    width: 100%;
+}
+
+.language-switcher {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .language-switcher-container {
+        width: auto;
+    }
+
+    .language-switcher {
+        float: left;
+    }
+}
+
 .menu-container {
     display: flex;
     justify-content: center;

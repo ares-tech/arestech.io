@@ -104,9 +104,9 @@ class NavbarTop extends React.Component {
                   <FormattedMessage id="navigation.item.contact.us" />
                 </NavLink>
               </NavItem>
-              <div style={{ width: '100%' }}>
+              <div className="language-switcher-container">
                 <UncontrolledDropdown
-                  style={{ float: 'right' }}
+                  className="language-switcher"
                   nav
                   inNavbar
                   onClick={e => {
