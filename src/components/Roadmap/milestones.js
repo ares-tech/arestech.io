@@ -29,7 +29,7 @@ export default [
   },
   {
     date: '2019-01-01',
-    descriptions: ['roadmap.milestone.dapp beta', 'roadmap.milestone.sdk.1.0.with.ide.plugins'],
+    descriptions: ['roadmap.milestone.dapp.beta', 'roadmap.milestone.sdk.1.0.with.ide.plugins'],
     headerColor: '#9012fe',
     backgroundColor: '#ce38da',
   },

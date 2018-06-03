@@ -150,7 +150,7 @@ export default {
   'roadmap.milestone.token.distribution': 'Token distribution',
   'roadmap.milestone.dapp.alpha.version': 'DApp alpha version',
   'roadmap.milestone.sdk.beta.version': 'SDK beta version',
-  'roadmap.milestone.dapp beta': 'DApp Beta',
+  'roadmap.milestone.dapp.beta': 'DApp Beta',
   'roadmap.milestone.sdk.1.0.with.ide.plugins': 'SDK 1.0 with IDE Plugins',
   'roadmap.milestone.development.suite.1.0.with.multi-chain.adapters':
     'Development Suite 1.0 with Multi-chain Adapters',
