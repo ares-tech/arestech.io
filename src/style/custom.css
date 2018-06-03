@@ -63,6 +63,7 @@ body {
 }
 
 .display-2 {
+    font-size: 3.5rem;
     margin-bottom: 0;
     line-height: 1;
 }
@@ -72,8 +73,12 @@ body {
 }
 
 @media (max-width: 576px) {
-    .display-2.headline {
+    .display-1.headline {
         font-size: 2.6rem;
+    }
+
+    .display-2.headline {
+        font-size: 2rem;
     }
 
     .sub-headline {
