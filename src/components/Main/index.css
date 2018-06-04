@@ -123,10 +123,20 @@
         width: 250px;
     }
   .token-sale-box {
-    width: 95%;
+    width: 100%;
+  }
+  .ares-coin {
+    width: 60px;
+    height: auto;
+    left: 15px !important;
+    top: 60px !important;
+  }
+  .token-sale-header, .token-sale-box-body {
+    width: 100%;
+    padding-left: 20px !important;
   }
   .token-sale-header {
-    width: 100%;
+    font-size: 35px;
   }
   .graph {
     width: 90%;
