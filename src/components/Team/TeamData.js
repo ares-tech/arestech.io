@@ -49,6 +49,27 @@ export default [
     imageSrc: '/images/Jiani.jpg',
   },
   {
+    linkedIn: 'https://www.linkedin.com/in/seunghunsunmoonlee/',
+    name: 'team.member.seunghun.name',
+    title: 'team.member.title.fullstack',
+    intro: 'team.member.seunghun.intro',
+    imageSrc: '/images/Seunghun-Lee.jpg',
+  },
+  {
+    linkedIn: 'https://www.linkedin.com/in/zongxiong-chen-538043ab/',
+    name: 'team.member.zongxiong.name',
+    title: 'team.member.title.backendarch',
+    intro: 'team.member.zongxiong.intro',
+    imageSrc: '/images/Zongxiong.jpg',
+  },
+  {
+    linkedIn: 'https://www.linkedin.com/in/pei-zhang-25920b155/',
+    name: 'team.member.peizhang.name',
+    title: 'team.member.title.bcloudengineer',
+    intro: 'team.member.peizhang.intro',
+    imageSrc: '/images/PeiZhang.jpg',
+  },
+  {
     linkedIn: 'https://www.linkedin.com/in/konrad-rieck-58528015/',
     name: 'team.member.prof.dr.konradrieck.name',
     title: 'team.member.title.scientificadvisor',

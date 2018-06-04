@@ -17,7 +17,7 @@ export default {
   'main.title.1': '游戏平台.',
   'main.title.2': '商业生态.',
   'main.subtitle': '可扩展的区块链社交游戏⽹络',
-  'main.read.whitepaper': '阅读白皮书',
+  'main.read.whitepaper': '中英文项目白皮书',
   'main.resource.business.intro': '项目简介 v1.5',
   'main.resource.english.whitepaper': '英文版白皮书 v1.5',
   'main.resource.chinese.whitepaper': '中文版白皮书 v1.5',
@@ -27,9 +27,9 @@ export default {
   'update.subtitle.link.blog': '博客',
   'update.subtitle.link.community': '电报群',
   'update.subtitle.link.youtube': 'Youtube',
-  'update.subtitle': '关注我们的{blog}, {community}{or}{ youtube }，获取最新信息！',
-  'update.media.0.title': '在Google的办公室会面',
-  'update.media.0.description': 'ARES Tech started the initial conversion on marketing strategy 和 Google',
+  'update.subtitle': '关注我们的{blog}, {community}{or}{youtube}，获取最新信息！',
+  'update.media.0.title': 'Ares项目备受Google青睐',
+  'update.media.0.description': 'Ares Tech在Google 柏林办公室与Google创业及投资团队就市场推广层面的战略方向完成了首次会谈',
   'update.media.1.title': 'ERC721和ERC20的兑换',
   'update.media.1.description': 'ARES Tech put exchanging ERC721 Asset with ERC20 Token into practice',
   'update.media.2.title': 'Explaining the vision',
@@ -84,6 +84,18 @@ export default {
   'team.member.title.projectmanager': '项目总监',
   'team.member.jianiyu.intro':
     'Jiani graduated from Berliner Technische Kunsthochschule. Since 2015, she has worked as assistant producer and was involved in post production. At her positions at Jägermeister, Sony and Mercedes-Benz she was heavily involved in ad production.',
+  'team.member.seunghun.name': 'Seunghun Lee',
+  'team.member.title.fullstack': 'Fullstack开发专家',
+  'team.member.seunghun.intro':
+    'Seunghun是一名Fullstack开发专家，有使用Node.js，React.js开发企业应用程序的经验。他曾与Maxos Aboveboard、延世大学、美国的初创公司及中小企业合作过多个项目。他将负责在即将推出的产品中，前端和后端开发的主力攻坚工作。他始终与最新的网络开发技术保持着同步，喜欢开发创造性的解决方案。',
+  'team.member.zongxiong.name': 'Zongxiong Chen',
+  'team.member.title.backendarch': 'Backend架构师',
+  'team.member.zongxiong.intro':
+    '作为Ares高级后台研发工程师，对BigchainDB、MongoDB、OpenStack以及Docker、Kubernetes等去中心化或分布式NoSQL、基础架构组件等方面具有源代码级的研究。加入Ares之前，曾在上海携程公司负责系统研发，主要使用Docker和OpenStack。擅长Python语言。',
+  'team.member.peizhang.name': 'Pei Zhang',
+  'team.member.title.bcloudengineer': '区块链工程师、云计算专家',
+  'team.member.peizhang.intro':
+    '目前在Ares负责区块链相关的研究以及smart contract、DApp的开发、测试、部署与维护在加入Ares前，曾任职红帽北京研发中心，负责云产品相关的功能及集成测试工作。同时也关注云计算服务和企业级云平台架构，如AWS云架构以及阿里云和Google云的架构最新动态。',
   'team.member.prof.dr.konradrieck.name': 'Prof. Dr. Konrad Rieck',
   'team.member.title.scientificadvisor': '密码学、信息安全科学顾问',
   'team.member.prof.dr.konradrieck.intro':

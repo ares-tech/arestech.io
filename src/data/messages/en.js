@@ -84,6 +84,18 @@ export default {
   'team.member.title.projectmanager': 'Project Manager',
   'team.member.jianiyu.intro':
     'Jiani graduated from Berliner Technische Kunsthochschule. Since 2015, she has worked as assistant producer and was involved in post production. At her positions at Jägermeister, Sony and Mercedes-Benz she was heavily involved in ad production.',
+  'team.member.seunghun.name': 'Seunghun Lee',
+  'team.member.title.fullstack': 'Fullstack Engineer',
+  'team.member.seunghun.intro':
+    'Seunghun is an experienced Fullstack developer who has years experience in developing enterprise applications using Node.js, React.js. He worked with Maxos Aboveboard, Yonsei University, also with startups and small businesses in the U.S., South Korea. His focus is in developing frontend and backend for the next upcoming product. He keeps up to date with web technologies and likes to develop creative solutions.',
+  'team.member.zongxiong.name': 'Zongxiong Chen',
+  'team.member.title.backendarch': 'Backend Architect',
+  'team.member.zongxiong.intro':
+    'Senior Backend Expert at Ares. Source code level knowledge in BigchainDB, MongoDB, OpenStack and Docker as well as Kubernetes, which enables blockchain technology to solve database, data storage and scalable infrastructure problems. Previously, Chen participated in Continuous Integral & Continuous Delivery projects in CTRIP. And currently focusing on Docker and OpenStack technology and multiple years of experiences in Python language.',
+  'team.member.peizhang.name': 'Pei Zhang',
+  'team.member.title.bcloudengineer': 'Blockchain & Cloud engineer',
+  'team.member.peizhang.intro':
+    'As an experienced Blockchain & Cloud engineer, Pei is mainly focusing on Blockchain related technology research and smart contacts, DApp development. Before joining Ares, Pei was responsible for the functional and integration testing for RHV (Red Hat Virtualization) product at Red Hat. Currently working on Cloud service development and Enterprise Cloud Architecture design, e.g. AWS Architecture as well as AliCloud and Google Cloud.',
   'team.member.prof.dr.konradrieck.name': 'Prof. Dr. Konrad Rieck',
   'team.member.title.scientificadvisor': 'Scientific Advisor',
   'team.member.prof.dr.konradrieck.intro':
