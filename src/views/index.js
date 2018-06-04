@@ -7,6 +7,7 @@ import Media from '../components/Media'
 import Partners from '../components/Partners'
 import Ecosystem from '../components/Ecosystem'
 import Roadmap from '../components/Roadmap'
+import UpcomingEvents from '../components/UpcomingEvents'
 import TokenDetail from '../components/TokenDetail'
 import Team from '../components/Team'
 import TokenSale from '../components/TokenSale'
@@ -37,6 +38,9 @@ const Main = ({ langKey, messages }) => (
         </Section>
         <Section>
           <Roadmap />
+        </Section>
+        <Section>
+          <UpcomingEvents />
         </Section>
         <Section>
           <Media />

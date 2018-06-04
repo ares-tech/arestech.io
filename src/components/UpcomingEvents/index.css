@@ -1,0 +1,57 @@
+.cards {
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  margin-top: 10rem;
+  height: 300px;
+  display: relative;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.card--content {
+  background-color: #ecf0f1;
+  min-width: 200px;
+  margin: 5px;
+  padding: 5px;
+  color: #34495e
+}
+
+.roadmap-section {
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.events-wrapper {
+    overflow: visible !important;
+    padding: 0 60px !important;
+}
+
+.events-wrapper .events {
+    padding: 0 60px !important;
+}
+
+.event {
+    border-radius: 20px;
+}
+
+.event-header {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+}
+
+.events-container {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 10px;
+    text-align: left;
+    color: #fff;
+}
+@media (max-width: 1200px) {
+  .card--content {
+    height: 145px !important
+  }
+}
