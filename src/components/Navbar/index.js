@@ -55,47 +55,47 @@ class NavbarTop extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href={getLink(langKey, '#introduction')}>
+                <NavLink href={getLink(langKey, '#introduction')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.introduction" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#products')}>
+                <NavLink href={getLink(langKey, '#products')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.products" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#team')}>
+                <NavLink href={getLink(langKey, '#team')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.team" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#roadmap')}>
+                <NavLink href={getLink(langKey, '#roadmap')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.roadmap" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#media')}>
+                <NavLink href={getLink(langKey, '#media')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.media" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#partners')}>
+                <NavLink href={getLink(langKey, '#partners')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.partner" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#token')}>
+                <NavLink href={getLink(langKey, '#token')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.token" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#usage')}>
+                <NavLink href={getLink(langKey, '#usage')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.usage" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={getLink(langKey, '#contact-us')}>
+                <NavLink href={getLink(langKey, '#contact-us')} onClick={this.closeNav}>
                   <FormattedMessage id="navigation.item.contact.us" />
                 </NavLink>
               </NavItem>
