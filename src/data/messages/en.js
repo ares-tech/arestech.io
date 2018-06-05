@@ -16,6 +16,7 @@ export default {
   'main.title.0': 'Blockchain.',
   'main.title.1': 'Gaming.',
   'main.title.2': 'Network.',
+  'main.tokenSaleBox.title': 'Token Sale',
   'main.subtitle': 'Scalable Blockchain All-in-One Solution for Social Game Creators',
   'main.read.whitepaper': 'Read our White Paper',
   'main.resource.business.intro': 'Business Intro v1.5',

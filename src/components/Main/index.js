@@ -89,12 +89,11 @@ const Main = () => (
           </Button>
         </a>
       </div>
-      {/*
       // TokenSale Box
       <div className="token-sale-box" style={{overflow: 'hidden', marginTop: '40px'}}>
         <div className="token-sale-header" style={{display: 'flex', paddingLeft: '25px', alignItems: 'center', verticalAlign: 'middle'}}>
           <div className="circle" style={{marginRight: '25px'}} />
-          <div style={{verticalAlign: 'center', height: '36px', padingTop: '5px'}}>Token Sale</div>
+          <div style={{verticalAlign: 'center', height: '36px', padingTop: '5px'}}><FormattedMessage id="main.tokenSaleBox.tokenSale" />Token Sale</div>
         </div>
         <div className="token-sale-box-body" style={{display: 'flex', alignItems: 'center', flexDirection: 'column', width: '100%', height: '100%', overflow: 'hidden'}}>
           <div className="graph" style={{marginTop: '45px'}}>
@@ -116,7 +115,6 @@ const Main = () => (
           </div>
         </div>
       </div>
-      */}
     </div>
   </div>
 )
