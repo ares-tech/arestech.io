@@ -27,7 +27,7 @@ const Partners = () => (
           {row.map(partner => (
             <Col md={4} key={partner.name} className="pb-4">
               <Card style={{border: 'none', backgroundColor: 'transparent'}}>
-                <a className="p-2" href={partner.link} alt={partner.name} style={{ height: 160 }} target="_blank">
+                <a className="partners-link" href={partner.link} alt={partner.name} target="_blank">
                   <div
                     style={{
                       backgroundImage: `url(${partner.imageSrc})`,

@@ -26,7 +26,7 @@ export default [
   },
   {
     name: 'Gruenderszene',
-    imageSrc: '/images/partner-gruenderszene.png',
+    imageSrc: '/images/partner/gruenderszene.png',
     link: 'http://www.gruenderszene.de/allgemein/blockchain-social-gaming-ares-tech-2018-10642',
   },
   {
