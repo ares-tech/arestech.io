@@ -9,15 +9,14 @@ const Partners = () => (
   <div
     id="partners"
     className="partners-section"
-    style={{ paddingTop: '5rem', paddingBottom: '2rem', color: '#9B9B9B', position: 'relative' }}
   >
     <Container>
-      <Row>
+      <Row className="partners-heading">
         <Col>
-          <h1 className="display-2 headline" style={{ color: '#fff', fontWeight: 'bold' }}>
+          <h1 className="display-2 headline" style={{ color: '#ff6427', fontWeight: 'bold' }}>
             <FormattedMessage id="partner.title" />
           </h1>
-          <p className="lead" style={{ color: '#fff' }}>
+          <p className="lead" style={{ color: '#ff6427' }}>
             <FormattedMessage id="partner.subtitle" />
           </p>
         </Col>
@@ -27,7 +26,7 @@ const Partners = () => (
         <Row key={index}>
           {row.map(partner => (
             <Col md={4} key={partner.name} className="pb-4">
-              <Card style={{ borderRadius: 20 }}>
+              <Card style={{border: 'none', backgroundColor: 'transparent'}}>
                 <a className="p-2" href={partner.link} alt={partner.name} style={{ height: 160 }} target="_blank">
                   <div
                     style={{
@@ -50,12 +49,6 @@ const Partners = () => (
     </div>
     <div className="custom-shape-6">
       <img src="/images/custom-shape-6.png" width="100%" height="100%" alt="" />
-    </div>
-    <div className="custom-shape-7">
-      <img src="/images/custom-shape-7.png" width="100%" height="100%" alt="" />
-    </div>
-    <div className="custom-shape-8">
-      <img src="/images/custom-shape-8.png" width="100%" height="100%" alt="" />
     </div>
   </div>
 )
