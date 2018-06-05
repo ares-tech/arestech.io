@@ -57,7 +57,7 @@ export default class UpcomingEvents extends React.Component {
           <div className="cards" >
             {events && events.map(event => {
               return (
-                <Events event={event} />
+                <Events event={event} key={event.title} />
               )
             })}
           </div>
