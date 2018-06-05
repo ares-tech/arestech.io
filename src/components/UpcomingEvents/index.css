@@ -1,9 +1,10 @@
 .cards {
   display: flex;
   min-width: 100%;
-  min-height: 200px;
+  min-height: 120px;
   margin-top: 10rem;
-  height: 230px;
+  height: auto;
+  max-height: 200px;
   display: relative;
   margin: 0 auto;
   overflow-x: auto;
@@ -16,11 +17,14 @@
   min-width: 200px;
   margin: 5px;
   padding: 5px;
-  color: #34495e
+  color: #34495e;
+  height: auto;
+  max-height: 200px;
 }
 
-.upcomingEvents-section {
-    margin-top: 3.5rem;
+.upcomingEvents {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
     overflow: hidden;
 }
 
@@ -49,11 +53,6 @@
     padding-left: 10px;
     text-align: left;
     color: #fff;
-}
-@media (max-width: 1200px) {
-  .card--content {
-    height: 145px !important
-  }
 }
 
 @media (max-width: 576px) {
