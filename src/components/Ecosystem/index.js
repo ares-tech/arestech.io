@@ -51,7 +51,7 @@ const IntroSection = () => (
         <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card suite">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
-              <Bubble name="suite" src="/images/suite-icon.png" />
+              <Bubble name="suite" src="/images/icon-suite.png" />
               <Title text1="ares" color1="#001ada" text2="suite" color2="#00d0ff" />
               <Description>
                 <FormattedHTMLMessage id="product.suite.description" />
@@ -62,7 +62,7 @@ const IntroSection = () => (
         <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card arena">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
-              <Bubble name="arena" src="/images/arena-icon.png" />
+              <Bubble name="arena" src="/images/icon-arena.png" />
               <Title text1="ares" color1="#7400a4" text2="arena" color2="#ce38da" />
               <Description>
                 <FormattedHTMLMessage id="product.arena.description" />
@@ -73,7 +73,7 @@ const IntroSection = () => (
         <Col className="py-5 eco-container" md={4}>
           <Card className="px-5 eco-card connect">
             <CardBody style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
-              <Bubble name="connect" src="/images/connect-icon.png" />
+              <Bubble name="connect" src="/images/icon-connect.png" />
               <Title text1="ares" color1="#ff6427" text2="connect" color2="#ffb158" />
               <Description>
                 <FormattedHTMLMessage id="product.connect.description" />

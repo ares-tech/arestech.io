@@ -1,27 +1,27 @@
 export default [
   {
     name: 'Jingtum Tech',
-    imageSrc: '/images/partner-jingtum.png',
+    imageSrc: '/images/partner/jingtum.png',
     link: 'http://www.jingtum.com/',
   },
   {
     name: 'BigchainDB',
-    imageSrc: '/images/partner-bigchaindb.png',
+    imageSrc: '/images/partner/bigchaindb.png',
     link: 'http://bigchaindb.com/',
   },
   {
     name: 'medixain',
-    imageSrc: '/images/partner-medixain.png',
+    imageSrc: '/images/partner/medixain.png',
     link: 'http://medixain.com/',
   },
   {
     name: 'BCCM',
-    imageSrc: '/images/partner-bccm.jpg',
+    imageSrc: '/images/partner/bccm.png',
     link: 'http://blockchain.hs-mittweida.de/',
   },
   {
     name: 'BerlinValley',
-    imageSrc: '/images/partner-berlinvalley.png',
+    imageSrc: '/images/partner/berlinValley.png',
     link: 'http://berlinvalley.com/a-new-blockchain-startup-in-berlin-to-decentralize-the-ecosystem-of-game-business/',
   },
   {
@@ -31,17 +31,17 @@ export default [
   },
   {
     name: 'FxLive',
-    imageSrc: '/images/partner-fxlive.png',
+    imageSrc: '/images/partner/fxLive.png',
     link: 'http://www.fxlive.de/',
   },
   {
     name: 'MTG',
-    imageSrc: '/images/partner-mtg.jpg',
+    imageSrc: '/images/partner/mtg.png',
     link: 'http://blockchain.hs-mittweida.de/springschool.html',
   },
   {
     name: 'Hash Capital',
-    imageSrc: '/images/partner-hashcapital.png',
+    imageSrc: '/images/partner/hashcapital.png',
     link: 'http://hashcapital.net/',
   },
   {

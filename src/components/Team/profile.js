@@ -77,7 +77,7 @@ class Profile extends React.PureComponent {
                 </a>
               )}
               <a href={linkedIn} target="_blank">
-                <img src="/images/linkedIn.svg" alt={`${name} LinkedIn`} width="30" height="100%" />
+                <img src="/images/icon-linkedIn.svg" alt={`${name} LinkedIn`} width="30" height="100%" />
               </a>
             </div>
           </div>

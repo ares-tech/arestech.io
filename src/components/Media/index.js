@@ -23,7 +23,7 @@ const MediaCarousel = () => (
     >
       <CarouselItem text={<FormattedMessage id="media.item.berlinvalley.intro" />}>
         <div className="p-1" style={{ backgroundColor: '#000' }}>
-          <img src="/images/berlinvalley.png" alt="BerlinValley" width="180" />
+          <img src="/images/partner/berlinValley-media.png" alt="BerlinValley" width="180" />
         </div>
       </CarouselItem>
     </a>
@@ -34,7 +34,7 @@ const MediaCarousel = () => (
       target="_blank"
     >
       <CarouselItem text={<FormattedMessage id="media.item.gruenderszene.intro" />}>
-        <img src="/images/partner-gruenderszene.png" alt="Gruenderszene" width="250" />
+        <img src="/images/partner/gruenderszene-partner.png" alt="Gruenderszene" width="210" />
       </CarouselItem>
     </a>
     <a
@@ -44,7 +44,7 @@ const MediaCarousel = () => (
       target="_blank"
     >
       <CarouselItem text={<FormattedMessage id="media.item.blockchain.intro" />}>
-        <img src="/images/partner-bccm.jpg" alt="Blockchain Spring School" width="200" />
+        <img src="/images/partner/bccm.png" alt="Blockchain Spring School" width="200" />
       </CarouselItem>
     </a>
   </Carousel>
