@@ -11,7 +11,7 @@
 .card::-webkit-scrollbar {
   display: none;
 }
-.card--content {
+.card-content {
   background-color: #ecf0f1;
   min-width: 200px;
   margin: 5px;

@@ -5,7 +5,7 @@ import { Row, Col } from 'reactstrap'
 import './index.css'
 import events from './events'
 
-const Milestone = ({ event }) => {
+const Events = ({ event }) => {
   const style = {
     backgroundColor: event.backgroundColor,
     minWidth: '272px',
@@ -15,7 +15,7 @@ const Milestone = ({ event }) => {
 
   return (
     <div
-      className="card--content event p-2"
+      className="card-content event p-2"
       style={{ ...style }}
     >
       <h3 className="event-header" style={{ color: event.headerColor }}>
@@ -59,7 +59,7 @@ export default class UpcomingEvents extends React.Component {
           <div className="cards" >
             {events && events.map(event => {
               return (
-                <Milestone event={event} />
+                <Events event={event} />
               )
             })}
           </div>
