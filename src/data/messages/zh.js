@@ -95,7 +95,7 @@ export default {
   'team.member.peizhang.name': 'Pei Zhang',
   'team.member.title.bcloudengineer': '区块链工程师、云计算专家',
   'team.member.peizhang.intro':
-    '目前在Ares负责区块链相关的研究以及smart contract、DApp的开发、测试、部署与维护在加入Ares前，曾任职红帽北京研发中心，负责云产品相关的功能及集成测试工作。同时也关注云计算服务和企业级云平台架构，如AWS云架构以及阿里云和Google云的架构最新动态。',
+    '目前在Ares负责区块链相关的研究以及smart contract、DApp的开发、测试、部署与维护。在加入Ares前，曾任职红帽北京研发中心，负责云产品相关的功能及集成测试工作。同时也关注云计算服务和企业级云平台架构，如AWS云架构以及阿里云和Google云的架构最新动态。',
   'team.member.prof.dr.konradrieck.name': 'Prof. Dr. Konrad Rieck',
   'team.member.title.scientificadvisor': '密码学、信息安全科学顾问',
   'team.member.prof.dr.konradrieck.intro':
