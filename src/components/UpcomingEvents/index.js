@@ -9,8 +9,6 @@ const Events = ({ event }) => {
   const style = {
     backgroundColor: event.backgroundColor,
     minWidth: '272px',
-    height: '127px',
-    marginLeft: '10px',
   }
 
   return (
@@ -42,7 +40,7 @@ export default class UpcomingEvents extends React.Component {
 
   render() {
     return (
-      <div id="upcomingEvents" className="upcomingEvents-section">
+      <div className="upcomingEvents">
         <div className="container">
           <Row>
             <Col>
