@@ -59,31 +59,31 @@ export default {
   'team.member.jack.li.name': 'Jack Li',
   'team.member.title.ceo': '首席执行官',
   'team.member.jack.li.intro':
-    'Over 10 years of extensive internet experience spanning sports, gaming and e-commerce. Including but not limited to product development, marketing strategy, growth hacking, community operations. Complete Projects like localization of a Baas platform and App, Design 2 mobile APPs and delivery 1 APP as developer, Operate Q & A game platform and football manager games and others.',
+    'Ares的创始人兼CEO Jack Li拥有十年互联网产业经验，不仅参与过微博的早期运营，并在产业中担任过横跨整个周期的角色，包括UX产品经理、市场战略、growth hacker、社交媒体运营、营销、品牌合作等。',
   'team.member.christian.gehl.name': 'Christian Gehl',
   'team.member.title.cto': '首席技术官',
   'team.member.christian.gehl.intro':
-    "Christian has held senior and leading positions in various functions for more than 10 years. Starting as a Research Assistant at Fraunhofer FIRST in 2008, he changed over to one of the Co-Founders of Trifense GmbH in 2010, and as CTO played a pivotal role in the company's development into the leading network security solution and consulting firm in the German-speaking region.",
+    'Ares CTO Christian Gehl曾在各种职能部门担任过10多年的高级管理职位。曾于2008年任Fraunhofer FIRST的研究员，之后于2010年成为Trifense的联合创始人之一，并担任该公司CTO。在Christian的带领下，该公司在DACH区域（德国、奥地利、瑞士）发展成安全解决方案和咨询行业拥有深远影响力的公司。',
   'team.member.toni.qiu.name': 'Toni Qiu',
   'team.member.title.managing.director': '管理合伙人',
   'team.member.toni.qiu.intro':
-    "Founding member of KPMG's Lighthouse Germany for Data & Analytics after he held consultant and manager positions in Digital Finance at KPMG. Previously worked 4 years as Big Data Architect at an Europe's leading e-commerce platform, Zalando. With more than 15 years experience in forex trading, Teng founded Forex Live Group in Berlin, an AI-based trading signal platform for quant trading strategies",
+    'Ares总经理Toni Qiu在德国毕马威担任数字化金融领域高级顾问和项目经理之后，成为毕马威德国数据与分析业务部门的创始成员。在此之前，他曾在欧洲领先的电子商务平台Zalando公司担任大数据架构师4年。同时，Toni拥有超过15年的外汇交易经验，在柏林创办了外汇交易信号提供商Forex Live 集团，为量化交易策略提供基于人工智能和自然语言处理的实时智能交易信号。',
   'team.member.jasmine.zhang.name': 'Jasmine Zhang',
   'team.member.title.cmo': '首席市场官',
   'team.member.jasmine.zhang.intro':
-    "Jasmine has rich experience in business development, marketing strategy development with a demonstrated history of working in German Start-up scene, consulting and investment banking. Her customers includes DAX 30 companies, Deutsche bank, Volkswagen etc. Strong program and project management professional with a Master's Degree focused in Statistics from University College London",
+    'Ares CMO Jasmine Zhang毕业于英国伦敦大学学院（UCL），拥有统计硕士学位，拥有深厚的战略和项目管理的专业素养。她在商业发展、咨询、投资银行业务和营销战略发展方面拥有丰富的经验，在德国初创企业中有着丰富的经验。她的客户包括DAX 30公司，德意志银行，大众汽车等。',
   'team.member.qin.liwen.name': 'Qin Liwen',
   'team.member.title.cco': '首席媒体关系顾问',
   'team.member.qin.liwen.intro':
-    'More than 15 years of professional experience with public media, internet companies and international think tanks. Senior journalist and News Director for major media. More than 10 years’ experience with TMT companies. Former News Director of Sohu (NASDAQ: SOHU), featuring the 2008 Beijing Olympic Games online, and simultaneously managing the marketing, advertisement sales, events organization, social media, NGO and government relations of Sohu News. Fellow of the Regional Center of Strategic Study in Sri Lanka.',
+    'Ares公共关系顾问覃里雯女士在传统大众传媒、互联网公司和国际智库方面拥有超过20年的专业经验。她曾在《经济观察报》担任高级记者，在现代传播集团担任新闻总监。她在TMT（技术，媒体和电信）公司有超过10年的经验，曾任搜狐网新闻总监（纳斯达克股票代码：SOHU），，参与主持搜狐网2008年北京奥运会新闻报道，同时负责搜狐新闻的营销，广告销售，活动组织，社交媒体，非政府组织和政府关系。她还是斯里兰卡区域战略研究中心毕业生。',
   'team.member.ciarandold.name': 'Ciarán Dold',
   'team.member.title.ux.uidesigner': '资深 UX/UI 设计师',
   'team.member.ciarandold.intro':
-    'Ciarán is a UX/UI designer. His focus is on making the best user experience for Ares. He’s worked as a user experience designer and user interface designer for startups in Ireland and the UK, helping various products meet user expectations while meeting their business goals.',
+    'Ares交互设计师Ciarán Dold先生毕业于都柏林理工学院，在设计和视觉传播方面拥有丰富的原型设计和UI / UX设计经验。 此前，Ciarán曾在Mallzee Edinburgh担任UX设计师，曾在都柏林Guidecentral的产品设计师，在Clevercards都柏林担任UI设计师和P.R团队的数字设计师。',
   'team.member.jianiyu.name': 'Jiani Yu',
   'team.member.title.projectmanager': '项目总监',
   'team.member.jianiyu.intro':
-    'Jiani graduated from Berliner Technische Kunsthochschule. Since 2015, she has worked as assistant producer and was involved in post production. At her positions at Jägermeister, Sony and Mercedes-Benz she was heavily involved in ad production.',
+    'Ares项目经理于佳妮，于女士毕业于Berliner Technische Kunsthochschule。自2015年在柏林广告制作公司担任制作人助理和后期制作工作。曾参与过Jägermeister，索尼，奔驰等广告制作。',
   'team.member.seunghun.name': 'Seunghun Lee',
   'team.member.title.fullstack': 'Fullstack开发专家',
   'team.member.seunghun.intro':
@@ -99,58 +99,58 @@ export default {
   'team.member.prof.dr.konradrieck.name': 'Prof. Dr. Konrad Rieck',
   'team.member.title.scientificadvisor': '密码学、信息安全科学顾问',
   'team.member.prof.dr.konradrieck.intro':
-    'Professor (W3) of Computer Science at TU Braunschweig. Leading the Institute of System Security since 2016. Prior to taking this position, Prof. Dr. Rieck has been working at the University of Göttingen, Technische Universität Berlin and Fraunhofer Institute FIRST.',
+    'Ares科学顾问Prof. Dr. Konrad Rieck教授。Rieck教授是布伦瑞克工业大学计算机科学系终身教授（W3），网络安全与加密技术专家，自2016年起领导系统安全研究所。在担任此职位之前，Rieck教授在柏林工业大学，哥廷根大学和弗劳恩霍夫FIRST研究所等机构从事科研工作。他的研究主要围绕结构化数据的计算机安全、密码学和机器学习方法展开，如序列和树形图。',
   'team.member.prof.dr.lorenz-meyer.name': 'Prof. Dr. Lorenz-Meyer',
   'team.member.title.media.pradvisor': '媒体关系顾问',
   'team.member.prof.dr.lorenz-meyer.intro':
-    'Prof. Dr. Lorenz-Meyer teaches Online Journalism and Media Development at Hochschule Darmstadt since 2004. He was one of the heralds of German online media. Current research areas include online journalism, content management / multimedia production technology; virtual communities and social software.',
+    'Ares媒体顾问罗任之教授。罗任之教授自2004年起在达姆施塔特应用科技大学教授教授网络新闻和媒体发展。他是德国在线媒体的领先媒体人之一。他目前的研究领域包括网络新闻，内容管理/多媒体技术; 虚拟社区和社交软件。在此之前，他曾先后担任《明镜》周刊在线版高级编辑、项目经理和网络世界部负责人和《时代》杂志在线版主编。',
   'team.member.renégerstenberger.name': 'René Gerstenberger',
   'team.member.title.datasecurityadvisor': '数据保护与数据安全顾问',
   'team.member.renégerstenberger.intro':
-    'René has been working with numerous global clients and organization, helping to manage appropriate Corporate IT Operations, Data Protection Compliance and Data Governance approaches and solutions. He has taken on various leading roles both on a global and national level.',
+    'Ares数据安全顾问René Gerstenberger先生是梅赛德斯奔驰和戴姆勒股份公司的IT经理，负责信息安全，治理和IT研发安全。Gerstenberger先生一直与众多全球客户和组织合作，从事企业IT管理运营，数据保护合规和数据治理解决方案等方面的工作。Gerstenberger先生在多个全球性或区域性层面担任过领导岗位。',
   'team.member.simonschwerin.name': 'Simon Schwerin',
   'team.member.title.blockchainadvisor': '区块链顾问',
   'team.member.simonschwerin.intro':
-    'Simon advises XAIN as a Business Development Manager, after he wrote his Master Thesis about Blockchains and Privacy, specifically concerning the GDPR. He now focuses his work on leading medixain as a CEO to build a solution in the Healthcare and Blockchain sector. Previously he worked for the Blockchain Start-up BigchainDB on the business strategy and project management side. He led the working groups on identity and standardization within the public German blockchain lobby group „Bundesblock“ (Bundesverband Blockchain).',
+    'Ares区块链顾问Simon Schwerin先生曾撰写关于区块链和隐私的硕士论文，特别是关于GDPR的论文。毕业后在XAIN担任业务发展经理，现为medixain公司首席执行官领导。他致力于在医疗保健和区块链领域构建解决联系。此前，他曾在BigchainDB工作，负责商业战略和项目管理方面为区块链创业。他也曾领导过德国公共区块链工作组“公共区块链”（又名联邦区块链)。',
   'team.member.fuesunwehrmann.name': 'Füsun Wehrmann',
   'team.member.title.engineeringadvisor': '技术工程顾问',
   'team.member.fuesunwehrmann.intro':
-    'Vice President Of Engineering at OLX Berlin Tech Hub, former Premier Field Engineering (PFE) Manager, EMEA Technology Manager for Development at Microsoft Germany. Startup Mentor, Speaker, Google LP Mentor.',
+    'Ares工程顾问Füsun Wehrmann女士现为OLX柏林技术中心工程副总裁，之前是微软公司EMEA（欧洲，中东和非洲地区）技术经理，PFE经理。Wehrmann女士是多家创业孵化器公司的负责人、顾问以及发言人、Google LP导师。',
   'team.member.stevenkarch.name': 'Steven Karch',
   'team.member.stevenkarch.intro':
-    'Crypto-currency miner since 2013, Blockchain Enthusiast. Over 20 years of experience in distributed systems, computer network, IT infrastructure.',
+    'Ares首席架构师Steven Karch先生自2013年起从事加密货币的算力挖矿技术研究，是早期区块链布道者。Steven在分布式系统，计算机网络和IT基础设施方面拥有超过20年的工作经验。',
   'team.member.ranwang.name': 'Ran Wang',
   'team.member.title.gamepublishingadvisor': '游戏制作与发行顾问',
   'team.member.ranwang.intro':
-    'Experienced Global Lead in Business Communication and Community Development with a demonstrated history of working in the computer games industry. Strong business development professional skilled in Business Strategy, Start-ups, Licensing, Mobile Applications and Game Design.',
+    'Ares商务及游戏发行顾问王冉先生是唯晶科技的全球商务及游戏发行高级副总裁，此前在Garena、NVIDIA、THQ和盛大担任过管理职位。王先生拥有丰富的游戏行业从业经验，对行业有着深刻的洞察力和全球视野，并且有强烈的企业家精神，是两家公司的联合创始人。',
   'team.member.yuncao.name': 'Yun Cao',
   'team.member.title.game.marketingadvisor': '游戏发行与市场顾问',
   'team.member.yuncao.intro':
-    'Game Publishing Manager at Six Foot LLC, former Producer at Bigpoint GmbH in Berlin, Germany. Previous to that, Yun was Sr. Product Manager & Project Lead at Zynga, ShanDa, and Tencent. Publisher and producer with an international game industry background. Shared great success of best games with partners worldwide. Leverage global publishing capability and ambition. Yun was leading a development team as producer to re-engage the project evolving new features and contents while keep being align with global product vision.',
+    'Ares游戏与营销顾问曹云先生是位于德国柏林的Six Foot LLC的游戏发行负责人和Bigpoint的前制作人。此前，曹先生曾担任Zynga、盛大和腾讯的高级产品经理和项目主管。他有着作为游戏制作人和发行负责人的国际背景，通过与全球合作伙伴合作，充分发挥全球游戏发行能力，为多款游戏带来了巨大成功。',
   'team.member.davidespinosa.name': 'David Espinosa',
   'team.member.title.technicalsolutionsadvisor': '技术解决方案顾问',
   'team.member.davidespinosa.intro':
-    'Front-end Developer / UX Designer specializing in the design and development of web and mobile products. Great interaction design skills and a passion for designing the right thing right to help users. As part of a multidisciplinary team, David used to develop and maintain the frontend code of client websites built using the Rebelmouse platform for distributed content using latest technologies as well as deploying code to live servers and integrated plugins and third party libraries.',
+    'Ares技术解决方案David Espinosa先生作为前端开发人员/用户体验设计师，专注于网页和移动产品的设计和开发，拥有良好的互动设计技巧。Espinosa曾是一个多学科团队的一员，开发和维护过客户端网站的前端代码，他建立的这些客户端网站使用Rebelmouse平台来进行分布式内容构建，并能将代码部署到实时服务器和集成的第三方数据库中。',
   'team.member.rasmusgiesel.name': 'Rasmus Giesel',
   'team.member.title.brandingandcreativeadvisor': '品牌与创意顾问',
   'team.member.rasmusgiesel.intro':
-    'Rasmus is creative director and founding partner of MOR Design and tutor for brand design. Previous to Berlin he has been working for highly acclaimed brand agency North Associates and Nick Bell Design in London amongst others. he has created branding schemes for clients in sectors spanning from Finance, Tech, Culture & Art to numerous Start-Ups and non profit organizations.',
+    'Rasmus是M.O.R. Design的联合创始人和创意总监，以及品牌设计督导。在来到柏林之前，他曾在伦敦著名的品牌公司North Associates and Nick Bell Design等公司工作。他曾为来自金融、科技、文化和艺术多个领域的客户设计了品牌战略，也包括诸多创业公司和非政府机构。',
   'team.member.sandromoscogiuri.name': 'Sandro Moscogiuri',
   'team.member.title.artadvisor': '艺术顾问',
   'team.member.sandromoscogiuri.intro':
-    'Sandro is a photographer, animator, and visual artist. His focus is on visual means and visualizing the idea. He graduated with honors from the Accademia di Belle Arti in Rome. Berlin-based since 2012, Sandro is simultaneously conducting his ongoing research on perception and movement through video and photography while providing all visual support to the ARES team.',
+    'Ares首席平面设计师Sandro Moscogiuri先生毕业于罗马Accademia di Belle Arti大学，他是一位摄影师，动画师和视觉艺术家。他致力于视觉方式的研究以及把这些方式可视化。自2012年起就定居柏林的Sandro通过视频和摄影，进行对感知和运动的研究。他为ARES团队提供所有视觉支持。',
   'team.member.maurusradelow.name': 'Maurus Radelow',
   'team.member.title.cyber.informationsecurityadvisor': '信息安全顾问',
   'team.member.maurusradelow.intro':
-    'Advising clients in both the public and the private sector in all matters information security governance (ISO 27000 & BSI Grundschutz, risk management, and compliance). Prior to working in Germany, Maurus has spent 6+ years working for numerous international organizations.',
+    'Ares网络和信息安全顾问Maurus Radelow先生向所有公共和私营部门的客户，提供与信息安全治理有关的所有事宜（ISO 27000＆BSI保护，风险管理和合规性）的咨询服务。在德国工作之前，Maurus在多个国际组织有超过6年的工作经验。',
   'team.member.yingguo.name': 'Ying Guo',
   'team.member.title.marketingandsalesadvisor': '市场销售顾问',
   'team.member.yingguo.intro':
-    'Marketing and Sales Manager at Classictic in Berlin, MBA education at HTW Berlin and Magister degree from the University Potsdam, experienced in developing and implementing marketing strategies (B2C/B2B); event marketing; ability to build and maintain a network of relationship, good knowledge of market trends, social media as well as SEM.',
+    'Ares营销和销售顾问郭颖女士曾是柏林Classictic公司的市场营销和销售经理，曾在德国HTW柏林和德国波茨坦大学攻读MBA，在制定和实施营销战略及事件营销方面经验丰富（B2C / B2B）。她擅长建立和维护关系网络，并熟悉市场趋势，社交媒体以及搜索引擎营销。',
   'team.member.zetazhu.name': 'Zeta Zhu',
   'team.member.title.marketingadvisor': '市场顾问',
   'team.member.zetazhu.intro':
-    'Senior Director Sales and Business Development at Fyber, over 10 years experience in gaming industry, responsible for heading up Fyber’s mobile game advertising business in the APAC region.',
+    'Ares游戏和营销顾问Zeta Zhu女士曾是Fyber销售和业务发展高级总监，在游戏行业拥有超过10年的经验，负责领导Fyber在亚太地区的手机游戏广告业务。',
   'roadmap.title': '路线图',
   'roadmap.subtitle': 'Path to Scalable Blockchain Social Gaming Network',
   'roadmap.milestone.getting.seed.funding': '获得种子轮投资',
