@@ -36,3 +36,4 @@ https://arestech.io
 * and then start hacking
 
 ## test jenkins
+use ./yarn always!
