@@ -34,3 +34,5 @@ https://arestech.io
 * add a example.js under `src/pages/` folder will make available of route
 `arestech.io/example`
 * and then start hacking
+
+## test jenkins
