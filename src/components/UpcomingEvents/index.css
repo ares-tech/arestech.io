@@ -1,30 +1,30 @@
 .cards {
-  display: flex;
-  min-width: 100%;
-  min-height: 120px;
-  margin-top: 10rem;
-  height: auto;
-  max-height: 200px;
-  display: relative;
-  margin: 0 auto;
-  overflow-x: auto;
+    display: flex;
+    min-width: 100%;
+    min-height: 120px;
+    height: auto;
+    max-height: 200px;
+    margin: 0 auto;
+    overflow-x: auto;
 }
+
 .card::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
+
 .card-content {
-  background-color: #ecf0f1;
-  min-width: 200px;
-  margin: 5px;
-  padding: 5px;
-  color: #34495e;
-  height: auto;
-  max-height: 200px;
+    background-color: #ecf0f1;
+    min-width: 200px;
+    margin: 5px;
+    padding: 5px;
+    color: #34495e;
+    height: auto;
+    max-height: 200px;
 }
 
 .upcomingEvents {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@
 .event-header {
     text-align: left;
     font-weight: bold;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .events-container {
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 576px) {
-  .event-header {
-    font-size: 1.5rem;
-  }
+    .event-header {
+        font-size: 1.5rem;
+    }
 }

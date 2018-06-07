@@ -1,57 +1,63 @@
 .token-sale-box {
-  width: 554px;
-  height: 302px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    width: 554px;
+    height: 302px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
+
 .graph {
-  width: 411.7px;
-  height: 17px;
-  border-radius: 20px;
-  border: solid 2px transparent;
-  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffb158, #ff6427);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+    width: 411.7px;
+    height: 17px;
+    border-radius: 20px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to left, #ffb158, #ff6427);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
+
 .circle {
-  width: 36px;
-  height: 36px;
-  border: solid 4px #ffffff;
-  border-radius: 18px;
+    width: 36px;
+    height: 36px;
+    border: solid 4px #fff;
+    border-radius: 18px;
 }
+
 .token-text {
-  width: 411.7px;
-  display: flex;
-  justify-content: space-between;
+    width: 411.7px;
+    display: flex;
+    justify-content: space-between;
 }
+
 .graph-left {
-  width: 195px;
-  height: 13px;
-  border-radius: 20px;
-  background-image: linear-gradient(to left, #ffb158, #ff6427);
+    width: 195px;
+    height: 13px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #ffb158, #ff6427);
 }
+
 .graph-right {
-  width: 411.7px;
-  height: 17px;
-  border-radius: 20px;
-  border: solid 2px transparent;
-  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffb158, #ff6427);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+    width: 411.7px;
+    height: 17px;
+    border-radius: 20px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to left, #ffb158, #ff6427);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
+
 .token-sale-header {
-  width: 554px;
-  height: 89px;
-  background-image: linear-gradient(to left, #ffb158, #ff6427);
-  font-size: 40px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+    width: 554px;
+    height: 89px;
+    background-image: linear-gradient(to left, #ffb158, #ff6427);
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
 }
 
 .main {
@@ -121,26 +127,20 @@
     .btn.main__button {
         width: 250px;
     }
-  .token-sale-box {
-    width: 100%;
-  }
-  .ares-coin {
-    width: 60px;
-    height: auto;
-    left: 15px !important;
-    top: 60px !important;
-  }
-  .token-sale-header, .token-sale-box-body {
-    width: 100%;
-    padding-left: 20px !important;
-  }
-  .token-sale-header {
-    font-size: 35px;
-  }
-  .graph {
-    width: 90%;
-  }
-  .token-text {
-    width: 90%
-  }
+
+    .token-sale-box {
+        width: 95%;
+    }
+
+    .token-sale-header {
+        width: 100%;
+    }
+
+    .graph {
+        width: 90%;
+    }
+
+    .token-text {
+        width: 90%;
+    }
 }

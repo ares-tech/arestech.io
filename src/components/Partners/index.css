@@ -2,21 +2,25 @@
     margin-top: -10px;
     padding-top: 5rem;
     padding-bottom: 12rem;
-    color: #9B9B9B;
+    color: #9b9b9b;
     position: relative;
 }
+
 .partners-link {
     height: 160px;
 }
+
 .partners-heading {
     margin-bottom: 88px;
 }
+
 .custom-shape-5 {
     position: absolute;
     left: 40%;
     top: -100px;
     display: table;
 }
+
 .custom-shape-6 {
     position: absolute;
     right: 10%;
@@ -31,16 +35,21 @@
         clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 97%);
         padding-bottom: 8rem;
     }
-    .pb-4, .py-4 {
-        padding-bottom: 1rem!important;
+
+    .pb-4,
+    .py-4 {
+        padding-bottom: 1rem !important;
     }
+
     .partners-link {
         height: 100px;
     }
+
     .custom-shape-5 {
         width: 70%;
         left: 25%;
     }
+
     .custom-shape-6 {
         width: 85%;
         right: 10%;
