@@ -21,13 +21,6 @@ export default [
     imageSrc: '/images/team/group-18.jpg',
   },
   {
-    name: 'team.member.jasmine.zhang.name',
-    title: 'team.member.title.cmo',
-    intro: 'team.member.jasmine.zhang.intro',
-    linkedIn: 'https://www.linkedin.com/in/jingqi-zhang-582bb783',
-    imageSrc: '/images/team/group-20.jpg',
-  },
-  {
     name: 'team.member.qin.liwen.name',
     title: 'team.member.title.cco',
     intro: 'team.member.qin.liwen.intro',
@@ -42,18 +35,18 @@ export default [
     imageSrc: '/images/team/ciaranD.jpg',
   },
   {
-    linkedIn: 'https://www.linkedin.com/in/cdbaibai/',
-    name: 'team.member.jianiyu.name',
-    title: 'team.member.title.projectmanager',
-    intro: 'team.member.jianiyu.intro',
-    imageSrc: '/images/team/Jiani.jpg',
-  },
-  {
     linkedIn: 'https://www.linkedin.com/in/seunghunsunmoonlee/',
     name: 'team.member.seunghun.name',
     title: 'team.member.title.fullstack',
     intro: 'team.member.seunghun.intro',
     imageSrc: '/images/team/Seunghun-Lee.jpg',
+  },
+  {
+    linkedIn: 'https://www.linkedin.com/in/cdbaibai/',
+    name: 'team.member.jianiyu.name',
+    title: 'team.member.title.projectmanager',
+    intro: 'team.member.jianiyu.intro',
+    imageSrc: '/images/team/Jiani.jpg',
   },
   {
     linkedIn: 'https://www.linkedin.com/in/zongxiong-chen-538043ab/',
@@ -112,6 +105,13 @@ export default [
     imageSrc: '/images/advisors/StevenKarch-300x300.jpg',
   },
   {
+    linkedIn: 'https://www.linkedin.com/in/davydeh/',
+    name: 'team.member.davidespinosa.name',
+    title: 'team.member.title.technicalsolutionsadvisor',
+    intro: 'team.member.davidespinosa.intro',
+    imageSrc: '/images/advisors/David_Espinosa-150x150.jpg',
+  },
+  {
     linkedIn: 'https://www.linkedin.com/in/ran-wang-036456b/',
     name: 'team.member.ranwang.name',
     title: 'team.member.title.gamepublishingadvisor',
@@ -126,11 +126,11 @@ export default [
     imageSrc: '/images/advisors/YunCao-1-150x150.jpg',
   },
   {
-    linkedIn: 'https://www.linkedin.com/in/davydeh/',
-    name: 'team.member.davidespinosa.name',
-    title: 'team.member.title.technicalsolutionsadvisor',
-    intro: 'team.member.davidespinosa.intro',
-    imageSrc: '/images/advisors/David_Espinosa-150x150.jpg',
+    linkedIn: 'https://www.linkedin.com/in/maurus-radelow-1683b443/',
+    name: 'team.member.maurusradelow.name',
+    title: 'team.member.title.cyber.informationsecurityadvisor',
+    intro: 'team.member.maurusradelow.intro',
+    imageSrc: '/images/advisors/Maurus_Radelow-150x150.jpg',
   },
   {
     linkedIn: 'https://www.linkedin.com/in/rasmus-giesel-a1048b1a/',
@@ -147,11 +147,11 @@ export default [
     imageSrc: '/images/advisors/group-22.jpg',
   },
   {
-    linkedIn: 'https://www.linkedin.com/in/maurus-radelow-1683b443/',
-    name: 'team.member.maurusradelow.name',
-    title: 'team.member.title.cyber.informationsecurityadvisor',
-    intro: 'team.member.maurusradelow.intro',
-    imageSrc: '/images/advisors/Maurus_Radelow-150x150.jpg',
+    linkedIn: 'https://www.linkedin.com/in/zeta-zhu-679a301a/',
+    name: 'team.member.zetazhu.name',
+    title: 'team.member.title.marketingadvisor',
+    intro: 'team.member.zetazhu.intro',
+    imageSrc: '/images/advisors/Zeta_Zhu-150x150.jpg',
   },
   {
     linkedIn: 'https://www.linkedin.com/in/ying-guo-16b3796/',
@@ -159,12 +159,5 @@ export default [
     title: 'team.member.title.marketingandsalesadvisor',
     intro: 'team.member.yingguo.intro',
     imageSrc: '/images/advisors/YingGuo-150x150.jpg',
-  },
-  {
-    linkedIn: 'https://www.linkedin.com/in/zeta-zhu-679a301a/',
-    name: 'team.member.zetazhu.name',
-    title: 'team.member.title.marketingadvisor',
-    intro: 'team.member.zetazhu.intro',
-    imageSrc: '/images/advisors/Zeta_Zhu-150x150.jpg',
   },
 ]

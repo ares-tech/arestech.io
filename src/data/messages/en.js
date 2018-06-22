@@ -76,7 +76,7 @@ export default {
   'team.member.jasmine.zhang.intro':
     "Jasmine has rich experience in business development, marketing strategy development with a demonstrated history of working in German Start-up scene, consulting and investment banking. Her customers includes DAX 30 companies, Deutsche bank, Volkswagen etc. Strong program and project management professional with a Master's Degree focused in Statistics from University College London",
   'team.member.qin.liwen.name': 'Qin Liwen',
-  'team.member.title.cco': 'CCO',
+  'team.member.title.cco': 'PR Director',
   'team.member.qin.liwen.intro':
     'More than 15 years of professional experience with public media, internet companies and international think tanks. Senior journalist and News Director for major media. More than 10 years’ experience with TMT companies. Former News Director of Sohu (NASDAQ: SOHU), featuring the 2008 Beijing Olympic Games online, and simultaneously managing the marketing, advertisement sales, events organization, social media, NGO and government relations of Sohu News. Fellow of the Regional Center of Strategic Study in Sri Lanka.',
   'team.member.ciarandold.name': 'Ciarán Dold',
