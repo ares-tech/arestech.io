@@ -24,23 +24,40 @@ const Partners = () => (
       {chunk(partners, 3).map((row, index) => (
         // eslint-disable-next-line
         <Row key={index}>
-          {row.map(partner => (
-            <Col md={4} key={partner.name} className="pb-4">
-              <Card style={{border: 'none', backgroundColor: 'transparent'}}>
-                <a className="partners-link" href={partner.link} alt={partner.name} target="_blank">
-                  <div
-                    style={{
-                      backgroundImage: `url(${partner.imageSrc})`,
-                      backgroundPosition: 'center',
-                      height: '100%',
-                      backgroundSize: '70%',
-                      backgroundRepeat: 'no-repeat',
-                    }}
-                  />
-                </a>
-              </Card>
-            </Col>
-          ))}
+          {row.map(partner => {
+            if (partner.link.trim())
+              return <Col md={4} key={partner.name} className="pb-4">
+                <Card style={{border: 'none', backgroundColor: 'transparent'}}>
+                  <a className="partners-link" href={partner.link} alt={partner.name} target="_blank">
+                    <div
+                      style={{
+                        backgroundImage: `url(${partner.imageSrc})`,
+                        backgroundPosition: 'center',
+                        height: '100%',
+                        backgroundSize: '70%',
+                        backgroundRepeat: 'no-repeat',
+                      }}
+                    />
+                  </a>
+                </Card>
+              </Col>
+            else
+              return <Col md={4} key={partner.name} className="pb-4">
+                <Card style={{border: 'none', backgroundColor: 'transparent'}}>
+                  <a className="partners-link" alt={partner.name} target="_blank">
+                    <div
+                      style={{
+                        backgroundImage: `url(${partner.imageSrc})`,
+                        backgroundPosition: 'center',
+                        height: '100%',
+                        backgroundSize: '70%',
+                        backgroundRepeat: 'no-repeat',
+                      }}
+                    />
+                  </a>
+                </Card>
+              </Col>
+          })}
         </Row>
       ))}
     </Container>
