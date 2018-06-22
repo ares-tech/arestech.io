@@ -45,6 +45,26 @@ export default [
     link: 'http://hashcapital.net/',
   },
   {
+    name: 'CRYPTO Capital',
+    imageSrc: '/images/partner/cryptocapital.png',
+    link: '',
+  },
+  {
+    name: 'GENTLE Capital',
+    imageSrc: '/images/partner/gentlecapital.png',
+    link: '',
+  },
+  {
+    name: 'JT Capital',
+    imageSrc: '/images/partner/jtcapital.png',
+    link: '',
+  },
+  {
+    name: 'SQ Capital',
+    imageSrc: '/images/partner/sqcapital.png',
+    link: '',
+  },
+  {
     name: 'Game:net',
     imageSrc: '/images/partner/gamesNet.png',
     link: 'http://www.medianet-bb.de/de/games-net-berlinbrandenburg/',
