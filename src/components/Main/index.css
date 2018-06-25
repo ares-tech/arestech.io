@@ -40,6 +40,13 @@
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
+.ares-coin {
+  position: absolute;
+  height: 198;
+  width: 198;
+  left: 5px;
+  top: 20px;
+}
 .token-sale-header {
   width: 554px;
   height: 89px;
@@ -52,6 +59,30 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+}
+.token-sale-box-header {
+  vertical-align: center;
+  margin-top: 15px;
+  height: 38px;
+  color: #001ada;
+  font-size: 32px;
+  font-weight: bold;
+}
+.token-sale-box-body {
+  display: flex;
+  padding-left: 199px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+.token-sale-box-text {
+  margin-top: 25px;
+  margin-right: 10px;
+  max-width: 295px;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #bebebe;
 }
 
 .main {
@@ -106,11 +137,9 @@
         clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
         -webkit-clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
     }
-
     .main-shape-1 {
         width: 70%;
     }
-
     .main-shape-2 {
         width: 80%;
         bottom: 0;
@@ -135,8 +164,15 @@
     padding-left: 20px !important;
   }
   .token-sale-header {
-    font-size: 40px;
+    font-size: 26px;
     justify-content: center;
+  }
+  .token-sale-box-header {
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  .token-sale-box-text {
+    margin-top: 8px;
   }
   .graph {
     width: 90%;

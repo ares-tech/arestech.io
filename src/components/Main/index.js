@@ -53,6 +53,16 @@ class Downloads extends React.Component {
   }
 }
 
+const FormatIntlLink = ({ id, link }) => (
+  <FormattedMessage id={id}>
+    {name => (
+      <a href={link} rel="noopener noreferrer" target="_blank" style={{ color: '#ce38da' }}>
+        {name}
+      </a>
+    )}
+  </FormattedMessage>
+)
+
 const Main = () => (
   <div className="container p-3 p-md-5 main-content">
     <div className="main-shape-2" />
@@ -94,13 +104,20 @@ const Main = () => (
       <div className="token-sale-header" style={{display: 'flex', paddingLeft: '199px', alignItems: 'center', verticalAlign: 'middle'}}>
         <div style={{verticalAlign: 'center', height: '36px', padingTop: '5px'}}><FormattedMessage id="main.tokenSaleBox.title" /></div>
       </div>
-      <img className="ares-coin" src="/images/arestech-coin.png" alt="arestech-coin" style={{position: 'absolute', width:"198", height:"198", left: '5px', top: '20px'}}/>
-      <div className="token-sale-box-body" style={{display: 'flex', paddingLeft: '199px', flexDirection: 'column', width: '100%', height: '100%', overflow: 'hidden'}}>
-        <div className="token-sale-header2" style={{ marginTop: '15px', height: '38px', fontSize: '40px', fontWeight: 'bold', color: '#001ada'}}>
+      <img className="ares-coin" src="/images/arestech-coin.png" alt="arestech-coin"/>
+      <div className="token-sale-box-body">
+        <div className="token-sale-box-header">
           <FormattedMessage id="main.tokenSaleBox.subTitle" />
         </div>
-        <div style={{marginTop: '25px', maxWidth: '295px', fontSize: '20px', lineHeight: '1.1', color: '#bebebe'}}>
-          <FormattedMessage id="main.tokenSaleBox.description" />
+        <div className="token-sale-box-text">
+          <FormattedMessage
+            id="main.tokenSaleBox.description"
+            values={{
+              newsletter: <FormatIntlLink id="main.tokenSaleBox.newsletter" link="http://gem.godaddy.com/signups/388099/join" />,
+              or: <FormattedMessage id="general.or" />,
+              telegram: <FormatIntlLink id="main.tokenSaleBox.telegram" link="https://t.me/ares_tech" />,
+            }}
+          />
         </div>
       </div>
     </div>
