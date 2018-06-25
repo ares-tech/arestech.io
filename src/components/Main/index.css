@@ -1,10 +1,68 @@
+/* token sale box styles */
 .token-sale-box {
-  width: 554px;
-  height: 302px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+  width: auto;
+  max-width: 554px;
+  height: auto;
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
+.token-sale-box-body {
+  display: flex;
+  padding: 15px;
+  padding-left: 200px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.token-sale-box-body-text {
+  max-width: auto;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #bebebe;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.token-sale-header {
+  display: flex;
+  padding-left: 199px;
+  align-items: center;
+  vertical-align: middle;
+  /* width: 554px; */
+  width: 100%;
+  height: 89px;
+  background-image: linear-gradient(to left, #ffb158, #ff6427);
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.token-sale-header-text {
+  margin-top: 5px;
+}
+.token-sale-header2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001ada;
+}
+.ares-coin {
+  position: absolute;
+  width: 198;
+  height: 198;
+  left: 5px;
+  top: 20px;
+}
+/* token sale box styles end */
+
+
 .graph {
   width: 411.7px;
   height: 17px;
@@ -39,19 +97,6 @@
   background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffb158, #ff6427);
   background-origin: border-box;
   background-clip: content-box, border-box;
-}
-.token-sale-header {
-  width: 554px;
-  height: 89px;
-  background-image: linear-gradient(to left, #ffb158, #ff6427);
-  font-size: 40px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
 }
 
 .main {
@@ -116,32 +161,49 @@
         bottom: 0;
     }
 }
-
-@media (max-width: 768px) {
-    .btn.main__button {
-        width: auto;
-    }
+@media (max-width: 850px) {
   .token-sale-box {
-    width: 100%;
+    max-width: 450px;
   }
+}
+@media (max-width: 768px) {
   .ares-coin {
     width: 60px;
     height: auto;
     left: 15px !important;
     top: 18px !important;
   }
+  .token-sale-header {
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .token-sale-header2 {
+    font-size: 2rem;
+  }
   .token-sale-header, .token-sale-box-body {
     width: 100%;
     padding-left: 20px !important;
   }
+  .token-sale-box-body-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* iphone 6/7/8 */
+@media (max-width: 375px) {
+}
+
+/* iphone 5/SE */
+@media (max-width: 320px) {
   .token-sale-header {
-    font-size: 40px;
-    justify-content: center;
+    font-size: 2rem;
   }
-  .graph {
-    width: 90%;
+  .token-sale-header2 {
+    font-size: 1.8rem;
   }
-  .token-text {
-    width: 90%
+  .token-sale-header-text {
+    margin-top: 5px;
+    margin-left: 40px;
   }
 }
