@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
-// import tokenSales from '../TokenSale/tokenSales'
+import tokenSales from '../TokenSale/tokenSales'
 import './index.css'
 
 class Downloads extends React.Component {
@@ -88,6 +88,20 @@ const Main = () => (
             </span>
           </Button>
         </a>
+      </div>
+    </div>
+    <div className="token-sale-box" style={{position: 'relative', overflow: 'hidden', marginTop: '40px'}}>
+      <div className="token-sale-header" style={{display: 'flex', paddingLeft: '199px', alignItems: 'center', verticalAlign: 'middle'}}>
+        <div style={{verticalAlign: 'center', height: '36px', padingTop: '5px'}}><FormattedMessage id="main.tokenSaleBox.title" /></div>
+      </div>
+      <img className="ares-coin" src="/images/arestech-coin.png" alt="arestech-coin" style={{position: 'absolute', width:"198", height:"198", left: '5px', top: '20px'}}/>
+      <div className="token-sale-box-body" style={{display: 'flex', paddingLeft: '199px', flexDirection: 'column', width: '100%', height: '100%', overflow: 'hidden'}}>
+        <div className="token-sale-header2" style={{ marginTop: '15px', height: '38px', fontSize: '40px', fontWeight: 'bold', color: '#001ada'}}>
+          <FormattedMessage id="main.tokenSaleBox.subTitle" />
+        </div>
+        <div style={{marginTop: '25px', maxWidth: '295px', fontSize: '20px', lineHeight: '1.1', color: '#bebebe'}}>
+          <FormattedMessage id="main.tokenSaleBox.description" />
+        </div>
       </div>
     </div>
   </div>
