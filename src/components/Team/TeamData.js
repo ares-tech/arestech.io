@@ -63,6 +63,13 @@ export default [
     imageSrc: '/images/team/PeiZhang.jpg',
   },
   {
+    linkedIn: 'http://www.lu-sisi.com/about-me/',
+    name: 'team.member.lusisi.name',
+    title: 'team.member.title.artdirector',
+    intro: 'team.member.lusisi.intro',
+    imageSrc: '/images/team/lusisi.png',
+  },
+  {
     linkedIn: 'https://www.linkedin.com/in/konrad-rieck-58528015/',
     name: 'team.member.prof.dr.konradrieck.name',
     title: 'team.member.title.scientificadvisor',

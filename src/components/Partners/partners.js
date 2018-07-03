@@ -79,4 +79,9 @@ export default [
     imageSrc: '/images/partner/berlinGamesCapital.png',
     link: 'http://www.gamescapital.berlin/',
   },
+  {
+    name: 'Bird Space',
+    imageSrc: '/images/partner/migrantBirdSpace.png',
+    link: 'https://migrantbirdspace.com/',
+  },
 ]

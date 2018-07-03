@@ -43,8 +43,8 @@ export default {
   'update.media.3.description': 'CTO Christian introducing ares’ tech channel',
   'update.media.4.title': 'New Brand Design',
   'update.media.4.description': 'Ares tech launched new branding design',
-  'update.media.5.title': 'Partnership with Media:net',
-  'update.media.5.description': 'A mutual beneficial partnership with media:net',
+  'update.media.5.title': '新锐艺术家吕思斯加盟',
+  'update.media.5.description': '吕思斯担任ares 艺术指导，开启全新跨界之旅。',
   'introduction.title': '简介',
   'introduction.subtitle': 'ares tech 致力于成长为基于Plasma技术的新一代可扩展的IP孵化型区块链游戏网络',
   'introduction.text.0': 'Ares Tech is committed to growing into a scalable Blockchain social gaming network.',
@@ -99,6 +99,10 @@ export default {
   'team.member.title.bcloudengineer': '区块链工程师、云计算专家',
   'team.member.peizhang.intro':
     '目前在Ares负责区块链相关的研究以及smart contract、DApp的开发、测试、部署与维护。在加入Ares前，曾任职红帽北京研发中心，负责云产品相关的功能及集成测试工作。同时也关注云计算服务和企业级云平台架构，如AWS云架构以及阿里云和Google云的架构最新动态。',
+  'team.member.lusisi.name': 'Lu Sisi',
+  'team.member.title.artdirector': 'Art Director',
+  'team.member.lusisi.intro':
+    '吕思斯是旅居英国的新一代新锐数码艺术家，得到了Sky Academy和New York Festival的肯定，于2014年被英国王储查尔斯接见。此外，他也为捷豹路虎、BBC、Sky Arts合作，担任上海时装秀的创意总监和音乐制作人等。现由柏林候鸟空间代理并推广。',
   'team.member.prof.dr.konradrieck.name': 'Prof. Dr. Konrad Rieck',
   'team.member.title.scientificadvisor': '密码学、信息安全科学顾问',
   'team.member.prof.dr.konradrieck.intro':
@@ -185,6 +189,15 @@ export default {
   'upcomingEvents.event.Gamescom.title': 'Gamescom展会',
   'upcomingEvents.event.Gamescom.date': '2018年8月21至23日',
   'upcomingEvents.event.Gamescom.location': '德国，科隆',
+  'upcomingEvents.event.TechCrunch.title': 'Ethereum Meetup produced by TechCrunch',
+  'upcomingEvents.event.TechCrunch.date': '2018年7月7日',
+  'upcomingEvents.event.TechCrunch.location': '楚格, 瑞士',
+  'upcomingEvents.event.EthDappsConf.title': 'Developer Conference for Ethereum Dapps & Infrastructure',
+  'upcomingEvents.event.EthDappsConf.date': '2018年7月19日',
+  'upcomingEvents.event.EthDappsConf.location': '柏林，德国',
+  'upcomingEvents.event.devcom.title': 'Devcom 2018',
+  'upcomingEvents.event.devcom.date': '2018年8月19-20日',
+  'upcomingEvents.event.devcom.location': '科隆，德国',
   'media.title': '媒体报道',
   'media.subtitle': 'See what others are saying about us.',
   'media.item.berlinvalley.intro':
