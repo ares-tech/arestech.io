@@ -3,6 +3,12 @@ import { FormattedMessage } from 'react-intl'
 
 export default [
   {
+    src: '/images/medialusisi.png',
+    title: <FormattedMessage id="update.media.5.title" />,
+    description: <FormattedMessage id="update.media.5.description" />,
+    link: 'https://instagram.com/p/BkxsECHAygu/',
+  },
+  {
     src: '/images/media3.png',
     title: <FormattedMessage id="update.media.2.title" />,
     description: <FormattedMessage id="update.media.2.description" />,
@@ -19,12 +25,6 @@ export default [
     title: <FormattedMessage id="update.media.4.title" />,
     description: <FormattedMessage id="update.media.4.description" />,
     link: 'https://medium.com/ares-tech/what-is-the-concept-behind-ares-techs-new-brand-design-410644786e6a',
-  },
-  {
-    src: '/images/media6.png',
-    title: <FormattedMessage id="update.media.5.title" />,
-    description: <FormattedMessage id="update.media.5.description" />,
-    link: 'https://medium.com/ares-tech/ares-tech-announced-partnership-with-media-net-f3ac85255924',
   },
   {
     src: '/images/media1.png',
