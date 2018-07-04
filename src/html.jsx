@@ -31,6 +31,12 @@ export default class HTML extends React.Component {
           <meta httpEquiv="CACHE-CONTROL" content="no-cache, no-store, must-revalidate" />
           <meta httpEquiv="Pragma" content="no-cache" />
           <meta httpEquiv="Expires" content="0" />
+          <!-- Open Graph Data -->
+          <meta property="og:site_name" content="arestech"/>
+          <meta property="og:url" content="https://arestech.io">
+          <meta property="og:title" content="Blockchain. Gaming. Network.">
+          <meta property="og:description" content="Scalable Blockchain All-in-One Solution for Social Game Creators">
+          <meta property="og:image" content="https://arestech.io/preview.png">
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
